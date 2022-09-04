@@ -1,0 +1,75 @@
+.btn {
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 12px 28px;
+    font-size: 22px;
+    font-weight: 200;
+    transition: 400ms ease all;
+    &:hover {
+        border: none;
+        padding: 12px 40px;
+        transition: 200ms ease all;
+    }
+}
+.btn-sm {
+    border-radius: 40px;
+    padding: 8px 20px;
+    font-size: 18px;
+    transition: 200ms ease all;
+    &:hover {
+        transition: 200ms ease all;
+        padding: 8px 28px;
+    }
+    &.disabled:hover {
+        padding: 8px 20px;
+    }
+}
+.btn-primary {
+    background: $themeDark;
+    border: 2px solid rgba(255,255,255,0);
+    &:hover {
+        color: $themeDark;
+    	background: rgba(255,255,255,0);
+        border: 2px solid $themeDark;
+    }
+    &:active, &:focus {
+        background: $themeDarker !important;
+        border: 2px solid $themeDarker !important;
+        color: white !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+        background: $themeDark;
+        border: 2px solid rgba(255,255,255,0);
+        color: white;
+    }
+}
+.btn-accent {
+    background: $accent;
+    transition: 400ms ease all;
+    border: 2px solid rgba(255,255,255,0);
+    &:hover {
+        background: #fff;
+        border: 2px solid $accent;
+        transition: 200ms ease all;
+    }
+    &:active, &:focus {
+        background: $accentMedium !important;
+        border: 2px solid $accentMedium !important;
+        color: white !important;
+        transition: 200ms ease all;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+        background: $accentMedium;
+        border: 2px solid rgba(255,255,255,0);
+        color: white;
+    }
+}
