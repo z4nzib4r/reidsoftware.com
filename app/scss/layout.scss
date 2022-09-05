@@ -51,36 +51,32 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #fff;
-	#loading-title {
-		margin-top: 20vh;
-		opacity: 1;
-		span {
-			font-size: 24px;
-			display: block;
-			text-align: center;
-			color: $themeDark;
-			font-weight: 800;
-			text-transform: uppercase;
-			&:first-child {
-				font-size: 70px;
-				letter-spacing: -9px;
-				margin-left: -5px;
-			}
-			&:last-child {
-				letter-spacing: 2px;
-				margin-top: -30px;
-				margin-left: 4px;
-			}
-		}
+	background: $green;
+			// animation-name: bgColors;
+		 //  animation-duration: 20s;
+		 //  animation-timing-function: linear;
+		 //  animation-iteration-count: infinite;
+		 //  animation-direction: forwards;
+		 //  transition: 200ms ease all;
+	
+	#loading-logo {
+		display: block;
+		background: url('/assets/img/logo-icon-transparent.png') no-repeat;
+		width: 320px;
+		height: 160px;
+		background-size: contain;
+		margin: 25vh auto 0;
+		background-position: center;
 	}
+
 }
 
 .spinner {
+	//display: none;
 	opacity: 1;
   width: 40px;
   height: 40px;
-  background-color: $themeDark;
+  background-color: #fff;
 
   margin: 20px auto;
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;

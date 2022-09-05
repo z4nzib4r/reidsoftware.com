@@ -4,8 +4,12 @@ var navOpen = false;
 var scrollElements = [];
 var scrollPosY;
 
+var colors = ['#ffdc77','#f2b970','#adf270','#ff8bf0','#ff5959'];
+var randomColor = colors[Math.floor(Math.random() * colors.length)];
+document.getElementById('loading').style.backgroundColor = randomColor; 
+
 window.addEventListener('load',function(){
-  document.querySelector('body').classList.add("loaded")  
+  document.querySelector('body').classList.add("loaded");
 });
 
 $(document).ready(function(){

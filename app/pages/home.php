@@ -31,6 +31,26 @@
     <div class="section-image"></div>
 </div>
 
+<div id="single-testimonial" class="home-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="d-flex align-items-center testimonial-card">
+                    <img src="/assets/img/testimonials/julie-owens.jpg" />
+                    <div>
+                        <p>"Reid Software provides high quality services, engages in frequent communication, and dedicates time to the partnership, ensuring that views from all stakeholders are considered."</p>
+                        <div class="author">
+                            <p>Julie S. Owens, Ph.D.</p>
+                            <p>Co-Director, Center for Intervention Research in Schools</p>
+                            <p>Ohio University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include 'app/partials/project-grid.php' ?>
 
 <div id="about-section" class="home-section">
@@ -39,7 +59,7 @@
             <div class="col-12 col-md-6 col-xl-5">
                 <h2 class="section-title">Who we are</h2>
                 <h3>We are an skilled team of digital specialists</h3>
-                <p>We only accept a few projects at a time to stay lean and hyper-focused on each engagement. We work closely with you, and maintain a personal touch throughout the project.</p>
+                <p>We stay lean and hyper-focused on each engagement. We work closely with you, and maintain a personal touch throughout the project life-cycle.</p>
                 <a href="/about" class="btn btn-primary">About us</a>
             </div>
         </div>
