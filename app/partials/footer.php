@@ -30,18 +30,12 @@
             </div> 
             <div class="col-12 col-md-6 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
                 <div id="contact-followup">
-                    <h4>Email us!</h4>
-                    <a href="">hello@jtrstudio.com</a>  
                     <h4>What happens after you contact us?</h4>
                     <ol>
                         <li>We will reach out and set up a time to speak about your project and goals in detail.</li>
                         <li>We provide a detailed project estimate, including services, pricing and timeline.</li>
                         <li>We kick-off the project once we agree on the proposal and sign the contract.</li>
                     </ol>
-                </div>
-                <div id="email-us">
-                    <h4>Send us an email!</h4>
-                    <a href="">hello@jtrstudio.com</a>                    
                 </div>
             </div>
         </div>

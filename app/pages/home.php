@@ -1,8 +1,9 @@
 <div id="hero-section">
-    <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+    <!-- <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
         <source src="/assets/video/bg.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
+    <img id="hero-img" src="/assets/img/hero/hero.jpg" />
     <div id="hero-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-start">
@@ -58,7 +59,7 @@
         <div class="row justify-content-start">   
             <div class="col-12 col-md-6 col-xl-5">
                 <h2 class="section-title">Who we are</h2>
-                <h3>We are an skilled team of digital specialists</h3>
+                <h3>We are a skilled team of digital specialists</h3>
                 <p>We stay lean and hyper-focused on each engagement. We work closely with you, and maintain a personal touch throughout the project life-cycle.</p>
                 <a href="/about" class="btn btn-primary">About us</a>
             </div>
@@ -66,6 +67,26 @@
     </div>
     <div class="section-image">
         <div class="logo"></div>
+    </div>
+</div>
+
+<div id="single-testimonial" class="home-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="d-flex align-items-center testimonial-card">
+                    <img src="/assets/img/testimonials/steve-evans.jpg" />
+                    <div>
+                        <p>"Reid's outstanding contributions to the team and project are far more valuable than just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
+                        <div class="author">
+                            <p>Steven Evans, Ph.D.</p>
+                            <p>Co-Director, Center for Intervention Research in Schools</p>
+                            <p>Ohio University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -25,7 +25,13 @@
                         </div>
                         <div class="col-12 col-sm-4">
                             <div class="icon-panel">
-                                <div class="icon icon-number">5</div>
+                                <div class="icon icon-number">
+                                    <?php
+                                        $startYear = 2014;
+                                        $currentYear = date('Y');
+                                        echo intval($currentYear) - $startYear;
+                                    ?>        
+                                </div>
                                 <span>Years in<br>business</span>
                             </div>
                         </div>

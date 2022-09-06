@@ -80,6 +80,14 @@ $animTiming: 1000ms;
 	80% { background-color: $pink; }
 	100% { background-color: $gold; }
 }
+@keyframes borderColors {
+	0% { border-color: $gold; }
+	20% { border-color: $orange; }
+	40% { border-color: $green; }
+	60% { border-color: $blue; }
+	80% { border-color: $pink; }
+	100% { border-color: $gold; }
+}
 
 
 @keyframes scrollPulse {

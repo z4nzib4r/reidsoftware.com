@@ -54,8 +54,13 @@
 }
 
 #single-testimonial {
-	background: $gold;
-	animation-name: bgColors;
+	height: auto;
+	padding: 180px 0;
+	//margin: 8px;
+	//border-radius: 20px;
+	background: #fff;
+	border: 8px solid $gold;
+	animation-name: borderColors;
 	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -63,9 +68,6 @@
 	transition: 200ms ease all;
 	.testimonial-card {
 		background: #fff;
-		box-shadow: 0 0 60px rgba(0,0,0,0.1);
-		padding: 80px;
-		border-radius: 40px;
 	}
 	img {
 		width: 300px;
@@ -83,6 +85,9 @@
 		p {
 			font-size: 20px;
 			margin: 0 0 2px;
+			&:first-child {
+				font-weight: 600;
+			}
 		}
 	}
 }
