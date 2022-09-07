@@ -36,13 +36,15 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12">
-                <div class="d-flex align-items-center testimonial-card">
+                <h2 class="section-title">Happy clients</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
                     <img src="/assets/img/testimonials/julie-owens.jpg" />
                     <div>
                         <p>"Reid Software provides high quality services, engages in frequent communication, and dedicates time to the partnership, ensuring that views from all stakeholders are considered."</p>
                         <div class="author">
                             <p>Julie S. Owens, Ph.D.</p>
-                            <p>Co-Director, Center for Intervention Research in Schools</p>
+                            <p>Co-Director</p>
+                            <p>Center for Intervention Research in Schools</p>
                             <p>Ohio University</p>
                         </div>
                     </div>
@@ -52,7 +54,20 @@
     </div>
 </div>
 
-<?php include 'app/partials/project-grid.php' ?>
+<div class="project-highlight home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Project Highlight</h2>
+                <div id="drco" class="project-item scroll-reveal">
+                    <div class="description">Building relationships and managing behavior at the same time</div>
+                    <p>DRCO is an interactive, web-based tool to support school professionals as they develop and implement the Daily Report Card (DRC) intervention. </p>
+                    <a href="https://dailyreportcardonline.com" target="_blank" class="btn btn-sm btn-primary">Visit the site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="about-section" class="home-section">
     <div class="container">
@@ -74,16 +89,33 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12">
-                <div class="d-flex align-items-center testimonial-card">
+                <h2 class="section-title">Happy clients</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
                     <img src="/assets/img/testimonials/steve-evans.jpg" />
                     <div>
                         <p>"Reid's outstanding contributions to the team and project are far more valuable than just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
                         <div class="author">
                             <p>Steven Evans, Ph.D.</p>
-                            <p>Co-Director, Center for Intervention Research in Schools</p>
+                            <p>Co-Director</p>
+                            <p>Center for Intervention Research in Schools</p>
                             <p>Ohio University</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="project-highlight home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Project Highlight</h2>
+                <div id="beacon" class="project-item scroll-reveal">
+                    <div class="description">Providing tools for better decision-making in schools</div>
+                    <p>Beacon is an easy-to-use, web-based support system designed to help educators select and use effective supports for students with emotional and behavioral challenges.</p>
+                    <a href="https://beaconforschools.com" target="_blank" class="btn btn-sm btn-primary">Visit the site</a>
                 </div>
             </div>
         </div>

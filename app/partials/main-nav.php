@@ -8,8 +8,8 @@
             <div class="nav-icon"></div>
             <div class="nav-icon"></div>
         </div>
-        <a href="#footer" class="btn btn-primary btn-sm">Contact us</a>
-        <div id="menu">
+<!--         <a href="#footer" class="btn btn-primary btn-sm">Contact us</a>
+ -->        <div id="menu">
             <a href="/" class="nav-item">Home</a>
             <a href="/projects" class="nav-item">Projects</a>
             <a href="/services" class="nav-item">Services</a>

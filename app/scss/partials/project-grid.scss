@@ -1,42 +1,31 @@
-#project-grid {
-	padding: 80px 0;
+.project-grid, .project-highlight {
+	//padding: 80px 0;
 	background: #f1f1f5;
 	@media screen and (min-width: $media-md) {
-		padding: 80px 0;
+		//padding: 80px 0;
 	}
 	@media screen and (min-width: $media-lg) {
-		padding: 130px 0;
+		//padding: 130px 0;
 	}
 	@media screen and (min-width: $media-xl) {
-		padding: 120px 0;
-	}
-	.section-title {
-		opacity: 0;
-		top: 20px;
-		&.in {
-			animation: sectionTitleEnter 1000ms forwards;
-		}
+		//padding: 120px 0;
 	}
 	.project-item {
 		margin-bottom: 40px;
 		display: block;
 		border: none;
 		background: #fff;
-		padding: 240px 20px 20px;
+		padding: 300px 20px 40px;
 		background-color: #fff;
 		border-radius: 8px;
 		position: relative;
+		transition: 200ms ease-out all;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 		@media screen and (min-width: $media-md) {
 			padding: 40px 40px;
 		}
 		@media screen and (min-width: $media-xl) {
 			padding: 100px 90px;
-		}
-		&:hover {
-			letter-spacing: 0;
-			border: none;
-			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-			transform: scale(1.02);
 		}
 		&.in {
 			animation: projectEnter 1000ms forwards;
@@ -47,39 +36,38 @@
 				animation-delay: 400ms;
 			}
 		}
+		.description {
+			font-size: 32px;
+			font-weight: 800;
+			color: #000;
+			line-height: 1.2;
+			margin-bottom: 20px;
+			@media screen and (min-width: $media-md) {
+				width: 430px;
+				margin-bottom: 12px;
+			}
+		}
+		p {
+			margin-bottom: 28px;
+			@media screen and (min-width: $media-md) {
+				width: 430px;
+			}
+		}
 		.btn {
 			display: block;
 			width: 100%;
-			margin: 20px 0 0;
+			font-size: 24px;
 			@media screen and (min-width: $media-md) {
 				width: auto;
 				display: inline-block;
+				font-size: 21px;
 			}
 		}
 		.btn-primary {
-
-		}
-	}
-	.description {
-		font-size: 32px;
-		font-weight: 800;
-		color: #000;
-		line-height: 1.2;
-		margin-bottom: 20px;
-		@media screen and (min-width: $media-md) {
-			width: 430px;
-			margin: 0;
-		}
-	}
-	.logo {
-		display: block;
-		position: static;
-		bottom: 38px;
-		left: 38px;
-		width: 75px;
-		height: 75px;
-		@media screen and (min-width: $media-md) {
-			margin-top: 20px;
+			color: #fff;
+			&:hover {
+				color: $themeDark;
+			}
 		}
 	}
 	#greataupair {
@@ -87,7 +75,7 @@
 		background-color: #fff;
 		background-size: 390px;
 		background-repeat: no-repeat;
-		background-position: -8% -50px;
+		background-position: -10px 10px;
 		opacity: 0;
 		top: 20px;
 		@media screen and ( min-width: $media-md ) {
@@ -100,25 +88,39 @@
 		}
 		@media screen and ( min-width: $media-xl ) {
 			background-size: 730px;
-    	background-position: 550px -10px;
+    		background-position: 550px -10px;
 		}
-
-		.logo {
-			background: url('/assets/img/greataupair/ga-logo-03.svg') no-repeat;
-			background-size: cover;
-			height: 47px;
-			width: 220px;
+	}
+	#beacon {
+		background: url('/assets/img/projects/beacon-thumbnail.jpg');
+		background-color: #fff;
+		background-size: 350px;
+		background-repeat: no-repeat;
+		background-position: 10px 10px;
+		opacity: 0;
+		padding: 340px 20px 40px;
+		@media screen and ( min-width: $media-md ) {
+			background-size: 630px;
+			background-position: -190% 70px;
+			padding: 40px 40px;
+		}
+		@media screen and ( min-width: $media-lg ) {
+			padding: 100px 90px;
+			background-position: 340px 30px;
+		}
+		@media screen and ( min-width: $media-xl ) {
+			background-position: 500px 20px;
 		}
 	}
 	#drco {
-		background: url('/assets/img/drco/drco-hero-design.jpg');
+		background: url('/assets/img/projects/drco-thumbnail.jpg');
 		background-color: #fff;
-		background-size: 350px;
+		background-size: 390px;
 		background-repeat: no-repeat;
 		background-position: 22% 10px;
 		opacity: 0;
 		@media screen and ( min-width: $media-md ) {
-			background-size: 800px;
+			background-size: 650px;
 			//background-position: -40% 120px;
 			background-position: -190% 70px;
 		}
@@ -126,39 +128,64 @@
 			background-position: 340px 30px;
 		}
 		@media screen and ( min-width: $media-xl ) {
-			background-position: 500px 30px;
-		}
-		.logo {
-			background: url('/assets/img/drco/drco-logo-10.svg') no-repeat;
-			background-size: cover;
-			height: 35px;
-			width: 115px;
+			background-position: 500px 20px;
 		}
 	}
 	#ecoshuttle {
 		background: url('/assets/img/ecoshuttle/ecoshuttle-hero-design.jpg');
 		background-color: #fff;
-		background-size: 340px;
+		background-size: 440px;
 		background-repeat: no-repeat;
 		background-position: 45% 23px;
-		margin-bottom: 0;
 		opacity: 0;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 620px;
 			background-position: 305% 100px;
 		}
 		@media screen and ( min-width: $media-lg ) {
-			background-position: 310px 80px;
+			background-position: 490px 12px;
+		}
+		@media screen and ( min-width: $media-xl ) {
+			background-size: 800px;
+			background-position: 490px 12px;
+		}
+	}
+	#kanani-pearl {
+		background: url('/assets/img/projects/kanani-thumbnail.jpg');
+		background-color: #fff;
+		background-size: 440px;
+		background-repeat: no-repeat;
+		background-position: 45% 23px;
+		opacity: 0;
+		@media screen and ( min-width: $media-md ) {
+			background-size: 620px;
+			background-position: 305% 100px;
 		}
 		@media screen and ( min-width: $media-lg ) {
-			background-position: 490px 30px;
+			background-position: 490px 12px;
 		}
-		
-		.logo {
-			background: url('/assets/img/ecoshuttle/ecoshuttle-logo-03.svg') no-repeat;
-			background-size: cover;
-			height: 52px;
-			width: 180px;
+		@media screen and ( min-width: $media-xl ) {
+			background-size: 800px;
+			background-position: 490px 12px;
 		}
+	}
+}
+.project-grid {
+	padding: 120px 0;
+}
+.project-highlight {
+	height: auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+	// border-right: 8px solid $gold;
+	// animation-name: borderColors;
+	// animation-duration: 20s;
+	// animation-timing-function: linear;
+	// animation-iteration-count: infinite;
+	// animation-direction: forwards;
+	// transition: 200ms ease all;
+	@media screen and (min-width: $media-md) {
+		min-height: 100vh;
 	}
 }

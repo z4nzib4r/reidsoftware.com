@@ -1,4 +1,4 @@
-<div id="greataupair" class="case">
+<div id="greataupair-case" class="case">
     <div id="hero"></div>
 
     <div id="intro">

@@ -55,17 +55,30 @@
 
 #single-testimonial {
 	height: auto;
-	padding: 180px 0;
-	//margin: 8px;
-	//border-radius: 20px;
+	padding: 40px 0;
 	background: #fff;
-	border: 8px solid $gold;
+	border-top: 8px solid $gold;
+	border-bottom: 8px solid $gold;
 	animation-name: borderColors;
 	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: forwards;
 	transition: 200ms ease all;
+	@media screen and (min-width: $media-md) {
+		padding: 180px 0;
+		display: block;
+	}
+	h2.section-title {
+		margin-top: 20px;
+		font-size: 16px !important;
+		margin-bottom: 40px !important;
+		@media screen and (min-width: $media-md) {
+			margin-top: 0 !important;
+			font-size: 16px !important;
+			margin-bottom: 40px !important;
+		}
+	}
 	.testimonial-card {
 		background: #fff;
 	}
@@ -73,17 +86,20 @@
 		width: 300px;
 		height: 300px;
 		border-radius: 12px;
-		margin-right: 40px;
-		margin-top: 4px;
+		margin: 0 auto 20px;
+		@media screen and (min-width: $media-md) {
+			margin-right: 40px;
+			margin-top: 4px;
+		}
 	}
 	p {
-		font-size: 28px;
+		font-size: 24px;
 		line-height: 1.4;
 		margin-bottom: 32px;
 	}
 	.author {
 		p {
-			font-size: 20px;
+			font-size: 18px;
 			margin: 0 0 2px;
 			&:first-child {
 				font-weight: 600;
