@@ -57,6 +57,28 @@
 			</div>
 		</div>
 
+		<div id="single-testimonial" class="home-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">Happy clients</h2>
+                    <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
+                        <img src="/assets/img/testimonials/angie-pyle.jpg" />
+                        <div>
+                            <p>"We have used their services for two businesses we own. Both times we have been extremely satisfied with the quality of design, the price, and the working relationship with the staff."</p>
+                            <div class="author">
+                                <p>Angie Pyle</p>
+                                <p>Owner</p>
+                                <p>Donkey Coffee</p>
+                                <p>Athens, OH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 		<div id="cta-section" class="section">
 			<div class="container">
 				<div class="row">

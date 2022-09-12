@@ -57,6 +57,28 @@
 			</div>
 		</div>
 
+				<div id="single-testimonial" class="home-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="section-title">Happy clients</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
+                    <img src="/assets/img/testimonials/steve-evans.jpg" />
+                    <div>
+                        <p>"Reid's outstanding contributions to the team and project are far more valuable than just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
+                        <div class="author">
+                            <p>Steven Evans, Ph.D.</p>
+                            <p>Co-Director</p>
+                            <p>Center for Intervention Research in Schools</p>
+                            <p>Ohio University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 		<div id="cta-section" class="section">
 			<div class="container">
 				<div class="row">

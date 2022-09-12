@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="page-title">Here are some <span class="text-white">successful products</span> we've helped create</h1>
-                    
+                    <a href="/contact-us" class="btn btn-accent">Let's talk about your project</a>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
                         <img src="/assets/img/testimonials/mary-ellen.jpg" />
                         <div>
-                            <p>"Reid created a beautiful and updated website for my spa which had the same site for 15 years. It gets lots of compliments from our clients. Their talent for handling all aspects of my web presence has left me worry free, which allows me to focus on running a successful business."</p>
+                            <p>"Reid's talent for handling all aspects of my web presence has left me worry free, which allows me to focus on running a successful business."</p>
                             <div class="author">
                                 <p>Mary Ellen McKay</p>
                                 <p>Owner, Kanani Pearl Spa</p>

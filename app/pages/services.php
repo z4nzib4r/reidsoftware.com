@@ -11,6 +11,8 @@
         </div>
     </div>
 
+
+
 		<div id="research-section" class="section" style="pointer-events: none;">
 		  <div class="container">
 		    <div class="row">   
@@ -60,6 +62,76 @@
 		    </div>
 		  </div>
 		</div>
+
+		<div id="single-testimonial" class="home-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">Happy clients</h2>
+                    <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
+                        <img src="/assets/img/testimonials/jesse-yun.jpg" />
+                        <div>
+                            <p>"Reid Software is very thorough, detailed and creative. I highly recommend them to build a product for any business!"</p>
+                            <div class="author">
+                                <p>Jesse Yun</p>
+                                <p>CEO</p>
+                                <p>ecoShuttle Charters &amp; Tours</p>
+                                <p>Portland, OR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="services" class="scroll-reveal">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <h3 class="section-title">Services</h3>
+                    <div class="row">
+                        <div class="col-10 offset-1 col-sm-4 offset-sm-0 service-item-wrapper">
+                            <div class="service-item">
+                                <h2>Strategy</h2>
+                                <ul>
+                                    <li>Research</li>
+                                    <li>UI/UX audit</li>
+                                    <li>Stakeholder workshops</li>
+                                    <li>Product strategy</li>
+                                    <li>Innovation consulting</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-1 col-sm-4 offset-sm-0 service-item-wrapper">
+                            <div class="service-item">
+                                <h2>Design</h2>
+                                <ul>
+                                    <li>UI/UX design</li>
+                                    <li>Brand identity</li>
+                                    <li>Websites and mobile apps</li>
+                                    <li>Visual design</li>
+                                    <li>Prototyping and testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-1 col-sm-4 offset-sm-0 service-item-wrapper">
+                            <div class="service-item">
+                                <h2>Development</h2>
+                                <ul>
+                                    <li>HTML/CSS/JS</li>
+                                    <li>React/Angular</li>
+                                    <li>Database and API</li>
+                                    <li>iOS/Android native apps</li>
+                                    <li>Rapid prototyping</li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 		<div id="cta-section" class="section">
 			<div class="container">
