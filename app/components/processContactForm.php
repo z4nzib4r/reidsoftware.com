@@ -3,6 +3,7 @@
 require '../../vendor/phpmailer/phpmailer/src/Exception.php';
 require '../../vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require '../../vendor/phpmailer/phpmailer/src/SMTP.php';
+require 'credentials.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -57,14 +58,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$mail->isSMTP();                                            // Send using SMTP
 			$mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			$mail->Username   = 'jtrstudio.mailer@gmail.com';                     // SMTP username
-			$mail->Password   = 'TfbcPYB3R2dK';                               // SMTP password
+			$mail->Username   = $username;                     // SMTP username
+			$mail->Password   = $password;                               // SMTP password
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 			$mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
 			//Recipients
 			$mail->setFrom('webform@jtrstudio.com');
-			$mail->addAddress('jacobtreid@gmail.com');
+			$mail->addAddress('jacob@reidsoftware.com');
 
 			// Content
 			$mail->isHTML(true);                                  // Set email format to HTML

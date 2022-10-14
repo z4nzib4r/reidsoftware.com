@@ -108,7 +108,7 @@ function submitContactForm() {
 			},
 			error: function( error ) {
 				$('#submit-contact-form').val('Send');
-				console.log(result);
+				console.log(error);
 			}
 		});
 	}
