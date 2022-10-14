@@ -91,10 +91,10 @@ function initializeContactForm() {
 }
 
 function submitContactForm() {
-	gtag('event', 'contact_form_submission', {
-        'app_name': 'Reid Software'
-      });
 	if ( $('#contact-form').valid() ) {
+		gtag('event', 'contact_form_submission', {
+      'app_name': 'Reid Software'
+    });
 		$('#submit-contact-form').val('Processing...');
 		var formData = $('#contact-form').serializeArray();
 		console.log(formData);
