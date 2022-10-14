@@ -70,10 +70,10 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h4>We put users first.</h4>
-                            <p>Users are the life-blood of your digital product, and we relentlessly advocate for them throughout the project life-cycle.</p>
+                            <p>Users are crucial to the success of your digital product, and we relentlessly advocate for them throughout the project life-cycle.</p>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h4>We are kind.</h4>
+                            <h4>We are open.</h4>
                             <p>We know that collaboration can be challenging, so we focus on creating an atmosphere that encourages a respectful exchange of ideas.</p>
                         </div>
                         <div class="col-12 col-lg-6">
