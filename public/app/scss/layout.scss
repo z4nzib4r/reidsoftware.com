@@ -1,0 +1,105 @@
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+
+html {
+	background: #0c0c0e;
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+	&.loaded {
+		#loading {
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity 0.5s ease-out, visibility 0.5s;
+			transition-delay: 300ms;
+			#loading-title {
+				margin-top: 17vh;
+				opacity: 0;
+				transition: margin-top 400ms, opacity 400ms ease-out;
+			}
+			.spinner {
+				transition: opacity 400ms ease-out;
+				opacity: 0;
+			}
+		}
+		
+	}
+}
+
+.section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.gray-bg {
+	background: $ultraLightGray;
+}
+
+
+#loading {
+	visibility: visible;
+	opacity: 1;
+	z-index: 999;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: $green;
+			// animation-name: bgColors;
+		 //  animation-duration: 20s;
+		 //  animation-timing-function: linear;
+		 //  animation-iteration-count: infinite;
+		 //  animation-direction: forwards;
+		 //  transition: 200ms ease all;
+	
+	#loading-logo {
+		display: block;
+		background: url('/assets/img/logo-icon-transparent.png') no-repeat;
+		width: 320px;
+		height: 160px;
+		background-size: contain;
+		margin: 25vh auto 0;
+		background-position: center;
+	}
+
+}
+
+.spinner {
+	//display: none;
+	opacity: 1;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+
+  margin: 20px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+

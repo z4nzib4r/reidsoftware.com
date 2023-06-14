@@ -1,0 +1,111 @@
+#projects-page {
+	#hero {
+		background: $themeDark;
+		display: flex;
+		align-items: center;
+		padding-top: 10vh;
+	}
+	h1 {
+		font-size: 70px;
+		@media screen and (min-width: $media-md) {
+			font-size: 84px;
+		}
+	}
+	h3 {
+		//display: none;
+	}
+	#project-grid {
+		padding: 80px 0;
+	}
+}
+
+#project-archive {
+	padding: 56px 0 120px;
+	h3 {
+		text-transform: uppercase;
+    font-size: 16px;
+    color: #aaa;
+    letter-spacing: 2px;
+    opacity: 0;
+	}
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		&:hover {
+			.year, .name {
+				opacity: 0.4;
+			}
+		}
+	}
+	li {
+		padding: 16px 0 28px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		opacity: 0;
+		&:hover {
+			cursor: pointer;
+			.year, .name{
+				opacity: 1;
+				transition: 200ms ease all;
+			}
+			.project {
+				@media screen and (min-width: $media-md) {
+					opacity: 1;
+					transition: 200ms ease all;
+				}
+				
+			}
+		}
+	}
+	.year {
+		font-size: 18px;
+		margin-right: 52px;
+		color: $mediumGray;
+		transition: 200ms ease all;
+	}
+	.name {
+		font-size: 32px;
+		transition: 200ms ease all;
+	}
+	.project {
+		display: none;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		transition: 200ms ease all;
+		width: 400px;
+		height: 210px;
+		position: absolute;
+		right: -100px;
+		top: -60px;
+		opacity: 0;
+		@media screen and (min-width: $media-md) {
+			display: flex;
+		}
+	}
+	.image {
+		width: 300px;
+		margin-bottom: 12px;
+	}
+	.blurb {
+		font-size: 22px;
+		text-align: left;
+		line-height: 1.2;
+		color: $mediumGray;
+	}
+	&.in {
+		h3 {
+			animation: sectionTitleEnter 1000ms forwards;
+		}
+		li {
+			animation: projectEnter 1000ms forwards;
+		}
+		@for $i from 1 through 12 {
+			li:nth-child(#{$i}) {
+				animation-delay: $i * 100ms;
+			}
+		}
+	}
+}

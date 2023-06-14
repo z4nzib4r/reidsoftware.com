@@ -1,0 +1,153 @@
+$animTiming: 1000ms;
+
+@keyframes marginTopEnter {
+	from {
+		margin-top: 20px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes marginBottomEnter {
+	from {
+		margin-bottom: 20px;
+		opacity: 0;
+	}
+	to {
+		margin-bottom: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes menuEnter {
+	from {
+		top: 20px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes aboutImageEnter {
+	from {
+		margin-top: 20px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+@keyframes sectionTitleEnter {
+	from {
+		padding-top: 20px;
+		opacity: 0;
+	}
+	to {
+		padding-top: 0;
+		opacity: 1;
+	}
+}
+@keyframes projectEnter {
+	from {
+		top: 20px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes titleColors {
+	0% { color: $gold; }
+	20% { color: $orange; }
+	40% { color: $green; }
+	60% { color: $blue; }
+	80% { color: $pink; }
+	100% { color: $gold; }
+}
+@keyframes bgColors {
+	0% { background-color: $gold; }
+	20% { background-color: $orange; }
+	40% { background-color: $green; }
+	60% { background-color: $blue; }
+	80% { background-color: $pink; }
+	100% { background-color: $gold; }
+}
+@keyframes borderColors {
+	0% { border-color: $gold; }
+	20% { border-color: $orange; }
+	40% { border-color: $green; }
+	60% { border-color: $blue; }
+	80% { border-color: $pink; }
+	100% { border-color: $gold; }
+}
+
+
+@keyframes scrollPulse {
+	0% { opacity: 0.5; }
+	50% { opacity: 0.1; }
+	100% { opacity: 0.5; }
+}
+
+@keyframes paddingTopEnter {
+	from {
+		padding-top: 20px;
+		opacity: 0;
+	}
+	to {
+		padding-top: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes navItemEnter {
+	from {
+		margin-left: 20px;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0;
+		opacity: 1;
+	}
+}
+@keyframes navContactEnter {
+	from {
+		bottom: 10px;
+		opacity: 0;
+	}
+	to {
+		bottom: 40px;
+		opacity: 1;
+	}
+}
+
+@keyframes headerEnter {
+	from {
+		opacity: 0;
+		top: 10px;
+	}
+	to {
+		opacity: 1;
+		top: 30px;
+	}
+}
+
+@keyframes pageTitleEnter {
+		from {
+			opacity: 0;
+			margin-top: 0;
+			//margin-bottom: 20px;
+		}
+		to {
+			opacity: 1;
+			margin-top: 20px;
+			//margin-bottom: 0;
+		}
+}
