@@ -4,9 +4,9 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-node_modules/
+public/node_modules/
 dist/
-vendor/
+public/vendor/
 app/components/credentials.php
 
 # Compiled Java class files
