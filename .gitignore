@@ -7,7 +7,8 @@
 public/node_modules/
 dist/
 public/vendor/
-app/components/credentials.php
+public/app/components/credentials.php
+public/blog/
 
 # Compiled Java class files
 *.class
