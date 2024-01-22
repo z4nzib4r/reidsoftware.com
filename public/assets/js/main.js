@@ -35,6 +35,7 @@ function setEventListeners() {
 
 }
 
+
 function toggleNavMenu(el) {
 	if (navOpen === false ) {
 		$(el).addClass('nav-open');

@@ -11,6 +11,7 @@
                 <div class="hero-content">
                     <h1>We turn <span class="highlight">great ideas</span> into innovative digital solutions</h1>
                     <p class="hero-tagline">Unlock the power of digital transformation with our comprehensive approach to strategy, product design, and development.</p>
+                    <a href="https://dailyreportcardonline.com" target="_blank" class="btn btn-primary">See our work</a>
                 </div>
             </div>
         </div>
@@ -21,6 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <h2 class="section-title">Project Highlight</h2>
                 <div id="drco" class="project-item scroll-reveal">
                     <img src="/assets/img/drco/drco-logo.svg" width="200">
                     <div class="title">Revitalizing an legacy software platform</div>
@@ -43,9 +45,9 @@
             </div>
         </div>
     </div>
-    <!-- <div class="section-image">
-        <div class="logo"></div>
-    </div> -->
+    <div class="section-image">
+        <img src="/assets/img/greataupair/ga-hero.jpg">
+    </div>
 </div>
 
 <div id="single-testimonial" class="home-section">
@@ -56,7 +58,7 @@
                 <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
 
                     <div>
-                        <p>"Reid's outstanding contributions to the team and project are far more valuable than just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
+                        <p>"Reid's outstanding contributions to the project outshine his incredible talents in software development alone. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
                         <div class="author d-flex">
                             <img src="/assets/img/testimonials/steve-evans.jpg" />
                             <div class="text">

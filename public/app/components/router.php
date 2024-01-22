@@ -14,8 +14,8 @@
         ob_start();
         include 'app/pages/greataupair.php';
         $pageContent = ob_get_clean();
-    } elseif ( $path === '/projects' ) {
-        $metaTitle = 'Projects | Reid Software | Software design and development company in Ohio';
+    } elseif ( $path === '/work' ) {
+        $metaTitle = 'Our Work | Reid Software | Software design and development company in Ohio';
         $metaDesc = 'We build digital products that are simple, beautiful and easy to use.';
         ob_start();
         include 'app/pages/projects.php';

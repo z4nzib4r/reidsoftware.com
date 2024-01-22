@@ -1,8 +1,9 @@
+$maxHeight: 1200px;
 #hero-section {
 	background: transparent;
 	padding: 0;
-	height: auto;
-	max-height: 90vh;
+	height: 100vh;
+	max-height: $maxHeight;
 	overflow: hidden;
 	position: relative;
 	// border-bottom: 8px solid $gold;
@@ -36,6 +37,7 @@
 		left: 0;
 		width: 100vw;
 		height: 100vh;
+		max-height: $maxHeight;
 		background: rgb(10,10,20);
 		opacity: 0.7;
 	}
@@ -44,7 +46,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		height: 100vh;	
+		height: 100vh;
+		max-height: $maxHeight;
 	    @media screen and (min-width: 1680px) {
 	    	margin-left: -200px;
 	    	max-width: 820px;
@@ -67,13 +70,13 @@
 		@media screen and (min-width: $media-md) {
 			text-transform: none;
 			margin-top: -60px;
-			font-size: 70px;
+			font-size: 62px;
 			margin-bottom: 40px;
 			text-align: left;
 		}
 		@media screen and (min-width: $media-lg) {
 			margin-top: -60px;
-			font-size: 70px;
+			font-size: 62px;
 		}
 		.highlight {
 			margin-top: -5px;
@@ -96,10 +99,10 @@
 			text-align: left;
 		}
 		@media screen and (min-width: $media-lg) {
-			font-size: 30px;
+			//font-size: 30px;
 		}
 		@media screen and (min-width: $media-xl) {
-			font-size: 34px;
+			//font-size: 34px;
 		}
 	}
 	.btn {
@@ -175,9 +178,9 @@
 
 #drco-highlight {
 	height: auto;
-	padding: 40px 0 80px;
+	padding: 80px 0 80px;
 	.project-item {
-		margin-top: -120px;
+		margin-bottom: 0;
 	}
 }
 
@@ -198,7 +201,7 @@
 	.section-image {
 		@media screen and (min-width: $media-md) {
 			right: 0;
-			background: $themeDark;
+			background: none;
 		// 	animation-name: bgColors;
 		//   animation-duration: 20s;
 		//   animation-timing-function: linear;

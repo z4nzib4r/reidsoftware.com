@@ -99,13 +99,13 @@ a {
 	padding-left: 30px;
 }
 .highlight {
-	color: $gold;
-	animation-name: titleColors;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: forwards;
-  transition: 200ms ease all;
+	color: inherit;
+// 	animation-name: titleColors;
+//   animation-duration: 10s;
+//   animation-timing-function: linear;
+//   animation-iteration-count: infinite;
+//   animation-direction: forwards;
+//   transition: 200ms ease all;
 }
 .arrow-left {
   width: 0; 
