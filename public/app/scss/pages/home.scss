@@ -1,7 +1,8 @@
 #hero-section {
 	background: transparent;
 	padding: 0;
-	height: 100vh;
+	height: auto;
+	max-height: 90vh;
 	overflow: hidden;
 	position: relative;
 	// border-bottom: 8px solid $gold;
@@ -129,21 +130,10 @@
 }
 .home-section {
 	height: auto;
-	padding: 120px 0;
+	padding: 200px 0;
 	display: flex;
 	align-items: center;
 	position: relative;
-	// border-top: 8px solid $gold;
-	// animation-name: borderColors;
-	// animation-duration: 20s;
-	// animation-timing-function: linear;
-	// animation-iteration-count: infinite;
-	// animation-direction: forwards;
-	// transition: 200ms ease all;
-	@media screen and (min-width: $media-md) {
-		height: 100vh;
-		padding: 0;
-	}
 	h2 {
 		margin-top: -20px
 	}
@@ -175,6 +165,23 @@
 		}
 	}
 }
+
+.project-highlight {
+	height: auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#drco-highlight {
+	height: auto;
+	padding: 40px 0 80px;
+	.project-item {
+		margin-top: -120px;
+	}
+}
+
+
 #services-section {
 	// border-right: 8px solid $gold;
 	// animation-name: borderColors;
@@ -191,13 +198,13 @@
 	.section-image {
 		@media screen and (min-width: $media-md) {
 			right: 0;
-			background: $gold;
-			animation-name: bgColors;
-		  animation-duration: 20s;
-		  animation-timing-function: linear;
-		  animation-iteration-count: infinite;
-		  animation-direction: forwards;
-		  transition: 200ms ease all;
+			background: $themeDark;
+		// 	animation-name: bgColors;
+		//   animation-duration: 20s;
+		//   animation-timing-function: linear;
+		//   animation-iteration-count: infinite;
+		//   animation-direction: forwards;
+		//   transition: 200ms ease all;
 		  display: flex;
 		  justify-content: center;
 		  align-items: center;

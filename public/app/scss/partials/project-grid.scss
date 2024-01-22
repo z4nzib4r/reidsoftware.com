@@ -36,33 +36,40 @@
 				animation-delay: 400ms;
 			}
 		}
+		img {
+			margin-bottom: 20px;
+		}
+		.title {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
 		.description {
 			font-size: 32px;
 			font-weight: 800;
 			color: #000;
 			line-height: 1.2;
 			margin-bottom: 20px;
-			@media screen and (min-width: $media-md) {
-				width: 430px;
-				margin-bottom: 12px;
-			}
 		}
-		p {
-			margin-bottom: 28px;
-			@media screen and (min-width: $media-md) {
-				width: 430px;
-			}
-		}
+		
 		.btn {
 			display: block;
 			width: 100%;
-			font-size: 24px;
+			font-size: 18px;
+			margin-bottom: 40px;
 			@media screen and (min-width: $media-md) {
 				width: auto;
 				display: inline-block;
 				font-size: 21px;
 			}
 		}
+		p {
+			margin-bottom: 28px;
+			font-size: 16px;
+			@media screen and (min-width: $media-md) {
+				width: 430px;
+			}
+		}
+		
 		.btn-primary {
 			color: #fff;
 			&:hover {
@@ -172,20 +179,4 @@
 }
 .project-grid {
 	padding: 120px 0;
-}
-.project-highlight {
-	height: auto;
-	display: flex;
-	align-items: center;
-	position: relative;
-	// border-right: 8px solid $gold;
-	// animation-name: borderColors;
-	// animation-duration: 20s;
-	// animation-timing-function: linear;
-	// animation-iteration-count: infinite;
-	// animation-direction: forwards;
-	// transition: 200ms ease all;
-	@media screen and (min-width: $media-md) {
-		min-height: 100vh;
-	}
 }
