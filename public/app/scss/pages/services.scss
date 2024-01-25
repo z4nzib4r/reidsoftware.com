@@ -1,4 +1,28 @@
 .services-page {
+	#hero-section {
+		height: 50vh;
+		max-height: $maxHeight;
+		#hero-video {
+			min-height: 100vh;
+		}
+		#hero-img {
+			min-height: 100vh;
+		}
+		#hero-overlay {
+			height: 100vh;
+			max-height: $maxHeight;
+		}
+		.hero-content {
+			height: 50vh;
+			max-height: $maxHeight;
+		}
+		h1 {
+			margin: 70px 0 70px;
+			font-size: 48px;
+			color: #fff;
+		}
+	}
+
 	#hero {
 		background: #1a1b1c;
 		display: flex;
@@ -99,25 +123,26 @@
 
 #strategy {
 	img {
-		width: 600px;
-		top: -320px;
+		width: 800px;
+		top: -520px;
 		left: 80px;
+		// width: 350px;
+		// top: -170px;
+		// left: 200px;
 	}
 }
 
 #design {
 	img {
-		width: 600px;
+		width: 680px;
 		right: 60px;
-		top: -200px;
+		top: -300px;
 	}
 }
 
-
-
 #development {
 	img {
-		width: 600px;
+		width: 700px;
 		top: -200px;
 		left: 40px;
 	}
@@ -126,7 +151,7 @@
 #ai {
 	img {
 		width: 500px;
-		right: 80px;
+		right: 120px;
 		top: -200px;
 	}
 }

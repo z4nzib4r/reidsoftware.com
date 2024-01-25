@@ -1,6 +1,25 @@
 <div id="services-main-page" class="services-page">
 
-    <div id="hero">
+
+    <div id="hero-section">
+        <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+            <source src="/assets/video/3411347255-preview.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
+        <div id="hero-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12 col-md-11 col-lg-9">
+                    <div class="hero-content">
+                        <h1>We specialize in providing comprehensive and innovative software solutions for our clients.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-10 col-xl-9">
@@ -8,7 +27,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
     <div id="strategy" class="section" style="pointer-events: none;">
         <div class="container">
             <div class="row align-items-center">
