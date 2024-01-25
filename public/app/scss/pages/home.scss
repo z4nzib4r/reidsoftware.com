@@ -176,11 +176,20 @@ $maxHeight: 800px;
 	position: relative;
 }
 
-#drco-highlight {
+#case-studies {
 	height: auto;
-	padding: 80px 0 80px;
+	padding: 200px 0;
 	.project-item {
-		margin-bottom: 0;
+		margin-bottom: 60px;
+		&:hover {
+			transform: scale(1.02);
+			box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+		}
+	}
+	#athens-massage {
+		img {
+			margin-bottom: 8px;
+		}
 	}
 }
 
@@ -198,7 +207,15 @@ $maxHeight: 800px;
 	}
 }
 #about-section {
+	img { 
+		position: absolute;
+		z-index: 99;
+		width: 440px;
+		top: -100px;
+		left: -80px;
+	}
 	.section-image {
+		
 		@media screen and (min-width: $media-md) {
 			right: 0;
 			background: none;
