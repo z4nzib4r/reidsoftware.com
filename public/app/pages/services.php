@@ -38,7 +38,7 @@
                     <a href="/strategy">See how we can help with strategy</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
-                    <img src="/assets/img/icosahedron.png" alt="Icosahedron">
+                    <img src="/assets/img/icosahedron-shadow.png" alt="Icosahedron">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-12 col-md-6">
-                    <img src="/assets/img/pyramid-sphere.png" alt="Graphic">
+                    <img src="/assets/img/pyramid-sphere-shadow.png" alt="Graphic">
                 </div>
                 <div class="col-12 col-md-6">
                     <h2>Product Design</h2>
@@ -69,7 +69,7 @@
                     <a href="/development">Learn about our development services</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
-                    <img src="/assets/img/cube-rectangle-2.png" alt="Graphic">
+                    <img src="/assets/img/cube-rectangle-shadow.png" alt="Graphic">
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-12 col-md-6">
-                    <img src="/assets/img/pyramid-decahedron.png" alt="Graphic">
+                    <img src="/assets/img/pyramid-decahedron-shadow.png" alt="Graphic">
                 </div>
                 <div class="col-12 col-md-6">
                     <h2>AI Integrations</h2>

@@ -101,7 +101,7 @@
 
 		img {
 			position: absolute;
-			z-index: 99;
+			//z-index: 99;
 		}
 	}
 
@@ -123,9 +123,9 @@
 
 #strategy {
 	img {
-		width: 800px;
-		top: -520px;
-		left: 80px;
+		width: 1000px;
+		top: -420px;
+		left: -280px;
 		// width: 350px;
 		// top: -170px;
 		// left: 200px;
@@ -134,7 +134,7 @@
 
 #design {
 	img {
-		width: 680px;
+		width: 840px;
 		right: 60px;
 		top: -300px;
 	}
@@ -142,16 +142,18 @@
 
 #development {
 	img {
-		width: 700px;
+		z-index: 99;
+		width: 760px;
 		top: -200px;
-		left: 40px;
+		left: -140px;
 	}
 }
 
 #ai {
 	img {
-		width: 500px;
+		z-index: 99;
+		width: 580px;
 		right: 120px;
-		top: -200px;
+		top: -230px;
 	}
 }
