@@ -1,28 +1,43 @@
 <div id="drco" class="case">
-    
+
     <div id="intro">
         <div class="container">
             <div class="row justify-content-center">
+            <div class="col-12">
+                    <img src="/assets/img/projects/drco-thumbnail.jpg">
+                </div>
                 <div class="col-12">
-                    <span class="sub-heading">Case Study: Daily report card online (DRCO)</span>
-        			<h1>Improving academic outcomes for elementary school students</h1>
-                </div> <!-- main col -->
+                    <h1>Revitalizing a legacy software platform</h1>
+                    <p class="subhead">We partnered with psychology researchers at Ohio University to redesign an innovative web-based platform for K-12 educators.</p>
+                </div>
+                
                 <div class="col-12 col-lg-4">
                     <div class="summary-item">
-                        <h2>Challenge</h2>
-                        <p>Completely redesign an out-dated web application</p>
+                        <h2>Platforms</h2>
+                        <p>Web<br>Mobile</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="summary-item">
-                        <h2>Solution</h2>
-                        <p>Collaborate with founders to redefine the vision for the product</p>
+                        <h2>Services</h2>
+                        <p>
+                            User research<br>
+                            UX design<br>
+                            Visual design systems<br>
+                            Full stack development<br>
+                            Content management systems
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="summary-item">
-                        <h2>Results</h2>
-                        <p>A mobile responsive web app with streamlined interface, happy users :)</p>
+                        <h2>Deliverables</h2>
+                        <p>
+                            Robust modern web application<br>
+                            Comprehensive knowledge base<br>
+                            Customizable data reporting<br>
+                            Content production
+                        </p>
                     </div>
                 </div>
             </div>
@@ -89,7 +104,7 @@
                     <a href="/services">
                         <span>Learn more about our services</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                         </svg>
                     </a>
                 </div>

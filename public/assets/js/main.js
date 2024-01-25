@@ -6,7 +6,7 @@ var scrollPosY;
 
 var colors = ['#ffdc77','#f2b970','#adf270','#ff8bf0','#ff5959'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
-document.getElementById('loading').style.backgroundColor = randomColor; 
+document.getElementById('loading').style.backgroundColor = '#47bce8'; 
 
 window.addEventListener('load',function(){
   document.querySelector('body').classList.add("loaded");

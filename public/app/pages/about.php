@@ -97,10 +97,12 @@
                                 <h2>Strategy</h2>
                                 <ul>
                                     <li>Research</li>
-                                    <li>UI/UX audit</li>
-                                    <li>Stakeholder workshops</li>
-                                    <li>Product strategy</li>
-                                    <li>Innovation consulting</li>
+                                    <li>Competitor Analysis</li>
+                                    <li>User Experience (UX) Audit</li>
+                                    <li>Product Roadmap</li>
+                                    <li>Customer Journeys</li>
+                                    <li>Digital transformation</li>
+                                    <li>Innovation</li>
                                 </ul>
                             </div>
                         </div>
@@ -108,11 +110,13 @@
                             <div class="service-item">
                                 <h2>Design</h2>
                                 <ul>
-                                    <li>UI/UX design</li>
-                                    <li>Brand identity</li>
-                                    <li>Websites and mobile apps</li>
-                                    <li>Visual design</li>
-                                    <li>Prototyping and testing</li>
+                                    <li>Branding and Identity</li>
+                                    <li>Visual Design Systems</li>
+                                    <li>User Experience (UX) Design</li>
+                                    <li>User Interface (UI) Design</li>
+                                    <li>Wireframing</li>
+                                    <li>Rapid Prototyping</li>
+                                    <li>Content production</li>
                                 </ul>
                             </div>
                         </div>
@@ -120,14 +124,16 @@
                             <div class="service-item">
                                 <h2>Development</h2>
                                 <ul>
-                                    <li>HTML/CSS/JS</li>
-                                    <li>React/Angular</li>
-                                    <li>Database and API</li>
-                                    <li>iOS/Android native apps</li>
-                                    <li>Rapid prototyping</li>
+                                    <li>Fullstack Development</li>
+                                    <li>System Architecture</li>
+                                    <li>React/Angular/Vue</li>
+                                    <li>APIs and Systems Integration</li>
+                                    <li>Database</li>
+                                    <li>Content Management Systems</li>
+                                    <li>Cloud Infrastructure</li>
                                 </ul>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

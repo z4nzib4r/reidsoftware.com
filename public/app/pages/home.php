@@ -18,22 +18,6 @@
     </div>
 </div>
 
-<div id="drco-highlight" class="project-highlight home-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section-title">Project Highlight</h2>
-                <div id="drco" class="project-item scroll-reveal">
-                    <img src="/assets/img/drco/drco-logo.svg" width="200">
-                    <div class="title">Revitalizing an legacy software platform</div>
-                    <a href="https://dailyreportcardonline.com" target="_blank" class="btn btn-sm btn-primary">Read case study</a>
-                    <p>User research, UX design, Visual design system, Full stack development, Content management system</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div id="about-section" class="home-section">
     <div class="container">
         <div class="row justify-content-start">
@@ -50,6 +34,24 @@
     </div>
 </div>
 
+
+<div id="drco-highlight" class="project-highlight home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Project Highlight</h2>
+                <div id="drco" class="project-item scroll-reveal">
+                    <img src="/assets/img/drco/drco-logo.svg" width="200">
+                    <div class="title">Revitalizing an legacy software platform</div>
+                    <a href="/daily-report-card-online" target="_blank" class="btn btn-sm btn-primary">Read case study</a>
+                    <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div id="single-testimonial" class="home-section">
     <div class="container">
         <div class="row justify-content-center">
@@ -60,7 +62,6 @@
                     <div>
                         <p>"Reid's outstanding contributions to the project outshine his incredible talents in software development alone. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
                         <div class="author d-flex">
-                            <img src="/assets/img/testimonials/steve-evans.jpg" />
                             <div class="text">
                                 <p>Steven Evans, Ph.D.</p>
                                 <p>Co-Director, Center for Intervention Research in Schools</p>

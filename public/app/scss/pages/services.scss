@@ -1,32 +1,35 @@
 .services-page {
 	#hero {
-		background: $themeDark;
+		background: #1a1b1c;
 		display: flex;
 		align-items: center;
-		padding-top: 10vh;
+		padding: 120px 0 100px;
+
 		h1 {
-			margin: 0 0 70px;
-			font-size: 70px;
-			@media screen and (min-width: $media-md) {
-				font-size: 84px;
-			}
+			margin: 70px 0 70px;
+			font-size: 48px;
+			color: #fff;
 		}
+
 		p {
 			color: #fff;
 			margin: 0 0 30px;
 		}
+
 		.btn {
 			margin-bottom: -31px;
 			background: $accent;
 			border: 2px solid $accent;
 			color: #fff;
 			transition: 200ms ease all;
+
 			&:hover {
 				background: #fff;
 				color: $accent;
 				border: 2px solid $accent;
 				transition: 200ms ease all;
 			}
+
 			&:active {
 				background: $accent;
 				color: #fff;
@@ -34,153 +37,96 @@
 				transition: 200ms ease all;
 			}
 		}
+
 		.scroll {
 			color: #fff;
 			text-decoration: none;
 			border: none;
+
 			&:hover {
 				border: none;
 			}
+
 			svg {
 				width: 35px;
 				height: 35px;
 			}
+
 			//animation: pageTitleEnter 1000ms forwards;
 			//animation-delay: 700ms;
 			//opacity: 0;
 		}
 	}
+
 	h2 {
 		font-size: 48px;
 		line-height: 1;
+
 		@media screen and (min-width: $media-md) {
 			font-size: 34px;
 		}
 	}
+
 	.section {
 		height: auto;
 		padding: 100px 0;
+
 		@media screen and (min-width: $media-xl) {
-			padding: 0;
-			min-height: 80vh;
+			padding: 240px 0;
+		}
+
+		img {
+			position: absolute;
+			z-index: 99;
 		}
 	}
-	.section-image {
-		background-image: url('/assets/img/services/research-1.svg');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		width: 300px;
-		height: 300px;
-		margin: 0 auto 50px;
-		@media screen and (min-width: $media-lg) {
-			width: 360px;
-			height: 360px;
-		}
-		@media screen and (min-width: $media-xl) {
-			width: 440px;
-			height: 440px;
-			margin-bottom: 0;
-		}
-	}
+
 	.section-title {
 		margin-top: 0;
 		margin-bottom: 12px;
 	}
+
 	h3 {
 		margin-top: 80px;
 	}
+
 	a {
 		font-size: 24px;
 		font-weight: 200;
 		color: $accent;
 	}
 }
-#design-research-page, #product-design-page {
-	#hero {
-		h1 {
-			margin-bottom: 20px;
-		}
+
+#strategy {
+	img {
+		width: 600px;
+		top: -320px;
+		left: 80px;
 	}
 }
-#research-section {
-		.section-image {
-			background-image: url('/assets/img/services/research-1.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: -50px;
-				margin-left: 80px;
-			}
-		}
-	}
-	#design-section {
-		.section-image {
-			background-image: url('/assets/img/services/prototyping.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: 10px;
-				margin-right: 80px;
-			}
-		}
-	}
-	#development-section {
-		.section-image {
-			background-image: url('/assets/img/services/development.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: 20px;
-				margin-left: 80px;
-			}
-		}
-	}
-#research-insights {
-	.section-image {
-		background-image: url('/assets/img/services/insights.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -50px;
-			margin-left: 80px;
-		}
+
+#design {
+	img {
+		width: 600px;
+		right: 60px;
+		top: -200px;
 	}
 }
-#methodology {
-	.section-image {
-		background-image: url('/assets/img/services/methods.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -20px;
-			margin-right: 80px;
-		}
+
+
+
+#development {
+	img {
+		width: 600px;
+		top: -200px;
+		left: 40px;
 	}
 }
-#plan-for-success {
-	.section-image {
-		background-image: url('/assets/img/services/plan.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -60px;
-			margin-left: 100px;
-		}
-	}
-}
-#ux {
-	.section-image {
-		background-image: url('/assets/img/services/ux.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -40px;
-			margin-left: 100px;
-		}
-	}
-}
-#workflows {
-	.section-image {
-		background-image: url('/assets/img/services/workflows.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -40px;
-			margin-right: 100px;
-		}
-	}
-}
-#human-centered-design {
-	.section-image {
-		background-image: url('/assets/img/services/human-centered.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -20px;
-			margin-left: 100px;
-		}
+
+#ai {
+	img {
+		width: 500px;
+		right: 80px;
+		top: -200px;
 	}
 }
