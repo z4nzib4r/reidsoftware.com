@@ -19,22 +19,12 @@
         </div>
     </div>
 
-    <!-- <div id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 col-xl-9">
-                    <h1 class="page-title">We specialize in providing comprehensive and innovative software solutions for our clients.</h1>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div id="strategy" class="section" style="pointer-events: none;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 order-2 order-md-1" style="pointer-events: auto;">
                     <h2>Strategy</h2>
-                    <p>We meticulously craft dynamic and robust strategies that propel your business into the digital landscape with a competitive edge.</p>
+                    <p>We meticulously craft dynamic strategies that propel your business into the digital landscape with a competitive edge.</p>
                     <a href="/strategy">See how we can help with strategy</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">

@@ -21,6 +21,11 @@
 			font-size: 48px;
 			color: #fff;
 		}
+		p {
+			color: #fff;
+			margin: 0 0 30px;
+			font-size: 32px;
+		}
 	}
 
 	#hero {
@@ -119,6 +124,9 @@
 		font-weight: 200;
 		color: $accent;
 	}
+	.text-content {
+		z-index: 100;
+	}
 }
 
 #strategy {
@@ -155,5 +163,60 @@
 		width: 580px;
 		right: 120px;
 		top: -230px;
+	}
+}
+
+#competitor-analysis {
+	img {
+		width: 520px;
+		left: 60px;
+		top: -330px;
+	}
+}
+
+#digital-transformation {
+	img {
+		width: 840px;
+		right: 80px;
+		top: -140px;
+	}
+}
+#innovation {
+	img {
+		width: 840px;
+		left: -170px;
+		top: -320px;
+	}
+}
+
+#ux-design {
+	img {
+		width: 900px;
+		left: -120px;
+		top: -320px;
+	}
+}
+
+#design-systems {
+	img {
+		width: 1100px;
+		right: 40px;
+		top: -220px;
+	}
+}
+
+#brand {
+	img {
+		z-index: 1;
+		width: 900px;
+		left: -220px;
+		top: -160px;
+	}
+}
+#rapid-prototyping {
+	img {
+		width: 1100px;
+		right: -140px;
+		top: -320px;
 	}
 }
