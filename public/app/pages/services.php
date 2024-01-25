@@ -56,7 +56,7 @@
                 <div class="col-12 col-md-6 order-2 order-md-1">
                     <h2>Development</h2>
                     <p>We create innovative, high-impact solutions that can transform your business operations and accelerate growth.</p>
-                    <a href="/development">Learn about our development services</a>
+                    <a href="/software-development">Learn about our development services</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
                     <img src="/assets/img/cube-rectangle-shadow.png" alt="Graphic">

@@ -38,12 +38,6 @@ if ($path === '/') {
     ob_start();
     include 'app/pages/strategy.php';
     $pageContent = ob_get_clean();
-} elseif ($path === '/design-research') {
-    $metaTitle = 'Design Research | Reid Software | Software design and development company in Ohio';
-    $metaDesc = 'We build digital products that are simple, beautiful and easy to use.';
-    ob_start();
-    include 'app/pages/design-research.php';
-    $pageContent = ob_get_clean();
 } elseif ($path === '/product-design') {
     $metaTitle = 'Digital Product Design | Reid Software | Software design and development company in Ohio';
     $metaDesc = 'We build digital products that are simple, beautiful and easy to use.';
