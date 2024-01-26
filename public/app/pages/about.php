@@ -185,11 +185,10 @@
                     <h2 class="section-title">Happy clients</h2>
                     <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
                         <div>
-                            <p>"Reid Software provides high quality services, engages in frequent communication, and dedicates time to the partnership, ensuring that views from all stakeholders are considered."</p>
+                            <p>"They are continuously bringing forward innovative concepts while staying receptive to feedback and distinct needs. Their expertise has undoubtedly added significant value to our project."</p>
                             <div class="author">
                                 <p>Julie S. Owens, Ph.D.</p>
-                                <p>Co-Director</p>
-                                <p>Center for Intervention Research in Schools</p>
+                                <p>Co-Director, Center for Intervention Research in Schools</p>
                                 <p>Ohio University</p>
                             </div>
                         </div>

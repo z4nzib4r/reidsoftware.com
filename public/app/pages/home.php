@@ -11,7 +11,7 @@
                 <div class="hero-content">
                     <h1>We turn great ideas into innovative digital solutions</h1>
                     <p class="hero-tagline">Unlock the power of digital transformation with our comprehensive approach to strategy, product design, and development.</p>
-                    <a href="https://dailyreportcardonline.com" target="_blank" class="btn btn-primary">See our work</a>
+                    <a href="/work" class="btn btn-primary">See our work</a>
                 </div>
             </div>
         </div>
@@ -48,21 +48,21 @@
                 <div id="drco" class="project-item scroll-reveal">
                     <img src="/assets/img/drco/drco-logo.svg" width="200">
                     <div class="title">Reimagining a legacy ed-tech platform</div>
-                    <a href="/daily-report-card-online" target="_blank" class="btn btn-sm btn-primary">Read case study</a>
+                    <a href="/daily-report-card-online" class="btn btn-sm btn-primary">Read case study</a>
                     <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
                 </div>
 
                 <div id="greataupair" class="project-item scroll-reveal">
                     <img src="/assets/img/greataupair/ga-logo-03.svg" width="340">
                     <div class="title">Modernizing a classic SaaS platform</div>
-                    <a href="/greataupair" target="_blank" class="btn btn-sm btn-primary">Read case study</a>
+                    <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
                     <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
                 </div>
 
                 <div id="athens-massage" class="project-item scroll-reveal">
                     <img src="/assets/img/athens-massage/athens-massage-logo.svg" width="440">
                     <div class="title">Transforming a massage practice for the digital age</div>
-                    <a href="/greataupair" target="_blank" class="btn btn-sm btn-primary">Read case study</a>
+                    <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
                     <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
                 </div>
 

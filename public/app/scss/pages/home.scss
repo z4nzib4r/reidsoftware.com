@@ -27,8 +27,9 @@ $maxHeight: 800px;
 		right: 0;
 		margin: auto;
 		width: auto;
+		height: auto;
 		min-width: 100vw;
-		min-height: 100vh;
+		max-height: $maxHeight*2;
 	}
 	#hero-overlay {
 		display: block;
@@ -167,6 +168,9 @@ $maxHeight: 800px;
 			
 		}
 	}
+	// &#case-studies {
+	// 	padding: 200px 0;
+	// }
 }
 
 .project-highlight {
@@ -176,22 +180,7 @@ $maxHeight: 800px;
 	position: relative;
 }
 
-#case-studies {
-	height: auto;
-	padding: 200px 0;
-	.project-item {
-		margin-bottom: 60px;
-		&:hover {
-			transform: scale(1.02);
-			box-shadow: 0 8px 30px rgba(0,0,0,0.07);
-		}
-	}
-	#athens-massage {
-		img {
-			margin-bottom: 8px;
-		}
-	}
-}
+
 
 
 #services-section {

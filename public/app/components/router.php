@@ -2,6 +2,8 @@
 $urlObj = parse_url($_SERVER['REQUEST_URI']);
 $path = $urlObj['path'];
 
+$navTheme = 'dark';
+
 if ($path === '/') {
     $metaTitle = 'Reid Software | Software design and development company in Ohio';
     $metaDesc = 'We build digital products that are simple, beautiful and easy to use.';

@@ -25,7 +25,7 @@
                 <div class="col-12 col-md-6 order-2 order-md-1" style="pointer-events: auto;">
                     <h2>Strategy</h2>
                     <p>We meticulously craft dynamic strategies that propel your business into the digital landscape with a competitive edge.</p>
-                    <a href="/strategy">See how we can help with strategy</a>
+                    <a href="/strategy" class="btn btn-primary">Read more</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
                     <img src="/assets/img/icosahedron-shadow.png" alt="Icosahedron">
@@ -44,7 +44,7 @@
                 <div class="col-12 col-md-6">
                     <h2>Product Design</h2>
                     <p>We craft interactive, creative, and user-centric designs that seamlessly fuse functionality with aesthetics.</p>
-                    <a href="/product-design">Read more about product design</a>
+                    <a href="/product-design" class="btn btn-primary">Read more</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                 <div class="col-12 col-md-6 order-2 order-md-1">
                     <h2>Development</h2>
                     <p>We create innovative, high-impact solutions that can transform your business operations and accelerate growth.</p>
-                    <a href="/software-development">Learn about our development services</a>
+                    <a href="/software-development" class="btn btn-primary">Read more</a>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
                     <img src="/assets/img/cube-rectangle-shadow.png" alt="Graphic">
