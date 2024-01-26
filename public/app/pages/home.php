@@ -9,7 +9,7 @@
         <div class="row justify-content-start">
             <div class="col-12 col-md-11 col-lg-9">
                 <div class="hero-content">
-                    <h1>We turn <span class="highlight">great ideas</span> into innovative digital solutions</h1>
+                    <h1>We turn great ideas into innovative digital solutions</h1>
                     <p class="hero-tagline">Unlock the power of digital transformation with our comprehensive approach to strategy, product design, and development.</p>
                     <a href="https://dailyreportcardonline.com" target="_blank" class="btn btn-primary">See our work</a>
                 </div>

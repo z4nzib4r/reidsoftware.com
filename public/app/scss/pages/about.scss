@@ -1,13 +1,4 @@
 #about-page {
-	#hero {
-		background: $themeDark;
-		h1 {
-			font-size: 56px;
-			@media screen and (min-width: $media-md) {
-				font-size: 84px;
-			}
-		}
-	}
 	#icon-row {
 		padding: 180px 0 0;
 	}
@@ -67,6 +58,12 @@
 			margin-top: 12px
 		}
 	}
+	#team {
+		padding: 40px 0;
+	}
+	#remote {
+		padding: 40px 0;
+	}
 }
 
 #digital-specialists {
@@ -114,7 +111,7 @@
 
 #services {
 	background: $ultraLightGray;
-	padding: 120px 0 80px;
+	padding: 200px 0 260px;
 	.section-title {
 		display: none;
 	}
