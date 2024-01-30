@@ -61,8 +61,8 @@
 
                 <div id="athens-massage" class="project-item scroll-reveal">
                     <img src="/assets/img/athens-massage/athens-massage-logo.svg" width="440">
-                    <div class="title">Transforming a massage practice for the digital age</div>
-                    <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
+                    <div class="title">Bringing a small business into the digital age</div>
+                    <a href="/athens-medical-massage" class="btn btn-sm btn-primary">Read case study</a>
                     <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
                 </div>
 

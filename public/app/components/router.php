@@ -22,6 +22,12 @@ if ($path === '/') {
     ob_start();
     include 'app/pages/drco.php';
     $pageContent = ob_get_clean();
+} elseif ($path === '/athens-medical-massage') {
+    $metaTitle = 'Case Study: Athens Medical Massage | Reid Software';
+    $metaDesc = 'Transforming a massage practice for the digital age. How we helped Athens Medical Massage improve their online presence and client experience.';
+    ob_start();
+    include 'app/pages/athens-massage.php';
+    $pageContent = ob_get_clean();
 } elseif ($path === '/work') {
     $metaTitle = 'Our Work | Reid Software | Software design and development company in Ohio';
     $metaDesc = 'We build digital products that are simple, beautiful and easy to use.';
