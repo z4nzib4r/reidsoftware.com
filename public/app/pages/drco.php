@@ -88,7 +88,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6">
-                    <img src="/assets/img/drco/discovery.jpg" class="graphic">
+                    <img src="/assets/img/drco/discovery.png" alt="graphic">
                 </div>
                 <div class="col-12 col-xl-6">
                     <h2>Discovery Phase</h2>
@@ -107,7 +107,7 @@
                     <p>Using what we learned from the discovery phase, we began creating low fidelity, interactive wireframes to test out new user interface concepts. Through a process of rapid iteration and testing with real users, we were able to quickly validate our ideas and assumptions about the new direction for the project.</p>
                 </div>
                 <div class="col-12 col-xl-6 img-container">
-                    <img src="/assets/img/drco/wireframes-3.png" class="graphic">
+                    <img src="/assets/img/drco/wireframes-3.png" alt="graphic">
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6">
-                    <img src="/assets/img/drco/design.png" class="graphic">
+                    <img src="/assets/img/drco/design.png" alt="graphic">
                 </div>
                 <div class="col-12 col-xl-6">
                     <h2>Visual Design</h2>
@@ -135,16 +135,17 @@
                     <p>We work with an agile software development process, focusing on regular user tests and improvements. With constant code assessments and continuous integration, we swiftly advance core features. Prioritizing a responsive app front end, we guarantee a smooth user experience across various popular devices.</p>
                 </div>
                 <div class="col-12 col-xl-6">
-                    <img src="/assets/img/drco/development.png" class="graphic">
+                    <img src="/assets/img/drco/development.png" alt="graphic">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="section gray-bg">
+    <div id="monitoring" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6">
+                    <img src="/assets/img/drco/monitoring-2.png" alt="graphic">
                 </div>
                 <div class="col-12 col-xl-6">
                     <h2>Deployment and Monitoring</h2>
@@ -154,7 +155,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div id="results" class="section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6">
@@ -162,45 +163,26 @@
                     <p>The finished application has a streamlined user experience built on a foundation of modern web technology that empowers educators to easily leverage the powerful features of the application in order to improve academic outcomes for their students.</p>
                 </div>
                 <div class="col-12 col-xl-6">
+                    <img src="/assets/img/drco/happy-teacher-3.jpg" alt="graphic">
                 </div>
             </div>
         </div>
     </div>
 
-
-
-    <!-- <div class="section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-xl-9">
-                    <span class="sub-heading">Discovery Phase</span>
-                    <h2>Start with listening and exploration</h2>
-                    <h3>Step 1: Talking with the founders</h3>
-                    <p>We discussed what’s working, what’s not, and most importantly “the why.” Why did they create this software to begin with? What were their long term goals for the project and their research?</p>
-                    <h3>Step 2: Exploring the software</h3>
-                    <p>Next we focused on the software platform itself, stepping through some common user workflows, while also “kicking the tires” and trying to break stuff. During the process, we took detailed notes and began brainstorming possible new directions for the user interface.</p>
-                    <h3>Step 3: Interviewing real users</h3>
-                    <p>We interviewed current users to learn about their use cases, success stories, and pain points with DRCO. We used what we learned to create user personas and outlined common workflows to serve as a foundation for the success of the project.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
 </div><!-- #drco -->
 
-<div id="single-testimonial" class="home-section">
+<div id="single-testimonial" class="section gray-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h2 class="section-title">Happy users</h2>
-                <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
-                    <div>
-                        <p>"Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. Plus, the user-friendly design is a real win for us - it's as beneficial to us as it is for our students. Brilliant product all around!"</p>
-                        <div class="author">
-                            <p>Sarah J.</p>
-                            <p>4th Grade Teacher</p>
-                            <p>DRCO User</p>
-                        </div>
+                <h2 class="section-title d-none">Happy users</h2>
+                <div class="testimonial-card">
+                    <img src="/assets/img/quote-icon.svg" />
+                    <p>Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. Plus, the user-friendly design is a real win for us - it's as beneficial to us as it is for our students. Brilliant product all around!</p>
+                    <div class="author">
+                        <p>Sarah J.</p>
+                        <p>4th Grade Teacher</p>
+                        <p>DRCO User</p>
                     </div>
                 </div>
             </div>

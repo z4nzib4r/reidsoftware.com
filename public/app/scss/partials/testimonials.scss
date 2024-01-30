@@ -56,7 +56,7 @@
 #single-testimonial {
 	height: auto;
 	padding: 40px 0;
-	background: #fff;
+	//background: #fff;
 	border-top: 2px solid #f1f1f1;
 	border-bottom: 2px solid #f1f1f1;
 	// animation-name: borderColors;
@@ -80,14 +80,13 @@
 		}
 	}
 	.testimonial-card {
-		background: #fff;
+		//background: #fff;
 	}
 	img {
-		width: 70px;
-		height: 70px;
-		border-radius: 50px;
+		width: 50px;
 		margin-right: 20px;
-		margin-top: 4px;
+		margin-bottom: 40px;
+		opacity: 0.2;
 	}
 	p {
 		font-size: 28px;
