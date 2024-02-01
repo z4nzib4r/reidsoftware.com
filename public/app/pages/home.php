@@ -62,3 +62,5 @@
         </div>
     </div>
 </div>
+
+<?php include 'app/partials/faq.php'; ?>

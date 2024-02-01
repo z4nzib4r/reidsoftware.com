@@ -4,6 +4,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+
 	// border-top: 8px solid $gold;
 	// animation-name: borderColors;
 	// animation-duration: 20s;
@@ -17,35 +18,42 @@
 		font-size: 58px;
 		opacity: 1;
 		line-height: 1;
+
 		@media screen and (min-width: $media-md) {
 			font-size: 64px;
 		}
+
 		@media screen and (min-width: $media-lg) {
 			font-size: 63px;
 		}
 	}
 }
+
 #email-us {
 	padding: 40px 40px;
 	background: white;
 	border: 1px solid #ddd;
 	border-radius: 40px;
 	display: none;
+
 	a {
 		font-size: 24px;
 		font-weight: 200;
 		color: $accent;
 	}
 }
+
 #contact-followup {
 	padding: 40px 40px 24px;
 	background: $ultraLightGray;
 	border-radius: 0;
 	margin-bottom: 20px;
 	margin-top: 40px;
+
 	@media screen and (min-width: $media-md) {
 		margin-top: 0;
 	}
+
 	a {
 		font-size: 24px;
 		font-weight: 200;
@@ -54,8 +62,9 @@
 		border: none;
 		color: $accent;
 	}
+
 	ol {
-		list-style: none; 
+		list-style: none;
 		counter-reset: li;
 		padding-left: 20px;
 		padding-top: 12px;
@@ -63,24 +72,97 @@
 		font-weight: 200;
 
 	}
+
 	li::before {
-		content: counter(li); 
+		content: counter(li);
 		color: $themeDark;
-		display: inline-block; 
+		display: inline-block;
 		width: 1em;
 		margin-left: -1em;
 		font-weight: 600;
 	}
+
 	li {
 		counter-increment: li;
 		margin-bottom: 16px;
 	}
 }
+
 #success-message {
 	display: none;
+
 	a {
 		font-size: 22px;
 		font-weight: 200;
 		color: $accent;
+	}
+}
+
+#footer-cta {
+	padding: 160px 0 160px;
+	background: $darkBg;
+	h2 {
+		//font-size: 52px;
+		color: white;
+		margin-bottom: 20px;
+	}
+
+	p {
+		color: white;
+	}
+
+	a {
+		color: white;
+		font-size: 24px;
+
+		&:hover {
+			text-decoration: none;
+			opacity: 0.7;
+			border: none;
+		}
+
+		svg {
+			width: 20px;
+			height: 20px;
+			margin-top: -2px;
+			margin-right: 8px;
+			margin-left: 4px;
+		}
+	}
+}
+
+#footer-nav {
+	padding: 160px 0;
+	background: #1a1a21;
+	a, p {
+		color: white;
+		font-size: 24px;
+		margin-bottom: 20px;
+		display: block;
+	
+	}
+	a {
+		font-size: 18px;
+		margin-bottom: 12px;
+		font-weight: 300;
+		&:hover {
+			border: none;
+			opacity: 0.6;
+		}
+	}
+	p {
+		margin-top: 20px;
+		font-size: 16px;
+		opacity: 0.6;
+		margin-bottom: 20px;
+	}
+	.icon-row {
+		a {
+			margin-right: 8px;
+			opacity: 0.6;
+			&:hover {
+				opacity: 0.3;
+			}
+		}
 	}
 }

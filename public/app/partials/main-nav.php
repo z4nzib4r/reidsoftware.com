@@ -13,7 +13,7 @@
             <a href="/work" class="nav-item">Work</a>
             <a href="/services" class="nav-item">Services</a>
             <a href="/about" class="nav-item">About</a>
-            <!-- <a href="/blog" class="nav-item">Insights</a> -->
+            <a href="/blog" class="nav-item">Insights</a>
             <a id="contact" href="/contact-us" class="nav-item">Contact Us</a>
         </div>
     </div>

@@ -1,0 +1,43 @@
+#faq {
+    
+    padding: 200px 0;
+    background: $darkBg;
+    border-bottom: 1px solid #494952;
+    h2 {
+        color:#fff;
+        font-size: 48px;
+    }
+    .faq-btn {
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        border-top: 1px solid #494952;
+        display: block;
+        padding: 40px 0;
+        &.no-border {
+            border-top: none;
+        }
+        &:hover {
+            text-decoration: none;
+            border-bottom: none;
+            opacity: 0.7;
+        }
+        svg {
+            width: 30px;
+            height: 30px;
+            transform: rotate(180deg);
+        }
+        &.collapsed {
+            svg {
+                transform: rotate(0deg);
+            }
+        }
+    }
+    p {
+        font-size: 24px;
+        margin: 24px 0;
+        color: #fff;
+        opacity: 0.7;
+    }
+}
