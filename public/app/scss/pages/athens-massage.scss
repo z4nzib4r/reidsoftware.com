@@ -1,0 +1,65 @@
+#athens-massage {
+    overflow: hidden;
+    .hero-content {
+        img {
+            width: 200px !important;
+        }
+    }
+    #intro {
+        padding-top: 160px;
+    }
+    #intro {
+		img {
+			position: absolute;
+			width: 760px;
+			left: 00px;
+			top: -80px;
+		}
+	}
+    #challenge {
+        img {
+			position: absolute;
+			width: 720px;
+			right: 90px;
+			top: -120px;
+		}
+    }
+    #competitor-analysis {
+        img {
+			position: absolute;
+			width: 500px;
+			left: 40px;
+			top: -160px;
+		}
+    }
+    #planning {
+        img {
+			position: absolute;
+			width: 640px;
+			right: 40px;
+			top: -40px;
+		}
+    }
+    #transformation {
+        img {
+			position: absolute;
+			width: 500px;
+			left: 180px;
+			top: 0px;
+            z-index: 1;
+		}
+    }
+    #results {
+        img {
+			position: absolute;
+			width: 420px;
+			right: 80px;
+			top: -40px;
+		}
+    }
+
+}
+
+#single-testimonial {
+    background: #fff;
+}

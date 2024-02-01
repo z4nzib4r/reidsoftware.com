@@ -12,7 +12,8 @@
             <div class="row justify-content-start">
                 <div class="col-12 col-md-11 col-lg-9">
                     <div class="hero-content">
-                        <h1>We specialize in providing comprehensive and innovative software solutions for our clients.</h1>
+                        <h1>Services</h1>
+                        <p>We specialize in providing comprehensive and innovative software solutions for our clients.</p>
                     </div>
                 </div>
             </div>

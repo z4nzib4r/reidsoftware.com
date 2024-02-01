@@ -138,6 +138,25 @@
 			background-position: 500px 20px;
 		}
 	}
+	#athens-massage {
+		background: url('/assets/img/athens-massage/mockup.png');
+		background-color: #fff;
+		background-size: 390px;
+		background-repeat: no-repeat;
+		background-position: 22% 10px;
+		opacity: 0;
+		@media screen and ( min-width: $media-md ) {
+			background-size: 650px;
+			//background-position: -40% 120px;
+			background-position: -190% 70px;
+		}
+		@media screen and ( min-width: $media-lg ) {
+			background-position: 340px 30px;
+		}
+		@media screen and ( min-width: $media-xl ) {
+			background-position: 560px 0px;
+		}
+	}
 	#ecoshuttle {
 		background: url('/assets/img/ecoshuttle/ecoshuttle-hero-design.jpg');
 		background-color: #fff;
