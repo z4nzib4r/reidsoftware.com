@@ -40,27 +40,6 @@
 </div>
 
 
-<div id="single-testimonial" class="home-section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <h2 class="section-title">Happy clients</h2>
-                <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
-
-                    <div>
-                        <p>"Reid's outstanding contributions to the project outshine his incredible talents in software development alone. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users."</p>
-                        <div class="author d-flex">
-                            <div class="text">
-                                <p>Steven Evans, Ph.D.</p>
-                                <p>Co-Director, Center for Intervention Research in Schools</p>
-                                <p>Ohio University</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include 'app/partials/testimonials.php'; ?>
 
 <?php include 'app/partials/faq.php'; ?>
