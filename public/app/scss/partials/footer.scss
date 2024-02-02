@@ -133,7 +133,8 @@
 
 #footer-nav {
 	padding: 160px 0;
-	background: #1a1a21;
+	background: $darkBg;
+	border-top: 1px solid #494952;
 	a, p {
 		color: white;
 		font-size: 24px;

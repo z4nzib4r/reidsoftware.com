@@ -101,7 +101,7 @@
 		}
 	}
 	#beacon {
-		background: url('/assets/img/projects/beacon-thumbnail.jpg');
+		background: url('/assets/img/beacon/beacon-thumbnail.jpg');
 		background-color: #fff;
 		background-size: 350px;
 		background-repeat: no-repeat;
@@ -160,7 +160,7 @@
 		}
 	}
 	#ecoshuttle {
-		background: url('/assets/img/ecoshuttle/ecoshuttle-hero-design.jpg');
+		background: url('/assets/img/ecoshuttle/mockup.png');
 		background-color: #fff;
 		background-size: 440px;
 		background-repeat: no-repeat;
@@ -174,8 +174,8 @@
 			background-position: 490px 12px;
 		}
 		@media screen and ( min-width: $media-xl ) {
-			background-size: 800px;
-			background-position: 490px 12px;
+			background-size: 440px;
+			background-position: 640px 50px;
 		}
 	}
 	#kanani-pearl {
@@ -195,6 +195,25 @@
 		@media screen and ( min-width: $media-xl ) {
 			background-size: 800px;
 			background-position: 490px 12px;
+		}
+	}
+	#maximize {
+		background: url('/assets/img/maximize/mockup.png');
+		background-color: #fff;
+		background-size: 440px;
+		background-repeat: no-repeat;
+		background-position: 45% 23px;
+		opacity: 1;
+		@media screen and ( min-width: $media-md ) {
+			background-size: 620px;
+			background-position: 305% 100px;
+		}
+		@media screen and ( min-width: $media-lg ) {
+			background-position: 490px 12px;
+		}
+		@media screen and ( min-width: $media-xl ) {
+			background-size: 600px;
+			background-position: 540px 12px;
 		}
 	}
 }
