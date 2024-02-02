@@ -71,6 +71,9 @@ $minHeight: 600px;
 		@media screen and (max-width: $media-lg) {
 			font-size: 48px;
 		}
+		@media screen and (max-width: $media-md) {
+			font-size: 40px;
+		}
 
 	}
 
@@ -118,6 +121,9 @@ $minHeight: 600px;
 	display: flex;
 	align-items: center;
 	position: relative;
+	@media screen and (max-width: $media-md) {
+		padding: 120px 0;
+	}
 
 	h2 {
 		margin-top: -20px
@@ -153,12 +159,6 @@ $minHeight: 600px;
 		@media screen and (min-width: $media-xl) {}
 	}
 
-	&#case-studies {
-		padding: 200px 0 160px;
-		@media screen and (max-width: $media-lg) {
-			padding: 120px 0 80px;
-		}
-	}
 }
 
 .project-highlight {

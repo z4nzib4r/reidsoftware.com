@@ -16,15 +16,28 @@
 		transition: 200ms ease-out all;
 		box-shadow: 0 0px 0px rgba(0,0,0,0.2);
 		@media screen and (max-width: $media-lg) {
-			padding: 60px 80px 20px;
+			padding: 40px 80px 20px;
 			background: #fff !important;
 		}
-		img {
+		@media screen and (max-width: $media-md) {
+			padding: 40px 40px 10px;
+			background: #fff !important;
 			margin-bottom: 20px;
+		}
+		img {
+			margin-bottom: 12px;
+			@media screen and (max-width: $media-md) {
+			}
+			@media screen and (max-width: $media-sm) {
+				max-width: 100%;
+			}
 		}
 		.title {
 			font-size: 24px;
 			margin-bottom: 20px;
+			@media screen and (max-width: $media-md) {
+				font-size: 20px;
+			}
 		}
 		.description {
 			font-size: 32px;
@@ -72,6 +85,10 @@
 			background-size: 600px;
     		background-position: 480px -10px;
 		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 580px;
+			background-position: 60px 0px;
+		}
 	}
 	#beacon {
 		background: url('/assets/img/beacon/beacon-thumbnail.jpg');
@@ -84,6 +101,10 @@
 			background-size: 600px;
     		background-position: 480px -10px;
 		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 550px;
+			background-position: 150px 0px;
+		}
 	}
 	#drco {
 		background: url('/assets/img/projects/drco-thumbnail.jpg');
@@ -95,6 +116,10 @@
 		@media screen and (max-width: $media-xl) {
 			background-size: 600px;
     		background-position: 480px -10px;
+		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 550px;
+			background-position: 150px 0px;
 		}
 
 	}
@@ -109,6 +134,10 @@
 			background-size: 500px;
     		background-position: 540px 30px;
 		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 580px;
+			background-position: 60px 0px;
+		}
 	}
 	#ecoshuttle {
 		background: url('/assets/img/ecoshuttle/mockup.png');
@@ -120,6 +149,10 @@
 		@media screen and (max-width: $media-xl) {
 			background-size: 360px;
     		background-position: 540px 20px;
+		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 660px;
+			background-position: 40px -110px;
 		}
 	}
 	#maximize {
@@ -133,8 +166,31 @@
 			background-size: 440px;
     		background-position: 540px 50px;
 		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 660px;
+			background-position: 40px -110px;
+		}
 	}
 }
-.project-grid {
-	padding: 120px 0;
+#case-studies {
+	height: auto;
+	padding: 120px 0 200px;
+	
+	@media screen and (max-width: $media-md) {
+		padding: 120px 0 100px;
+	}
+
+	.project-item {
+
+		&:hover {
+			transform: scale(1.02);
+			box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+		}
+	}
+
+	#athens-massage {
+		img {
+			margin-bottom: 8px;
+		}
+	}
 }

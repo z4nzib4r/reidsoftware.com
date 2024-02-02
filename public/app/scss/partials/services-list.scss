@@ -36,4 +36,9 @@
 			font-size: 16px;
 		}
 	}
+	.service-item {
+		@media screen and (max-width: $media-md) {
+			margin-bottom: 40px;
+		}
+	}
 }

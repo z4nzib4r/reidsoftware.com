@@ -42,7 +42,7 @@
                 <h2 class="section-title">Case studies</h2>
                 <h3>Empowering businesses through digitization</h3>
             </div>
-            <div class="col-9 pb-4">
+            <div class="col-12 col-lg-9 pb-4">
                 <p class="mb-4">Explore our showcase of cutting-edge digital solutions, where our wide array of expertise seamlessly merges to redefine business possibilities.</p>
             </div>
         </div>

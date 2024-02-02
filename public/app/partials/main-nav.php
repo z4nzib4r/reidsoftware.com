@@ -9,7 +9,7 @@
             <div class="nav-icon"></div>
         </div>
         <div id="menu">
-            <a href="/" class="nav-item d-none">Home</a>
+            <a href="/" class="nav-item d-md-none">Home</a>
             <a href="/work" class="nav-item">Work</a>
             <a href="/services" class="nav-item">Services</a>
             <a href="/about" class="nav-item">About</a>

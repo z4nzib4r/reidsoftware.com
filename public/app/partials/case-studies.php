@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row ">
         <div class="col-12">
             <div id="drco" class="project-item">
                 <img src="/assets/img/drco/drco-logo.svg" width="200">
@@ -42,7 +42,7 @@
                 <a href="/athens-medical-massage" class="btn btn-sm btn-primary disabled">Case coming soon</a>
                 <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
             </div>
-
         </div>
     </div>
+</div>
 </div>

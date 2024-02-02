@@ -4,7 +4,7 @@
             <div class="col-12 col-xl-12">
                 <h3 class="section-title">Services</h3>
                 <div class="row">
-                    <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
+                    <div class="col-10 col-sm-6 col-md-3 service-item-wrapper">
                         <div class="service-item">
                             <h2>Strategy</h2>
                             <ul>
@@ -18,7 +18,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
+                    <div class="col-10 col-sm-6 col-md-3 service-item-wrapper">
                         <div class="service-item">
                             <h2>Design</h2>
                             <ul>
@@ -32,7 +32,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
+                    <div class="col-10 col-sm-6 col-md-3 service-item-wrapper">
                         <div class="service-item">
                             <h2>Development</h2>
                             <ul>
@@ -46,7 +46,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
+                    <div class="col-10 col-sm-6 col-md-3 service-item-wrapper">
                         <div class="service-item">
                             <h2>AI Integrations</h2>
                             <ul>

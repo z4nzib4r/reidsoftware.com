@@ -100,7 +100,7 @@
 		cursor: pointer;
 
 		.nav-icon {
-			transition: 200ms ease all;
+			//transition: 200ms ease all;
 		}
 	}
 
@@ -109,7 +109,7 @@
 		width: 30px;
 		height: 3px;
 		background: $theme;
-		transition: 200ms ease all;
+		//transition: 200ms ease all;
 
 		&:first-child {
 			margin-bottom: 6px;
@@ -117,11 +117,12 @@
 	}
 
 	&.nav-open {
+		margin-top: 5px;
 		.nav-icon {
 			background: $theme;
 			transform: rotateZ(45deg);
 			margin-top: -3px;
-			transition: 200ms ease all;
+			//transition: 200ms ease all;
 
 			&:first-child {
 				transform: rotateZ(-45deg);
@@ -139,59 +140,23 @@
 	position: absolute;
 	top: 12px;
 	right: 60px;
-	// pointer-events: none;
-	// flex-direction: column;
-	// opacity: 0;
-	// 
-	// right: 0;
-	// left: 0;
-	// height: 100vh;
-	// margin-top: -10px;
-	// padding: 40px 60px;
-	// background: #fff;
 
-	@media screen and (min-width: $media-md) {
-		// box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
-		// top: 20px;
-		// right: 20px;
-		// margin-top: -32px;
-		// left: auto;
-		// width: 360px;
-		// height: 430px;
-		// opacity: 1;
-	}
+	@media screen and (max-width: $media-md) {
+		display: none;
+		flex-direction: column;
+		background: #fff;
+		align-items: start;
+		top: 60px;
+		right: 0;
+		width: 100%;
+		height: auto;
+		padding: 20px 40px;
+		box-shadow: 0 3px 12px rgba(0,0,0,0.2);
 
-	@media screen and (min-width: $media-lg) {
-		//margin-top: -22px;
 	}
 
 	&.nav-open {
-		pointer-events: auto;
-		animation: menuEnter calc($animTiming/4) forwards;
-		animation-delay: 10ms;
-		margin-top: -10px;
-
-		.nav-item {
-			pointer-events: auto;
-			animation: navItemEnter calc($animTiming/5) forwards;
-			animation-delay: calc($animTiming/10);
-
-			&:nth-child(2) {
-				animation-delay: calc($animTiming/8);
-			}
-
-			&:nth-child(3) {
-				animation-delay: calc($animTiming/6);
-			}
-
-			&:nth-child(4) {
-				animation-delay: calc($animTiming/4);
-			}
-
-			&:nth-child(5) {
-				animation-delay: calc($animTiming/3);
-			}
-		}
+		display: flex;
 	}
 
 	.nav-item {
@@ -199,19 +164,16 @@
 		font-size: 18px;
 		margin-left: 60px;
 
-		// color: $darkText;
-		// display: block;
-		// opacity: 1;
-		// margin-left: 10px;
-		// font-size: 32px;
-		// padding: 20px 0;
-		// font-weight: 200;
-		// pointer-events: none;
-
-		@media screen and (min-width: $media-md) {
-			// font-size: 28px;
-			// padding: 8px 0;
+		@media screen and (max-width: $media-lg) {
+			margin-left: 16px;
 		}
+
+		@media screen and (max-width: $media-md) {
+			font-size: 24px;
+			margin: 16px 0;
+			color: $darkText;
+		}
+
 
 		&:hover {
 			color: $accent;
@@ -227,5 +189,8 @@
 		background: #fff;
 		color: $darkText;
 		padding: 4px 12px;
+		@media screen and (max-width: $media-md) {
+			padding: 0;
+		}
 	}
 }
