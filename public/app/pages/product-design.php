@@ -23,12 +23,12 @@
 	<div id="ux-design" class="section" style="pointer-events: none;">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6 order-2 order-md-1" style="pointer-events: auto;">
+				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6" style="pointer-events: auto;">
 					<h2>User Experience (UX) Design</h2>
 					<p>We put the user's experience at the forefront of our design process. We meticulously analyze user behavior, their expectations, and their preferences to create tailored experiences that not only meet but exceed their needs.</p>
 					<p>Our team of experienced UX designers strategically implement research-driven principles to ensure ease of use, accessibility, and intuitiveness of the end product.</p>
 				</div>
-				<div class="col-12 col-md-6 order-1 order-md-2">
+				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
 					<img src="/assets/img/pyramid-cube.png" alt="Graphic">
 				</div>
 			</div>
@@ -38,10 +38,10 @@
 	<div id="design-systems" class="section gray-bg">
 		<div class="container">
 			<div class="row justify-content-end">
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-4 col-lg-6">
 					<img src="/assets/img/cube-group.png" alt="graphic">
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-8 col-lg-6">
 					<h2>Visual Design Systems</h2>
 					<p>We provide a streamlined and efficient approach to incorporating compelling and appealing aesthetics into your applications. We create comprehensive design systems that include reusable components and style guidelines to ensure consistent branding across platforms.</p>
 					<p>Balancing functionality with attractive visuals, our design systems enhance user experience and engagement, which is crucial for business growth and retention.</p>
@@ -54,12 +54,12 @@
 		<div class="container">
 			<div class="row justify-content-end">
 
-				<div class="col-12 col-md-6 text-content">
+				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6">
 					<h2>Branding and Identity</h2>
 					<p>Recognizing the importance of a strong and cohesive brand identity, we dedicate our expertise to create, remodel, and promote an authentic brand image for your business. From logo design to brand voice to your online presence, we ensure each element aligns with your ethos and resonates with your target audience.</p>
 					<p>We foster brand recognition that transcends beyond aesthetics to establish a deep emotional connection with your customers.</p>
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
 					<img src="/assets/img/star.png" alt="Icosahedron">
 				</div>
 			</div>
@@ -69,10 +69,10 @@
 	<div id="rapid-prototyping" class="section gray-bg">
 		<div class="container">
 			<div class="row justify-content-end">
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-4 col-lg-6">
 					<img src="/assets/img/cube-row.png" alt="Icosahedron">
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-8 col-lg-6">
 					<h2>Rapid Prototyping</h2>
 					<p>We utilize a practical approach to web application design by using rapid prototyping. This process allows us to construct interactive mockups of the web app early in the design phase. It enables our clients to visualize, understand, and provide feedback on our proposed solution before we start development, thereby ensuring it meets their expectations and needs.</p>
 				</div>

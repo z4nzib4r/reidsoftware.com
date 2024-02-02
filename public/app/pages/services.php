@@ -21,12 +21,12 @@
     <div id="strategy" class="section" style="pointer-events: none;">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 order-2 order-md-1" style="pointer-events: auto;">
+                <div class="col-12 col-md-8 order-2 order-md-1 col-lg-6" style="pointer-events: auto;">
                     <h2>Strategy</h2>
                     <p>We meticulously craft dynamic strategies that propel your business into the digital landscape with a competitive edge.</p>
                     <a href="/strategy" class="btn btn-primary">Read more</a>
                 </div>
-                <div class="col-12 col-md-6 order-1 order-md-2">
+                <div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
                     <img src="/assets/img/icosahedron-shadow.png" alt="Icosahedron">
                 </div>
             </div>
@@ -37,10 +37,10 @@
     <div id="design" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4 col-lg-6">
                     <img src="/assets/img/pyramid-sphere-shadow.png" alt="Graphic">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-8 col-lg-6">
                     <h2>Product Design</h2>
                     <p>We craft interactive, creative, and user-centric designs that seamlessly fuse functionality with aesthetics.</p>
                     <a href="/product-design" class="btn btn-primary">Read more</a>
@@ -52,12 +52,12 @@
     <div id="development" class="section">
         <div class="container">
             <div class="row justify-content-start">
-                <div class="col-12 col-md-6 order-2 order-md-1">
+                <div class="col-12 col-md-8 order-2 order-md-1 col-lg-6">
                     <h2>Development</h2>
                     <p>We create innovative, high-impact solutions that can transform your business operations and accelerate growth.</p>
                     <a href="/software-development" class="btn btn-primary">Read more</a>
                 </div>
-                <div class="col-12 col-md-6 order-1 order-md-2">
+                <div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
                     <img src="/assets/img/cube-rectangle-shadow.png" alt="Graphic">
                 </div>
             </div>
@@ -67,10 +67,10 @@
     <div id="ai" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4 col-lg-6">
                     <img src="/assets/img/pyramid-decahedron-shadow.png" alt="Graphic">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-8 col-lg-6">
                     <h2>AI Integrations</h2>
                     <p>With a strong focus on achieving your business objectives, we strive to harmonize AI technology with your unique business model, catalyzing a significant increase in efficiency and customer engagement.</p>
                 </div>
