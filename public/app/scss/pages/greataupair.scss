@@ -188,29 +188,33 @@
 	#roi {
 		padding: 140px 0 240px;
 		background-color: $ultraLightGray;
-		background-image: url(/assets/img/greataupair/graph.svg);
-		background-repeat: no-repeat;
-		background-position: 420px 10px;
-		background-size: 1030px;
-
-		@media screen and (max-width: $media-xl) {
-			background-position: 200px 40px;
-		}
-
-		@media screen and (max-width: $media-lg) {
-			background-position: 20px 10px;
-		}
-
 		@media screen and (max-width: $media-md) {
 			padding: 80px 0 240px;
-			background-position: -130px 240px;
-			background-size: 680px;
 		}
 
 		h2 {
 			text-align: left;
 			@media screen and (max-width: $media-lg) {
 				margin-top: 12px;
+			}
+		}
+
+		img {
+			position: absolute;
+			width: 1000px;
+			right: -180px;
+			top: -420px;
+			@media screen and (max-width: $media-xl) {
+				position: absolute;
+				width: 1000px;
+				right: -180px;
+				top: -420px;
+			}
+			@media screen and (max-width: $media-md) {
+				position: absolute;
+				width: 700px;
+				right: -180px;
+				top: -140px;
 			}
 		}
 	}

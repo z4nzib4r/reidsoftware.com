@@ -16,6 +16,7 @@ $minHeight: 600px;
 		width: auto;
 		min-width: 100vw;
 		min-height: 100vh;
+		
 	}
 
 	#hero-img {
@@ -27,9 +28,8 @@ $minHeight: 600px;
 		width: auto;
 		height: auto;
 		//min-width: 100vw;
-		min-height: $minHeight;
-		max-height: $maxHeight;
-		
+
+
 	}
 
 	#hero-overlay {
@@ -71,9 +71,11 @@ $minHeight: 600px;
 		@media screen and (max-width: $media-xl) {
 			font-size: 54px;
 		}
+
 		@media screen and (max-width: $media-lg) {
 			font-size: 48px;
 		}
+
 		@media screen and (max-width: $media-md) {
 			font-size: 40px;
 		}
@@ -124,6 +126,7 @@ $minHeight: 600px;
 	display: flex;
 	align-items: center;
 	position: relative;
+
 	@media screen and (max-width: $media-md) {
 		padding: 120px 0;
 	}
@@ -187,6 +190,7 @@ $minHeight: 600px;
 		width: 440px;
 		top: -100px;
 		left: -80px;
+
 		@media screen and (max-width: $media-lg) {
 			left: -140px;
 		}

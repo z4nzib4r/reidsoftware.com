@@ -138,9 +138,10 @@
             <div class="row justify-content-start">
                 <div class="col-12 col-md-8 col-lg-8 offset-lg-1">
                     <h2>User analytics showed dramatic improvements in key engagement metrics.</h2>
-                </div>
-                <div class="col-12 col-md-8 col-lg-7 offset-lg-1">
                     <p>We saw a dramatic increase in transactions completed on mobile, as well as a significant drop in bounce rate across all customer touch points.</p>
+                </div>
+                <div class="col-12">
+                    <img class="graphic" src="/assets/img/greataupair/graph.svg">
                 </div>
             </div>
         </div>
