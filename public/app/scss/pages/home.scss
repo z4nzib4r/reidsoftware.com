@@ -1,9 +1,11 @@
 $maxHeight: 800px;
+$minHeight: 600px;
 #hero-section {
 	background: transparent;
 	padding: 0;
 	height: 90vh;
 	max-height: $maxHeight;
+	min-height: $minHeight;
 	overflow: hidden;
 	position: relative;
 	// border-bottom: 8px solid $gold;
@@ -49,6 +51,7 @@ $maxHeight: 800px;
 		align-items: flex-start;
 		height: 100vh;
 		max-height: $maxHeight;
+		min-height: $minHeight;
 	    @media screen and (min-width: 1680px) {
 	    	margin-left: -200px;
 	    	max-width: 820px;
@@ -56,27 +59,27 @@ $maxHeight: 800px;
 	}
 	h1 {
 		position: relative;
-		margin-top: 0;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		margin-top: -20px;
+		padding-bottom: 12px;
+		padding-top: 0px;
+		margin-bottom: 12px;
 		line-height: 1;
-		opacity: 0;
+		opacity: 1;
 		color: #fff;
 		font-size: 50px;
 		z-index: 2;
-		animation: marginBottomEnter 1000ms forwards;
-		animation-delay: 500ms;
+		// animation: paddingTopEnter 1000ms forwards;
+		// animation-delay: 300ms;
 		text-transform: uppercase;
 		text-align: center;
 		@media screen and (min-width: $media-md) {
 			text-transform: none;
-			margin-top: -60px;
+			margin-top: -20px;
 			font-size: 62px;
-			margin-bottom: 40px;
+			margin-bottom: 12px;
 			text-align: left;
 		}
 		@media screen and (min-width: $media-lg) {
-			margin-top: -60px;
 			font-size: 62px;
 		}
 		.highlight {
@@ -86,14 +89,14 @@ $maxHeight: 800px;
 	}
 	.hero-tagline {
 		margin-bottom: 30px;
-		opacity: 0;
-		padding-top: 20px;
+		opacity: 1;
+		padding-top: 0px;
 		font-size: 24px;
 		line-height: 1.3;
 		font-weight: 300;
 		color: #fff;
-		animation: paddingTopEnter 1000ms forwards;
-		animation-delay: 700ms;
+		// animation: paddingTopEnter 1000ms forwards;
+		// animation-delay: 700ms;
 		text-align: center;
 		@media screen and (min-width: $media-md) {
 			font-size: 28px;
@@ -111,9 +114,9 @@ $maxHeight: 800px;
 		font-weight: 400;
 		background: $theme;
 		color: white;
-		opacity: 0;
-		animation: marginTopEnter 1000ms forwards;
-		animation-delay: 900ms;
+		opacity: 1;
+		// animation: marginTopEnter 1000ms forwards;
+		// animation-delay: 900ms;
 		transition: 200ms ease all;
 		margin: 20px auto 0;
 		&:hover {
@@ -123,7 +126,7 @@ $maxHeight: 800px;
 		}
 		@media screen and (min-width: $media-md) {
 	    	display: inline;
-	    	margin: 20px 0 0;
+	    	margin: 0px 0 0;
 		}
 		@media screen and (min-width: $media-lg) {
 			font-weight: 200;
@@ -169,7 +172,7 @@ $maxHeight: 800px;
 		}
 	}
 	&#case-studies {
-		padding: 200px 0;
+		padding: 200px 0 160px;
 	}
 }
 

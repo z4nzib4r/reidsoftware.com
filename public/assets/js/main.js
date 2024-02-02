@@ -24,10 +24,10 @@ function setEventListeners() {
 		toggleNavMenu(this);
 	});
 
-	$(window).on('scroll', function() {
-		scrollPosY = $(window).scrollTop();
-		revealElements( scrollPosY );
-	});
+	// $(window).on('scroll', function() {
+	// 	scrollPosY = $(window).scrollTop();
+	// 	revealElements( scrollPosY );
+	// });
 
 	$('#submit-contact-form').on('click', function() {
 		submitContactForm();

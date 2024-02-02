@@ -11,6 +11,8 @@
 		//padding: 120px 0;
 	}
 	.project-item {
+		opacity: 1;
+		top: 0;
 		margin-bottom: 40px;
 		display: block;
 		border: none;
@@ -27,15 +29,15 @@
 		@media screen and (min-width: $media-xl) {
 			padding: 100px 90px;
 		}
-		&.in {
-			animation: projectEnter 1000ms forwards;
-			&:nth-child(2) {
-				animation-delay: 200ms;
-			}
-			&:nth-child(3) {
-				animation-delay: 400ms;
-			}
-		}
+		// &.in {
+		// 	animation: projectEnter 1000ms forwards;
+		// 	&:nth-child(2) {
+		// 		animation-delay: 200ms;
+		// 	}
+		// 	&:nth-child(3) {
+		// 		animation-delay: 400ms;
+		// 	}
+		// }
 		img {
 			margin-bottom: 20px;
 		}
@@ -83,8 +85,8 @@
 		background-size: 390px;
 		background-repeat: no-repeat;
 		background-position: -10px 10px;
-		opacity: 0;
-		top: 20px;
+		opacity: 1;
+		top: 0px;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 640px;
 			background-position: 443% 50px;
@@ -104,7 +106,7 @@
 		background-size: 350px;
 		background-repeat: no-repeat;
 		background-position: 10px 10px;
-		opacity: 0;
+		opacity: 1;
 		padding: 340px 20px 40px;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 630px;
@@ -125,7 +127,7 @@
 		background-size: 390px;
 		background-repeat: no-repeat;
 		background-position: 22% 10px;
-		opacity: 0;
+		opacity: 1;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 650px;
 			//background-position: -40% 120px;
@@ -144,7 +146,7 @@
 		background-size: 390px;
 		background-repeat: no-repeat;
 		background-position: 22% 10px;
-		opacity: 0;
+		opacity: 1;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 650px;
 			//background-position: -40% 120px;
@@ -163,7 +165,7 @@
 		background-size: 440px;
 		background-repeat: no-repeat;
 		background-position: 45% 23px;
-		opacity: 0;
+		opacity: 1;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 620px;
 			background-position: 305% 100px;
@@ -182,7 +184,7 @@
 		background-size: 440px;
 		background-repeat: no-repeat;
 		background-position: 45% 23px;
-		opacity: 0;
+		opacity: 1;
 		@media screen and ( min-width: $media-md ) {
 			background-size: 620px;
 			background-position: 305% 100px;

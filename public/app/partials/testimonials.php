@@ -1,5 +1,5 @@
 <?php
-$i = 4;
+//$i = 4;
 $testimonials = [
 	[
 		'text' => "Reid Software was pivotal in ushering transformative digital change for our business. Their services brought about significant advancements for us and I can't recommend them enough.",
@@ -10,7 +10,7 @@ $testimonials = [
 		'author' => "Sarah J.<br>4th Grade Teacher, DRCO User<br>Columbus, OH"
 	],
 	[
-		'text' => "I absolutely LOVE the new GreatAuPair app! The improved design simplifies the job matching process remarkably. The smooth workflows and intuitive design make it genuinely effortless to navigate.",
+		'text' => "The new GreatAuPair app is so great! The improved design simplifies the job matching process remarkably. The smooth workflows and intuitive design make it genuinely effortless to navigate.",
 		'author' => "Francesca B.<br>Nanny, GreatAuPair User<br>Denver, CO"
 	],
 	[
@@ -18,7 +18,7 @@ $testimonials = [
 		'author' => "Jesse Yun<br>CEO, ecoShuttle Charters and Tours<br>Portland, OR"
 	],
 	[
-		'text' => "Working with Reid Software has become a true partnership. Their commitment results in rapid task turnarounds and consistent quality in product design and development. Their leadership team takes personal ownership of our project, proactively introducing innovative ideas, and always remains receptive to feedback.",
+		'text' => "Working with Reid Software has become a true partnership. Their leadership team takes personal ownership of our project, proactively introducing innovative ideas, and always remains receptive to feedback. Their commitment results in rapid turnarounds and consistent quality in product design and development.",
 		'author' => "Dr. Julie S. Owens<br>Co-Founder, Center for Intervention Reasearch in Schools<br>Ohio University"
 	],
 	[

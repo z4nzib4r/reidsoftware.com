@@ -34,7 +34,7 @@
                         <div class="col-12 col-sm-4">
                             <div class="icon-panel">
                                 <div class="icon icon-number">
-                                <div style="letter-spacing: -12px;display: inline;">1</div>0
+                                    <div style="letter-spacing: -12px;display: inline;">1</div>0
                                 </div>
                                 <span>Years in<br>business</span>
                             </div>
@@ -83,11 +83,11 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
-                    
+
                     <h3>What it's like to work with us</h3>
                     <div class="row">
-                        
-                        
+
+
                         <div class="col-12 col-lg-6">
                             <h4>We are engaged.</h4>
                             <p>We pride ourselves on delivering a personal touch, as our leadership team works closely with clients to understand and meet their unique digital needs.</p>
@@ -104,7 +104,7 @@
                             <h4>We are good listeners.</h4>
                             <p>We listen to your needs, and the needs of your users, and apply what we learn as the foundation of our strategy for success.</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -179,24 +179,9 @@
         </div>
     </div>
 
-    <div id="single-testimonial" class="home-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="section-title">Happy clients</h2>
-                    <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
-                        <div>
-                            <p>"They are continuously bringing forward innovative concepts while staying receptive to feedback and distinct needs. Their expertise has undoubtedly added significant value to our project."</p>
-                            <div class="author">
-                                <p>Julie S. Owens, Ph.D.</p>
-                                <p>Co-Director, Center for Intervention Research in Schools</p>
-                                <p>Ohio University</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>
+
+<?php
+$i = 5;
+include 'app/partials/testimonials.php';
+?>

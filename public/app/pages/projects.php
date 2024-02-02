@@ -11,7 +11,7 @@
             <div class="row justify-content-start">
                 <div class="col-12 col-md-11 col-lg-9">
                     <div class="hero-content">
-                        <h1>Work</h1>
+                        <h1>Our Work</h1>
                         <p class="hero-tagline">Explore our showcase of cutting-edge digital solutions, where our wide array of expertise seamlessly merges to redefine business possibilities.</p>
                     </div>
                 </div>

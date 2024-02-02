@@ -69,36 +69,21 @@
     <div id="innovation" class="section">
         <div class="container">
             <div class="row justify-content-end">
-                
+
                 <div class="col-12 col-md-6">
                     <h2>Innovation</h2>
                     <p>As a cardinal rule, we believe in constant innovation, whether it is web design, mobile applications, or operational processes. We research current trends, anticipate future changes and work closely with our clients to incorporate inventive solutions that help their business stand out and increase profitability.</p>
                 </div>
                 <div class="col-12 col-md-6">
-                <img src="/assets/img/pyramid-group-2.png" alt="Icosahedron">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="single-testimonial" class="home-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="section-title">Happy clients</h2>
-                    <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
-                        <div>
-                            <p>"The proficiency and creativity of Reid Software completely accelerated our digital transformation journey. Their beneficial services make them a top recommendation for any business seeking to navigate their digital transformation effectively."</p>
-                            <div class="author">
-                                <p>Jesse Yun</p>
-                                <p>CEO, ecoShuttle Charters &amp; Tours</p>
-                                <p>Portland, OR</p>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="/assets/img/pyramid-group-2.png" alt="Icosahedron">
                 </div>
             </div>
         </div>
     </div>
 
 </div><!-- end page -->
+
+<?php
+$i = 3;
+include 'app/partials/testimonials.php';
+?>
