@@ -1,75 +1,96 @@
 #greataupair-case {
-	#hero {
-	  display: block;
-		height: 520px;
-		background: url(/assets/img/greataupair/ga-hero.jpg) no-repeat;
-		background-position: center 40px;
+
+	#hero-section {
+		
+		.hero-content {
+			img {
+				width: 280px;
+			}
+		}
+	}
+
+	#hero-img {
+		background-image: url('../img/greataupair/hero.jpg');
 		background-size: cover;
-		@media screen and (min-width: $media-md) {
-			height: 690px;
-			margin: 0;
-			width: 100%;
-			background: url(/assets/img/greataupair/ga-hero.jpg) center no-repeat;
-			background-size: contain;
-		}
-		@media screen and (min-width: $media-lg) {
-			height: 770px;
-		}
-		@media screen and (min-width: $media-xl) {
-			//height: 900px;
-		}
+		width: 100vw;
+		height: 90vh;
+		min-height: $minHeight;
+		max-height: $maxHeight;
 	}
-	h1 {
-		font-size: 48px;
-		line-height: 1.1;
-		@media screen and (min-width: $media-md) {
-			font-size: 60px;
-		}
-	}
-	h2 {
-		color: $darkText;
-		font-size: 32px;
-		line-height: 1.2;
-		text-align: center;
-		margin-bottom: 20px;
-		font-weight: 400;
-		@media screen and (min-width: $media-md) {
-			font-size: 42px;
-			margin-bottom: 40px;
-		}
-	}
-	p {
-		font-size: 20px;
-		@media screen and (min-width: $media-md) {
-			font-size: 28px;
-		}
-	}
+
 	#intro {
-		margin-bottom: 80px;
-		@media screen and (min-width: $media-md) {
-			margin-bottom: 140px;
+		padding: 120px 0 120px;
+
+		img {
+			position: absolute;
+			width: 800px;
+			left: 40px;
+			top: -80px;
+
+			@media screen and (max-width: $media-lg) {
+				position: static;
+				width: 100%;
+				margin-left: 0;
+				margin-bottom: 0;
+			}
 		}
 	}
-	#hierarchy, #responsive {
+
+	#description {
+		@media screen and (max-width: $media-md) {
+			padding: 0px 0 120px;
+		}
+	}
+	// h2 {
+	// 	color: $darkText;
+	// 	font-size: 32px;
+	// 	line-height: 1.2;
+	// 	text-align: center;
+	// 	margin-bottom: 20px;
+	// 	font-weight: 400;
+
+	// 	@media screen and (min-width: $media-md) {
+	// 		font-size: 42px;
+	// 		margin-bottom: 40px;
+	// 	}
+	// }
+
+	// p {
+	// 	font-size: 20px;
+
+	// 	@media screen and (min-width: $media-md) {
+	// 		font-size: 28px;
+	// 	}
+	// }
+
+	#hierarchy,
+	#responsive {
 		background: #212630;
 		padding: 80px 0;
+
 		@media screen and (min-width: $media-md) {
 			padding: 140px 0 140px;
 		}
+
 		h2 {
 			color: $ultraLightGray;
 			margin-bottom: 40px;
+			margin-top: 0;
+
 			@media screen and (min-width: $media-md) {
 				margin-bottom: 100px;
 			}
 		}
+
 		.graphic {
 			width: 100%;
 			margin-bottom: 40px;
+
 			@media screen and (min-width: $media-md) {
 				margin-bottom: 100px;
 			}
 		}
+
 		p {
 			color: $ultraLightGray;
 			text-align: center;
@@ -78,84 +99,59 @@
 
 	#hierarchy {
 		overflow-x: hidden;
+
 		.graphic {
-			width: 180%;
-			@media screen and (min-width: $media-md) {
-				width: 100%;
-			}
+			width: 100%;
 		}
 	}
 
 	#design {
-		padding: 80px 0 0px;
+		padding: 80px 0 120px;
 		background: #fff;
 		background: url(/assets/img/greataupair/gray-slant-bg.svg) no-repeat;
 		background-size: cover;
-		background-position: 0 108px;
-		position: relative;
-		overflow-x: hidden;
-		@media screen and (min-width: $media-md) {
-			background-position: 0 90px;
+		background-position: 0 240px;
+		@media screen and (max-width: $media-md) {
+			background-position: 0 300px;
 		}
-		@media screen and (min-width: $media-lg) {
-			background-position: 0 160px;
-			padding: 80px 0 60px;
-			overflow-x: visible;
-		}
+
 		h2 {
-			font-size: 32px;
 			line-height: 1.2;
-			margin-bottom: 80px;
+			margin-bottom: 12px;
 			text-align: left;
-			@media screen and (min-width: $media-md) {
-				font-size: 42px;
-				margin-bottom: 100px;
-			}
+			margin-top: 40px;
+
 		}
+		p {
+			margin-bottom: 80px;
+		}
+
 		#style-guide {
-			@media screen and (min-width: $media-md) {
-				width: 570px;
+			width: 500px;
+			margin-top: 20px;
+
+			@media screen and (max-width: $media-lg) {
+				width: 100%;
 				margin-top: 0px;
 			}
-			@media screen and (min-width: $media-lg) {
-				width: 500px;
-				margin-top: 20px;
-			}
-		}
-		#ui-kit {
-			width: 600px;
-			height: 480px;
-			margin-left: -130px;
-			@media screen and (min-width: $media-md) {
-				width: 870px;
-				height: auto;
-				margin-left: 0;
-			}
-	    @media screen and (min-width: $media-lg) {
-	    	position: absolute;
-				width: 780px;
-				height: auto;
-		    bottom: -78px;
-		    right: -240px;
-		    margin-left: auto;
-	    }
-	    @media screen and (min-width: $media-xl) {
-	    	position: absolute;
-				width: 780px;
-				height: auto;
-		    bottom: -78px;
-		    right: -70px;
-		    margin-left: auto;
-	    }
-		}
-	}
-	#design-desc {
-		padding: 40px 0;
-		@media screen and (min-width: $media-md) {
-			padding: 80px 0;
-		}
-	}
 
+			@media screen and (max-width: $media-md) {
+				margin: 0;
+			}
+		}
+
+		#ui-kit {
+			position: absolute;
+			width: 780px;
+			height: 500px;
+			top: -20px;
+			left: 440px;
+
+			@media screen and (max-width: $media-lg) {
+				display: none;
+			}
+		}
+	}
 
 
 
@@ -166,6 +162,7 @@
 		background: url(/assets/img/greataupair/code.jpg) no-repeat;
 		background-size: 620px;
 		background-position: top left;
+
 		//background-attachment: fixed;
 		#bg-mask {
 			position: absolute;
@@ -177,36 +174,44 @@
 			height: 0;
 			width: 215px;
 		}
+
 		h2 {
 			text-align: left;
 			margin: 0 0 40px;
 		}
+
 		p {
 			margin: 0;
 		}
 	}
+
 	#roi {
-		padding: 80px 0 320px;
+		padding: 140px 0 240px;
 		background-color: $ultraLightGray;
 		background-image: url(/assets/img/greataupair/graph.svg);
 		background-repeat: no-repeat;
-		background-position: 83% 199px;
-    background-size: 820px;
-    @media screen and (min-width: $media-md) {
-			background-position: 83% 270px;
+		background-position: 420px 10px;
+		background-size: 1030px;
+
+		@media screen and (max-width: $media-xl) {
+			background-position: 200px 40px;
 		}
-		@media screen and (min-width: $media-lg) {
-			padding: 140px 0 240px;
-			background-position: 150% 60px;
-			background-size: 1030px;
+
+		@media screen and (max-width: $media-lg) {
+			background-position: 20px 10px;
 		}
-		@media screen and (min-width: $media-xl) {
-			padding: 140px 0 240px;
-			background-position: 103% -50px;
-			background-size: 1030px;
+
+		@media screen and (max-width: $media-md) {
+			padding: 80px 0 240px;
+			background-position: -130px 240px;
+			background-size: 680px;
 		}
+
 		h2 {
 			text-align: left;
+			@media screen and (max-width: $media-lg) {
+				margin-top: 12px;
+			}
 		}
 	}
 }

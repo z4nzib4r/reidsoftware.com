@@ -26,8 +26,10 @@ $minHeight: 600px;
 		margin: auto;
 		width: auto;
 		height: auto;
-		min-width: 100vw;
-		max-height: $maxHeight*2;
+		//min-width: 100vw;
+		min-height: $minHeight;
+		max-height: $maxHeight;
+		
 	}
 
 	#hero-overlay {
@@ -36,8 +38,9 @@ $minHeight: 600px;
 		top: 0;
 		left: 0;
 		width: 100vw;
-		height: 100vh;
+		height: 90vh;
 		max-height: $maxHeight;
+		min-height: $minHeight;
 		background: rgb(10, 10, 20);
 		opacity: 0.7;
 	}
@@ -47,7 +50,7 @@ $minHeight: 600px;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		height: 100vh;
+		height: 90vh;
 		max-height: $maxHeight;
 		min-height: $minHeight;
 	}
@@ -172,14 +175,6 @@ $minHeight: 600px;
 
 
 #services-section {
-
-	// border-right: 8px solid $gold;
-	// animation-name: borderColors;
-	// animation-duration: 20s;
-	// animation-timing-function: linear;
-	// animation-iteration-count: infinite;
-	// animation-direction: forwards;
-	// transition: 200ms ease all;
 	.section-image {
 		right: 0;
 	}

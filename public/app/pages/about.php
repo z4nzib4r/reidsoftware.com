@@ -24,25 +24,25 @@
             <div class="row">
 
                 <div class="col-12" style="pointer-events: auto;">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
+                    <div class="row align-items-end">
+                        <div class="col-12 col-md-4">
                             <div class="icon-panel">
                                 <div class="icon icon-xl icon-ohio"></div>
                                 <span>Founded<br>in Ohio</span>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-md-4">
                             <div class="icon-panel">
                                 <div class="icon icon-number">
-                                    <div style="letter-spacing: -12px;display: inline;">1</div>0
+                                    <div class="tight-kern">1</div>0
                                 </div>
                                 <span>Years in<br>business</span>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-md-4">
                             <div class="icon-panel">
                                 <div class="icon icon-number">
-                                    <div style="letter-spacing: -12px;display: inline;">1</div>00<span class="percent">%</span>
+                                    <div class="tight-kern">1</div>00<span class="percent">%</span>
                                 </div>
                                 <span>Distributed<br>team</span>
                             </div>

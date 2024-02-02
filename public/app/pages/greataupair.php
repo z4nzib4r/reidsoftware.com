@@ -1,17 +1,76 @@
 <div id="greataupair-case" class="case">
-    <div id="hero"></div>
 
-    <div id="intro">
+    <div id="hero-section">
+        <div id="hero-img"></div>
+        <div id="hero-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12">
+                    <div class="hero-content">
+                        <img src="/assets/img/greataupair/logo-white.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="intro" class="section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8">
-        			<h1>Connecting a global network of families and caregivers</h1>
-        			<span class="subheading">How we helped GreatAuPair improve their user experience across all devices</span>  
-                    <p>Since 2001, GreatAuPair has helped families connect with qualified caregivers in over 170 countries across the globe. Packed with useful features, GreatAuPair.com has offered a robust SaaS package for almost two decades.</p>
-                    <p>We were tasked with creating a brand new front end for the customer facing product. Completely redesigning an existing software platform was both challenging and exciting.</p>
-                </div> <!-- main col -->
+
+                <div class="col-12 col-md-12 col-lg-6">
+                    <h1>Modernizing a classic SaaS platform</h1>
+                    <p class="subhead">We partnered with GreatAuPair to improve their user experience across all devices and platforms.</p>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="summary-item">
+                                <h2>Services</h2>
+                                <p>
+                                    Strategy & planning<br>
+                                    User research<br>
+                                    UX design<br>
+                                    Visual design systems<br>
+                                    Full stack development
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="summary-item">
+                                <h2>Deliverables</h2>
+                                <p>
+                                    Enterprise admin portal<br>
+                                    Fully responsive front end<br>
+                                    Performance optimization<br>
+                                    User analytics<br>
+                                    Ongoing support
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <img src="/assets/img/greataupair/ga-hero.jpg" alt="graphic">
+                </div>
+
             </div>
         </div> <!-- .container -->
+    </div>
+
+    <div id="description" class="section gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <h2>The Challenge</h2>
+                    <p>Since 2001, GreatAuPair has helped families connect with qualified caregivers in over 170 countries across the globe. Packed with useful features, GreatAuPair.com has offered a robust SaaS package for almost two decades.</p>
+                    <p>We were tasked with creating a brand new enterprise admin system, as well as completely redesigning the customer-facing application.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="hierarchy">
@@ -35,24 +94,16 @@
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-lg-1">
                     <h2>We developed a unified design style to establish visual consistency.</h2>
+                    <p>By defining a visual framework early in the process, we were free to create rapid prototypes and UI concepts for frequent review and testing.</p>
                 </div>
                 <div class="col-12 col-lg-7 offset-lg-1">
                     <img id="style-guide" src="/assets/img/greataupair/style-guide.svg">
+                    <img id="ui-kit" src="/assets/img/greataupair/ui-kit.png">
                 </div>
-                <img id="ui-kit" src="/assets/img/greataupair/ui-kit.png">
+                
             </div>
         </div>
     </div>
-    <div id="design-desc">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 col-lg-8 offset-lg-1">
-                    <p>By defining a visual framework early in the process, we were free to create rapid prototypes and UI concepts for frequent review and testing.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <div id="responsive">
         <div class="container">
@@ -95,19 +146,9 @@
         </div>
     </div>
 
-    <div id="cta-section" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <a href="/services">
-                        <span>Learn more about our services</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div><!-- #greataupair -->
+
+<?php
+$i = 2;
+include 'app/partials/testimonials.php';
+?>
