@@ -12,7 +12,7 @@
 <div id="footer-nav">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-4">
+            <div class="col-4 col-md-6 col-lg-4">
                 <a href="/" id="logo-container" class="d-flex align-items-center">
                     <div id="top-logo" class="mr-3"></div>
                     <div id="logo-text">Reid Software</div>

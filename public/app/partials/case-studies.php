@@ -38,7 +38,7 @@
 
             <div id="ecoshuttle" class="project-item">
                 <img src="/assets/img/ecoshuttle/logo.svg" width="320">
-                <div class="title">Modernizing an established brand for a digital future</div>
+                <div class="title">Modernizing an established brand</div>
                 <a href="/athens-medical-massage" class="btn btn-sm btn-primary disabled">Case coming soon</a>
                 <p class="d-none">User research, UX design, Visual design system, Full stack development, Content management system</p>
             </div>

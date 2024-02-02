@@ -24,4 +24,6 @@
         <?php include 'app/partials/case-studies.php'; ?>
     </div>
 
+    <?php include 'app/partials/services-list.php'; ?>
+
 </div>

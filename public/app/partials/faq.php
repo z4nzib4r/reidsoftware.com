@@ -12,7 +12,7 @@
                         </svg>
                     </div>
                 </a>
-                <div id="faq1" class="collapse">
+                <div id="faq1" class="collapse faq-content">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <p>We pride ourselves on offering varied services that are specifically tailored to accommodate your unique business needs, including strategy, product design, full-stack development, and AI integrations.</p>
@@ -33,7 +33,7 @@
                         </svg>
                     </div>
                 </a>
-                <div id="faq2" class="collapse">
+                <div id="faq2" class="collapse faq-content">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <p>A key differentiator is the direct involvement of our leadership team in every project. Our leaders are hands-on, working closely with the rest of the team and our clients, ensuring every stage of the process is aligned with the client's overall objectives and vision.</p>
@@ -53,7 +53,7 @@
                         </svg>
                     </div>
                 </a>
-                <div id="faq3" class="collapse">
+                <div id="faq3" class="collapse faq-content">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <p>Digital transformation refers to the process of integrating digital technology into all areas of a business. It’s a comprehensive shift of organizations from their traditional methods of operation to modern and innovative digital ones. This process involves changing the way a company operates and delivers value to its customers. It's also a cultural change that requires organizations to continually challenge the status quo, experiment, and get comfortable with failure.</p>
@@ -70,7 +70,7 @@
                         </svg>
                     </div>
                 </a>
-                <div id="faq4" class="collapse">
+                <div id="faq4" class="collapse faq-content">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <p>The cost of building an app can vary greatly depending on a multitude of factors. These include the complexity and size of the app, the platforms it will run on (iOS, Android, web, etc.), the need for ongoing maintenance and updates, and the specifics of the functionality desired. If your app needs custom design, has numerous features or requires advanced technical integrations, costs can increase significantly.</p>
@@ -87,7 +87,7 @@
                         </svg>
                     </div>
                 </a>
-                <div id="faq5" class="collapse">
+                <div id="faq5" class="collapse faq-content">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <p>Yes, absolutely. Our digital agency is well-equipped to assist you in redesigning your B2B or enterprise software. Leveraging our comprehensive services such as strategy formulating, product design, development, digital transformation, and AI integrations, we can drive significant enhancements in your software's user experience, performance, and functionality.</p>

@@ -1,18 +1,11 @@
 #single-testimonial {
+	display: block;
 	height: auto;
-	padding: 40px 0;
-	//background: #fff;
+	padding: 180px 0;
 	border-top: 2px solid #f1f1f1;
 	border-bottom: 2px solid #f1f1f1;
-	// animation-name: borderColors;
-	// animation-duration: 20s;
-	// animation-timing-function: linear;
-	// animation-iteration-count: infinite;
-	// animation-direction: forwards;
-	// transition: 200ms ease all;
-	@media screen and (min-width: $media-md) {
-		padding: 180px 0;
-		display: block;
+	@media screen and (max-width: $media-lg) {
+		padding: 100px 0;
 	}
 	h2.section-title {
 		margin-top: 20px;
@@ -24,7 +17,7 @@
 			margin-bottom: 40px !important;
 		}
 	}
-	img {
+	img { // quote icon
 		width: 50px;
 		margin-right: 20px;
 		margin-bottom: 40px;
@@ -34,6 +27,9 @@
 		font-size: 28px;
 		line-height: 1.4;
 		margin-bottom: 32px;
+		@media screen and (max-width: $media-lg) {
+			font-size: 24px;
+		}
 	}
 	.author {
 		p {

@@ -58,7 +58,7 @@
         </div> <!-- .container -->
     </div>
 
-    <div class="section gray-bg">
+    <div id="description" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8">
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div id="challenge" class="section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8">

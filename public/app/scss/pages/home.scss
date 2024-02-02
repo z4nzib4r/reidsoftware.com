@@ -1,5 +1,6 @@
 $maxHeight: 800px;
 $minHeight: 600px;
+
 #hero-section {
 	background: transparent;
 	padding: 0;
@@ -8,13 +9,7 @@ $minHeight: 600px;
 	min-height: $minHeight;
 	overflow: hidden;
 	position: relative;
-	// border-bottom: 8px solid $gold;
-	// animation-name: borderColors;
-	// animation-duration: 20s;
-	// animation-timing-function: linear;
-	// animation-iteration-count: infinite;
-	// animation-direction: forwards;
-	// transition: 200ms ease all;
+
 	#hero-video {
 		display: block;
 		position: absolute;
@@ -22,6 +17,7 @@ $minHeight: 600px;
 		min-width: 100vw;
 		min-height: 100vh;
 	}
+
 	#hero-img {
 		display: block;
 		position: absolute;
@@ -33,6 +29,7 @@ $minHeight: 600px;
 		min-width: 100vw;
 		max-height: $maxHeight*2;
 	}
+
 	#hero-overlay {
 		display: block;
 		position: absolute;
@@ -41,9 +38,10 @@ $minHeight: 600px;
 		width: 100vw;
 		height: 100vh;
 		max-height: $maxHeight;
-		background: rgb(10,10,20);
+		background: rgb(10, 10, 20);
 		opacity: 0.7;
 	}
+
 	.hero-content {
 		display: flex;
 		flex-direction: column;
@@ -52,11 +50,8 @@ $minHeight: 600px;
 		height: 100vh;
 		max-height: $maxHeight;
 		min-height: $minHeight;
-	    @media screen and (min-width: 1680px) {
-	    	margin-left: -200px;
-	    	max-width: 820px;
-	    }
 	}
+
 	h1 {
 		position: relative;
 		margin-top: -20px;
@@ -66,87 +61,72 @@ $minHeight: 600px;
 		line-height: 1;
 		opacity: 1;
 		color: #fff;
-		font-size: 50px;
+		font-size: 62px;
 		z-index: 2;
-		// animation: paddingTopEnter 1000ms forwards;
-		// animation-delay: 300ms;
-		text-transform: uppercase;
-		text-align: center;
-		@media screen and (min-width: $media-md) {
-			text-transform: none;
-			margin-top: -20px;
-			font-size: 62px;
-			margin-bottom: 12px;
-			text-align: left;
+		text-align: left;
+
+		@media screen and (max-width: $media-xl) {
+			font-size: 54px;
 		}
-		@media screen and (min-width: $media-lg) {
-			font-size: 62px;
+		@media screen and (max-width: $media-lg) {
+			font-size: 48px;
 		}
-		.highlight {
-			margin-top: -5px;
-			margin-bottom: 5px;
-		}
+
 	}
+
 	.hero-tagline {
 		margin-bottom: 30px;
 		opacity: 1;
 		padding-top: 0px;
-		font-size: 24px;
+		font-size: 28px;
+		text-align: left;
 		line-height: 1.3;
 		font-weight: 300;
 		color: #fff;
-		// animation: paddingTopEnter 1000ms forwards;
-		// animation-delay: 700ms;
-		text-align: center;
-		@media screen and (min-width: $media-md) {
-			font-size: 28px;
-			text-align: left;
-		}
-		@media screen and (min-width: $media-lg) {
-			//font-size: 30px;
-		}
-		@media screen and (min-width: $media-xl) {
-			//font-size: 34px;
+
+		@media screen and (max-width: $media-xl) {
+			font-size: 24px;
 		}
 	}
+
 	.btn {
 		font-size: 28px;
 		font-weight: 400;
 		background: $theme;
 		color: white;
 		opacity: 1;
-		// animation: marginTopEnter 1000ms forwards;
-		// animation-delay: 900ms;
 		transition: 200ms ease all;
-		margin: 20px auto 0;
+		margin: 0;
+		display: inline;
+		font-weight: 300;
+
+		@media screen and (max-width: $media-xl) {
+			font-size: 24px;
+		}
+
 		&:hover {
 			background: #fff;
 			border: 2px solid #fff;
 			color: $themeDark;
 		}
-		@media screen and (min-width: $media-md) {
-	    	display: inline;
-	    	margin: 0px 0 0;
-		}
-		@media screen and (min-width: $media-lg) {
-			font-weight: 200;
-		}
-		@media screen and (min-width: $media-xl) {
-		}
 	}
 }
+
 .home-section {
 	height: auto;
 	padding: 200px 0;
 	display: flex;
 	align-items: center;
 	position: relative;
+
 	h2 {
 		margin-top: -20px
 	}
+
 	h3 {
 		margin-bottom: 12px;
 	}
+
 	p {
 		margin-bottom: 40px;
 	}
@@ -161,18 +141,23 @@ $minHeight: 600px;
 		background-repeat: no-repeat;
 		background-position: left;
 		display: none;
+
 		@media screen and (min-width: $media-md) {
-		  display: block;
+			display: block;
 		}
+
 		@media screen and (min-width: $media-lg) {
 			width: 40vw;
 		}
-		@media screen and (min-width: $media-xl) {
-			
-		}
+
+		@media screen and (min-width: $media-xl) {}
 	}
+
 	&#case-studies {
 		padding: 200px 0 160px;
+		@media screen and (max-width: $media-lg) {
+			padding: 120px 0 80px;
+		}
 	}
 }
 
@@ -187,6 +172,7 @@ $minHeight: 600px;
 
 
 #services-section {
+
 	// border-right: 8px solid $gold;
 	// animation-name: borderColors;
 	// animation-duration: 20s;
@@ -198,31 +184,31 @@ $minHeight: 600px;
 		right: 0;
 	}
 }
+
 #about-section {
-	img { 
+	img {
 		position: absolute;
 		z-index: 99;
 		width: 440px;
 		top: -100px;
 		left: -80px;
+		@media screen and (max-width: $media-lg) {
+			left: -140px;
+		}
 	}
+
 	.section-image {
-		
+
 		@media screen and (min-width: $media-md) {
 			right: 0;
 			background: none;
-		// 	animation-name: bgColors;
-		//   animation-duration: 20s;
-		//   animation-timing-function: linear;
-		//   animation-iteration-count: infinite;
-		//   animation-direction: forwards;
-		//   transition: 200ms ease all;
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
-		
+
 	}
+
 	.logo {
 		display: block;
 		width: 360px;
@@ -230,6 +216,6 @@ $minHeight: 600px;
 		background-image: url('/assets/img/logo-icon-transparent.png');
 		background-repeat: no-repeat;
 		background-size: contain;
-	  background-position: center;
+		background-position: center;
 	}
 }

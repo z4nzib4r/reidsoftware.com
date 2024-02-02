@@ -110,75 +110,7 @@
             </div>
         </div>
     </div>
-
-    <div id="services">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-xl-12">
-                    <h3 class="section-title">Services</h3>
-                    <div class="row">
-                        <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
-                            <div class="service-item">
-                                <h2>Strategy</h2>
-                                <ul>
-                                    <li>Research</li>
-                                    <li>Competitor Analysis</li>
-                                    <li>User Experience (UX) Audit</li>
-                                    <li>Product Roadmap</li>
-                                    <li>Customer Journeys</li>
-                                    <li>Digital transformation</li>
-                                    <li>Innovation</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
-                            <div class="service-item">
-                                <h2>Design</h2>
-                                <ul>
-                                    <li>Branding and Identity</li>
-                                    <li>Visual Design Systems</li>
-                                    <li>User Experience (UX) Design</li>
-                                    <li>User Interface (UI) Design</li>
-                                    <li>Wireframing</li>
-                                    <li>Rapid Prototyping</li>
-                                    <li>Content production</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
-                            <div class="service-item">
-                                <h2>Development</h2>
-                                <ul>
-                                    <li>Fullstack Development</li>
-                                    <li>System Architecture</li>
-                                    <li>React/Angular/Vue</li>
-                                    <li>APIs and Systems Integration</li>
-                                    <li>Database</li>
-                                    <li>Content Management Systems</li>
-                                    <li>Cloud Infrastructure</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-3 offset-sm-0 service-item-wrapper">
-                            <div class="service-item">
-                                <h2>AI Integrations</h2>
-                                <ul>
-                                    <li>Prompt Engineering</li>
-                                    <li>Trends Analysis</li>
-                                    <li>Chatbot Development</li>
-                                    <li>Content Production</li>
-                                    <li>System Integration</li>
-                                    <li>Production Efficiency</li>
-                                    <li>Ideation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <?php include 'app/partials/services-list.php'; ?>
 </div>
 
 <?php
