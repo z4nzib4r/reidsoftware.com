@@ -1,7 +1,7 @@
 .btn {
     border: none;
     font-size: 18px;
-    border-radius: 40px;
+    border-radius: 0;
     padding: 12px 28px;
     font-size: 22px;
     font-weight: 200;
@@ -13,7 +13,7 @@
     }
 }
 .btn-sm {
-    border-radius: 40px;
+    border-radius: 0;
     padding: 8px 20px;
     font-size: 18px;
     transition: 200ms ease all;
@@ -25,6 +25,7 @@
         padding: 8px 20px;
     }
 }
+
 .btn-primary {
     background: $themeDark;
     border: 2px solid rgba(255,255,255,0);

@@ -1,32 +1,65 @@
 .services-page {
-	#hero {
-		background: $themeDark;
-		display: flex;
-		align-items: center;
-		padding-top: 10vh;
+	#hero-section {
+		height: 50vh;
+		max-height: $maxHeight;
+		#hero-video {
+			min-height: 100vh;
+		}
+		#hero-img {
+			min-height: 100vh;
+		}
+		#hero-overlay {
+			height: 100vh;
+			max-height: $maxHeight;
+		}
+		.hero-content {
+			height: 50vh;
+			max-height: $maxHeight;
+		}
 		h1 {
-			margin: 0 0 70px;
-			font-size: 70px;
-			@media screen and (min-width: $media-md) {
-				font-size: 84px;
-			}
+			margin: 0;
+			font-size: 48px;
+			color: #fff;
 		}
 		p {
 			color: #fff;
 			margin: 0 0 30px;
+			font-size: 32px;
+			line-height: 1.2;
 		}
+	}
+
+	#hero {
+		background: #1a1b1c;
+		display: flex;
+		align-items: center;
+		padding: 120px 0 100px;
+
+		h1 {
+			margin: 70px 0 70px;
+			font-size: 48px;
+			color: #fff;
+		}
+
+		p {
+			color: #fff;
+			margin: 0 0 30px;
+		}
+
 		.btn {
 			margin-bottom: -31px;
 			background: $accent;
 			border: 2px solid $accent;
 			color: #fff;
 			transition: 200ms ease all;
+
 			&:hover {
 				background: #fff;
 				color: $accent;
 				border: 2px solid $accent;
 				transition: 200ms ease all;
 			}
+
 			&:active {
 				background: $accent;
 				color: #fff;
@@ -34,153 +67,374 @@
 				transition: 200ms ease all;
 			}
 		}
+
 		.scroll {
 			color: #fff;
 			text-decoration: none;
 			border: none;
+
 			&:hover {
 				border: none;
 			}
+
 			svg {
 				width: 35px;
 				height: 35px;
 			}
+
 			//animation: pageTitleEnter 1000ms forwards;
 			//animation-delay: 700ms;
 			//opacity: 0;
 		}
 	}
+
 	h2 {
 		font-size: 48px;
 		line-height: 1;
+		margin-bottom: 12px;
 		@media screen and (min-width: $media-md) {
 			font-size: 34px;
 		}
 	}
+
 	.section {
 		height: auto;
-		padding: 100px 0;
-		@media screen and (min-width: $media-xl) {
-			padding: 0;
-			min-height: 80vh;
+		padding: 240px 0;
+
+		@media screen and (max-width: $media-lg) {
+			padding: 240px 0;
+		}
+
+		@media screen and (max-width: $media-md) {
+			padding: 100px 0;
+		}
+
+		img {
+			position: absolute;
+			//z-index: 99;
 		}
 	}
-	.section-image {
-		background-image: url('/assets/img/services/research-1.svg');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		width: 300px;
-		height: 300px;
-		margin: 0 auto 50px;
-		@media screen and (min-width: $media-lg) {
-			width: 360px;
-			height: 360px;
-		}
-		@media screen and (min-width: $media-xl) {
-			width: 440px;
-			height: 440px;
-			margin-bottom: 0;
-		}
-	}
+
 	.section-title {
 		margin-top: 0;
 		margin-bottom: 12px;
 	}
+
 	h3 {
 		margin-top: 80px;
 	}
+
 	a {
-		font-size: 24px;
-		font-weight: 200;
-		color: $accent;
+		// font-size: 24px;
+		// font-weight: 200;
+		// color: $accent;
+	}
+	.text-content {
+		z-index: 100;
 	}
 }
-#design-research-page, #product-design-page {
-	#hero {
-		h1 {
-			margin-bottom: 20px;
+
+#strategy {
+	img {
+		width: 1000px;
+		top: -420px;
+		left: -280px;
+		@media screen and (max-width: $media-lg) {
+			width: 600px;
+			top: -220px;
+			left: -170px;
 		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 100%;
+			margin-left: -80px;
+			margin-bottom: 40px;
+		}
+
 	}
 }
-#research-section {
-		.section-image {
-			background-image: url('/assets/img/services/research-1.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: -50px;
-				margin-left: 80px;
-			}
+
+#design {
+	img {
+		width: 840px;
+		right: 60px;
+		top: -300px;
+		@media screen and (max-width: $media-lg) {
+			width: 600px;
+			top: -120px;
+			right: 20px;
 		}
-	}
-	#design-section {
-		.section-image {
-			background-image: url('/assets/img/services/prototyping.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: 10px;
-				margin-right: 80px;
-			}
-		}
-	}
-	#development-section {
-		.section-image {
-			background-image: url('/assets/img/services/development.svg');
-			@media screen and (min-width: $media-xl) {
-				margin-top: 20px;
-				margin-left: 80px;
-			}
-		}
-	}
-#research-insights {
-	.section-image {
-		background-image: url('/assets/img/services/insights.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -50px;
-			margin-left: 80px;
-		}
-	}
-}
-#methodology {
-	.section-image {
-		background-image: url('/assets/img/services/methods.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -20px;
-			margin-right: 80px;
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 100%;
+			margin-left: -80px;
+			margin-bottom: 40px;
 		}
 	}
 }
-#plan-for-success {
-	.section-image {
-		background-image: url('/assets/img/services/plan.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -60px;
-			margin-left: 100px;
+
+#development {
+	img {
+		z-index: 99;
+		width: 760px;
+		top: -200px;
+		left: -140px;
+		@media screen and (max-width: $media-lg) {
+			width: 600px;
+			top: -140px;
+			left: -160px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 100%;
+			margin-left: -80px;
+			margin-bottom: 40px;
+		}
+		
+	}
+}
+
+#ai {
+	img {
+		z-index: 99;
+		width: 580px;
+		right: 120px;
+		top: -230px;
+		@media screen and (max-width: $media-lg) {
+			width: 380px;
+			top: -120px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
 		}
 	}
 }
-#ux {
-	.section-image {
-		background-image: url('/assets/img/services/ux.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -40px;
-			margin-left: 100px;
+
+#competitor-analysis {
+	img {
+		width: 520px;
+		left: 60px;
+		top: -330px;
+		@media screen and (max-width: $media-lg) {
+			width: 380px;
+			top: -80px;
+			left: -40px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 40%;
+			margin-left: -0px;
+			margin-bottom: 40px;
 		}
 	}
 }
-#workflows {
-	.section-image {
-		background-image: url('/assets/img/services/workflows.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -40px;
-			margin-right: 100px;
+
+#digital-transformation {
+	img {
+		width: 840px;
+		right: 80px;
+		top: -140px;
+		@media screen and (max-width: $media-lg) {
+			width: 580px;
+			top: -20px;
+			right: 0px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
 		}
 	}
 }
-#human-centered-design {
-	.section-image {
-		background-image: url('/assets/img/services/human-centered.svg');
-		@media screen and (min-width: $media-xl) {
-			margin-top: -20px;
-			margin-left: 100px;
+#innovation {
+	img {
+		width: 840px;
+		left: -170px;
+		top: -320px;
+		@media screen and (max-width: $media-lg) {
+			width: 580px;
+			top: -120px;
+			left: -140px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+#ux-design {
+	img {
+		width: 900px;
+		left: -120px;
+		top: -320px;
+		@media screen and (max-width: $media-lg) {
+			width: 420px;
+			top: -20px;
+			left: -40px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+	
+}
+
+#design-systems {
+	img {
+		width: 1100px;
+		right: 40px;
+		top: -220px;
+		@media screen and (max-width: $media-lg) {
+			width: 620px;
+			top: -20px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+#brand {
+	img {
+		z-index: 1;
+		width: 900px;
+		left: -220px;
+		top: -160px;
+		@media screen and (max-width: $media-lg) {
+			width: 420px;
+			top: -20px;
+			left: -80px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+#rapid-prototyping {
+	img {
+		width: 1100px;
+		right: -140px;
+		top: -300px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -20px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+#system-architecture {
+	img {
+		width: 960px;
+		left: -120px;
+		top: -320px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -20px;
+			left: -40px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+#full-stack {
+	img {
+		width: 600px;
+		right: 140px;
+		top: -300px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -140px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+#api {
+	img {
+		width: 900px;
+		left: -60px;
+		top: -120px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -20px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+#cloud {
+	img {
+		width: 800px;
+		right: 40px;
+		top: -300px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -20px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
+		}
+	}
+}
+#devops {
+	img {
+		width: 720px;
+		left: -60px;
+		top: -160px;
+		@media screen and (max-width: $media-lg) {
+			width: 400px;
+			top: -20px;
+			right: 20px;
+		}
+		@media screen and (max-width: $media-md) {
+			position: static;
+			width: 80%;
+			margin-left: -0px;
+			margin-bottom: 40px;
 		}
 	}
 }

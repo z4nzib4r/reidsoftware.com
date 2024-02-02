@@ -1,104 +1,89 @@
-<div id="product-design-page" class="services-page">
+<div id="services-main-page" class="services-page">
 
-    <div id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 col-xl-9">
-                	<h1 class="page-title"><span class="text-white">We reduce risk</span> and <br>validate ideas early</h1>
-                	<p>Through an iterative process of rapid prototyping and testing with real users, we validate our riskiest assumptions before we build anything. We save you time and money by making important product design decisions early in the process, rather than after you go to market.</p>
-                	<a href="/contact-us" class="btn btn-accent">Let's talk about your project</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
-		<div id="ux" class="section" style="pointer-events: none;">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-md-6 order-2 order-md-1" style="pointer-events: auto;">
-						<span class="section-title">Success through design</span>
-						<h2>Compelling user experiences drive your project's success</h2>
-						<p>Great design solves many important challenges when creating a new mobile or web application. You can drive customer acquisition, reduce churn rate, and promote your brand and values through thoughtful product design.</p>
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-2">
-		      	<div class="section-image"></div>
-		      </div>
-				</div>
-			</div>
-		</div>
-
-		<div id="workflows" class="section gray-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-md-6">
-		      	<div class="section-image"></div>
-		      </div>
-					<div class="col-12 col-md-6">
-						<span class="section-title">Reducing user friction</span>
-						<h2>Clear and intuitive workflows reduce user frustration</h2>
-						<p>Are your users dropping off because they are having problems with your product’s interface? We can quickly identify UX problems in your product by doing usability testing and workflow audits. We then apply what we've learned in a rapid process of iteration that results in reduced friction for your users.</p>
+	<div id="hero-section">
+		<video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+			<source src="/assets/video/3411347255-preview.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
+		<div id="hero-overlay"></div>
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-12 col-md-11 col-lg-9">
+					<div class="hero-content">
+						<h1>Product Design</h1>
+						<p>We craft interactive, creative, and user-centric designs that seamlessly fuse functionality with aesthetics.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div id="human-centered-design" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-md-6 order-2 order-md-1">
-						<span class="section-title">Put people first</span>
-						<h2>Embracing human-centered design helps solve real problems</h2>
-						<p>Users are what will ultimately drive the success of your product, so we always advocate for them in the design process. By focusing on the user, we find innovative solutions to the real human problems we are trying to solve.</p>
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-2">
-		      	<div class="section-image"></div>
-		      </div>
+	<div id="ux-design" class="section" style="pointer-events: none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6" style="pointer-events: auto;">
+					<h2>User Experience (UX) Design</h2>
+					<p>We put the user's experience at the forefront of our design process. We meticulously analyze user behavior, their expectations, and their preferences to create tailored experiences that not only meet but exceed their needs.</p>
+					<p>Our team of experienced UX designers strategically implement research-driven principles to ensure ease of use, accessibility, and intuitiveness of the end product.</p>
+				</div>
+				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+					<img src="/assets/img/pyramid-cube.png" alt="Graphic">
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div id="single-testimonial" class="home-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="section-title">Happy clients</h2>
-                    <div class="d-flex flex-column flex-md-row align-items-center testimonial-card">
-                        <img src="/assets/img/testimonials/angie-pyle.jpg" />
-                        <div>
-                            <p>"We have used their services for two businesses we own. Both times we have been extremely satisfied with the quality of design, the price, and the working relationship with the staff."</p>
-                            <div class="author">
-                                <p>Angie Pyle</p>
-                                <p>Owner</p>
-                                <p>Donkey Coffee</p>
-                                <p>Athens, OH</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-		<div id="cta-section" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<a href="/projects">
-							<span>See our projects</span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-							  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-							</svg>
-						</a>
-					</div>
+	<div id="design-systems" class="section gray-bg">
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-12 col-md-4 col-lg-6">
+					<img src="/assets/img/cube-group.png" alt="graphic">
+				</div>
+				<div class="col-12 col-md-8 col-lg-6">
+					<h2>Visual Design Systems</h2>
+					<p>We provide a streamlined and efficient approach to incorporating compelling and appealing aesthetics into your applications. We create comprehensive design systems that include reusable components and style guidelines to ensure consistent branding across platforms.</p>
+					<p>Balancing functionality with attractive visuals, our design systems enhance user experience and engagement, which is crucial for business growth and retention.</p>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div id="brand" class="section">
+		<div class="container">
+			<div class="row justify-content-end">
+
+				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6">
+					<h2>Branding and Identity</h2>
+					<p>Recognizing the importance of a strong and cohesive brand identity, we dedicate our expertise to create, remodel, and promote an authentic brand image for your business. From logo design to brand voice to your online presence, we ensure each element aligns with your ethos and resonates with your target audience.</p>
+					<p>We foster brand recognition that transcends beyond aesthetics to establish a deep emotional connection with your customers.</p>
+				</div>
+				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+					<img src="/assets/img/star.png" alt="Icosahedron">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rapid-prototyping" class="section gray-bg">
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-12 col-md-4 col-lg-6">
+					<img src="/assets/img/cube-row.png" alt="Icosahedron">
+				</div>
+				<div class="col-12 col-md-8 col-lg-6">
+					<h2>Rapid Prototyping</h2>
+					<p>We utilize a practical approach to web application design by using rapid prototyping. This process allows us to construct interactive mockups of the web app early in the design phase. It enables our clients to visualize, understand, and provide feedback on our proposed solution before we start development, thereby ensuring it meets their expectations and needs.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 </div><!-- end page -->
 
-
-
-
-
-
-
+<?php
+$i = 2;
+include 'app/partials/testimonials.php';
+?>

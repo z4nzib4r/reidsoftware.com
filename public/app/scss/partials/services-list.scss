@@ -1,0 +1,44 @@
+#services-bullet-list {
+    border-top: 1px solid #fff;
+	background: $ultraLightGray;
+	padding: 180px 0 260px;
+	@media screen and (max-width: $media-lg) {
+        padding: 120px 0;
+    }
+	.section-title {
+		display: none;
+	}
+
+	h2 {
+		//font-weight: 200;
+		margin: 0 0 20px;
+        font-size: 34px;
+		@media screen and (max-width: $media-xl) {
+			font-size: 28px;
+			margin: 0 0 12px;
+		}
+		@media screen and (max-width: $media-lg) {
+			font-size: 20px;
+			margin: 0 0 12px;
+		}
+	}
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	li {
+		font-size: 20px;
+		font-weight: 200;
+		padding: 4px 0;
+		opacity: 1;
+		@media screen and (max-width: $media-xl) {
+			font-size: 16px;
+		}
+	}
+	.service-item {
+		@media screen and (max-width: $media-md) {
+			margin-bottom: 40px;
+		}
+	}
+}
