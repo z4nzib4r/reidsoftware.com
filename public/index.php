@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
-
         
     </head>
     <body>

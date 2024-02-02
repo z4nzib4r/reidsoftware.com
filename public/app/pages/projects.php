@@ -2,7 +2,7 @@
 
     <div id="hero-section">
         <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
-            <source src="/assets/video/3411347255-preview.mp4" type="video/mp4">
+            <source src="/assets/video/bg-video-med.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
