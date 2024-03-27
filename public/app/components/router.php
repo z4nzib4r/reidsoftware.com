@@ -19,6 +19,8 @@ if ($path === '/') {
 } elseif ($path === '/daily-report-card-online') {
     $metaTitle = 'Case Study: Daily Report Card Online | Reid Software';
     $metaDesc = 'How we partnered with researchers at Ohio University to revitalize a legacy software platform.';
+    $metaImg = 'https://reidsoftware.com/assets/img/drco/happy-teacher-3.jpg';
+    $metaUrl = 'https://reidsoftware.com/daily-report-card-online';
     ob_start();
     include 'app/pages/drco.php';
     $pageContent = ob_get_clean();
