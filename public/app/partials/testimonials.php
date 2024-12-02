@@ -22,7 +22,7 @@ $testimonials = [
 		'author' => "Dr. Julie S. Owens<br>Co-Founder, Center for Intervention Reasearch in Schools<br>Ohio University"
 	],
 	[
-		'text' => "Reid Software's outstanding contributions to the team and project extend far beyond just software development. Their team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users.",
+		'text' => "Reid's outstanding contributions to the team and project extend far beyond just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users.",
 		'author' => "Dr. Steven W. Evans<br>Co-Founder, Center for Intervention Reasearch in Schools<br>Ohio University"
 	]
 ];

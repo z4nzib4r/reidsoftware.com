@@ -24,6 +24,22 @@ if ($path === '/') {
     ob_start();
     include 'app/pages/drco.php';
     $pageContent = ob_get_clean();
+} elseif ($path === '/beacon-for-schools') {
+    $metaTitle = 'Case Study: Beacon for Schools | Reid Software';
+    $metaDesc = 'Empowering Educators with Innovative Tools for Enhanced Mental Health Support';
+    $metaImg = 'https://reidsoftware.com/assets/img/drco/happy-teacher-3.jpg';
+    $metaUrl = 'https://reidsoftware.com/daily-report-card-online';
+    ob_start();
+    include 'app/pages/beacon.php';
+    $pageContent = ob_get_clean();
+} elseif ($path === '/maximize') {
+    $metaTitle = 'Case Study: Maximize | Reid Software';
+    $metaDesc = 'Elevating Classroom Management through Gamified Professional Development';
+    $metaImg = 'https://reidsoftware.com/assets/img/drco/happy-teacher-3.jpg';
+    $metaUrl = 'https://reidsoftware.com/daily-report-card-online';
+    ob_start();
+    include 'app/pages/maximize.php';
+    $pageContent = ob_get_clean();
 } elseif ($path === '/athens-medical-massage') {
     $metaTitle = 'Case Study: Athens Medical Massage | Reid Software';
     $metaDesc = 'Bringing a small business into the digital age. How we helped Athens Medical Massage completely modernize their business operations and client experience.';
