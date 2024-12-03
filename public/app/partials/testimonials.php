@@ -6,7 +6,7 @@ $testimonials = [
 		'author' => "Aaron McAvoy<br>Owner, Athens Medical Massage<br>Athens, OH"
 	],
 	[
-		'text' => "Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. Plus, the user-friendly design is a real win for us - it's as beneficial to us as it is for our students. Brilliant product all around!",
+		'text' => "Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. It's as beneficial to us as it is for our students.",
 		'author' => "Sarah J.<br>4th Grade Teacher, DRCO User<br>Columbus, OH"
 	],
 	[

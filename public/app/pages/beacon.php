@@ -7,7 +7,7 @@
             <div class="row justify-content-start">
                 <div class="col-12">
                     <div class="hero-content">
-                        <img src="/assets/img/drco/drco-logo-white.svg" />
+                        <img src="/assets/img/beacon/beacon-logo-white.svg" />
                     </div>
                 </div>
             </div>
@@ -16,15 +16,46 @@
 
     <div id="intro" class="section">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
 
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12 col-md-12 col-lg-6 mb-sm-5 mb-lg-0">
+                    <h2 class="section-title">Case Study</h2>
                     <h1 class="mb-4">Beacon for Schools</h1>
-                    <p class="subhead">Empowering educators with innovative tools for enhanced mental health support</p>
+                    <p class="subhead">Empowering educators with innovative tools for enhanced school mental health support.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="summary-item">
+                                <h2>Services</h2>
+                                <ul>
+                                    <li>Technology Consulting</li>
+                                    <li>User Experience Design</li>
+                                    <li>Visual and Interaction Design</li>
+                                    <li>Full-Stack Development</li>
+                                    <li>CI/CD Pipelines</li>
+                                    <li>AI Integration and Development</li>
+                                    <li>Competitor Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="summary-item">
+                                <h2>Deliverables</h2>
+                                <ul>
+                                    <li>Innovative Software Platform</li>
+                                    <li>Data Visualization Dashboards</li>
+                                    <li>Recommendation Engine</li>
+                                    <li>Future-Focused Architecture</li>
+                                    <li>Secure Data Management</li>
+                                    <li>Interactive Prototypes</li>
+                                    <li>Comprehensive Knowledge Base</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-6 d-none d-lg-flex">
-                    <img src="/assets/img/beacon/beacon-thumbnail.jpg" alt="graphic">
+                <div class="col-12 col-lg-6">
+                    <img src="/assets/img/beacon/beacon-graphic-1.png" alt="graphic" class="jumbo ml-0 ml-lg-5">
                 </div>
 
             </div>
@@ -33,13 +64,18 @@
 
     <div id="summary" class="section gray-bg">
         <div class="container">
-            <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                    <h2>Executive Summary</h2>
-                    <p class="summary">
-                        Beacon for Schools, developed in partnership with the Center for Intervention Research in Schools at Ohio University, is an innovative software platform that addresses gaps in school-based mental health support.</p>
-                        <p>Designed to empower educators with research-backed tools and data visualization, Beacon's development involved refining initial concepts, iterative design and prototyping, and robust development with a secure tech stack. Despite initial challenges, the platform has received positive feedback, driving ongoing improvements. 
-                        <p>Future plans include integrating AI capabilities through a grant application and exploring commercialization to expand its reach. Beacon exemplifies successful collaboration and innovation, setting new benchmarks in educational support services.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 col-lg-10">
+                    <h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                        </svg>
+                        Executive Summary
+                    </h2>
+                    <p class="summary">Beacon for Schools, developed in partnership with the Center for Intervention Research in Schools at Ohio University, is an innovative software platform that addresses gaps in school-based mental health support.</p>
+                    <p>Designed to empower educators with research-backed tools and data visualization, Beacon's development involved refining initial concepts, iterative design and prototyping, and expert development with a secure tech stack. Since launch, the platform has received positive feedback, driving ongoing improvements.
+                    <p>Future plans include integrating AI capabilities through a grant application and exploring commercialization to expand its reach. Beacon exemplifies successful collaboration and innovation, setting new benchmarks in educational support services.</p>
                     </p>
                 </div>
             </div>
@@ -48,13 +84,14 @@
 
     <div id="description" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-7">
                     <h2>Introduction</h2>
                     <p>In 2019, the Center for Intervention Research in Schools (CIRS) at Ohio University, under the leadership of Drs. Steven W. Evans and Julie S. Owens, sought to fill a critical gap in school mental health resources with the creation of Beacon, an innovative software platform. They partnered with our consultancy to transform their initial design concepts into a comprehensive tool that provides research-backed recommendations and sophisticated data tracking for student support services.</p>
-                    <p>Unprecedented in the educational sector, Beacon aims to empower K-12 educators with actionable insights and visualization tools to improve student outcomes, marking a significant advancement in school-based mental health support. This case study explores the collaborative process and the successful realization of Beacon's vision.</p>
+                    <p>Unprecedented in the educational sector, Beacon aims to empower K-12 educators with actionable insights and visualization tools to improve student outcomes. This case study explores the collaborative process and the successful realization of Beacon's vision.</p>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-5">
+                    <img src="/assets/img/beacon/ou-cirs-logos.png" alt="graphic">
                 </div>
             </div>
         </div>
@@ -62,13 +99,11 @@
 
     <div id="challenge" class="section gray-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
                     <h2>Project Challenges and Objectives</h2>
-                    <p>The Beacon project's challenges and objectives began with refining the initial concepts collaboratively with CIRS to establish a clear vision. Our focus was on creating a platform that fitted seamlessly into educators' busy schedules, adding significant value without extra burden.</p>
+                    <p>The Beacon project's challenges and objectives began with refining the initial concepts collaboratively with CIRS to establish a clear vision for the platform. Our focus was on creating a platform that fitted seamlessly into educators' busy schedules, adding significant value without extra burden.</p>
                     <p>The primary objectives were to enhance school mental health support with effective tools and research-backed insights while reducing friction in the domain. Balancing flexibility and security was crucial, as handling sensitive student data required a nuanced approach to accommodate various school district protocols.</p>
-                </div>
-                <div class="col-12 col-xl-4">
                 </div>
             </div>
         </div>
@@ -76,11 +111,11 @@
 
     <div id="discovery" class="section">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/drco/discovery.png" alt="graphic">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 order-2 col-lg-6 order-lg-1 justify-content-end">
+                    <img src="/assets/img/beacon/beacon-discovery.png" alt="graphic" class="jumbo jumbo-left">
                 </div>
-                <div class="col-12 order-1 col-lg-6 order-lg-2">
+                <div class="col-12 mb-5 order-1 col-lg-6 order-lg-2 mb-lg-0">
                     <h2>Discovery</h2>
                     <p>During the discovery phase, we collaborated closely with the CIRS research team through weekly meetings, diving into the intricacies of school mental health support. By examining similar products and conducting interviews with educators and administrators, we gathered essential insights.</p>
                     <p>To develop user journeys, we analyzed current processes for selecting and implementing support services, identifying ways to streamline and systematize these across various schools. A critical aspect was understanding different user roles within schools and districts, determining the necessary permissions and features each role required to effectively perform their duties.</p>
@@ -91,13 +126,13 @@
 
     <div id="prototyping" class="section gray-bg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 text">
-                    <h2>Design and Prototyping</h2>
-                    <p>In the design and prototyping phase, we used Balsamiq to create low-fidelity interactive mockups, allowing us to visualize overall workflows and key features effectively. Through an iterative process of feedback and revision, we engaged stakeholders, usability experts, and end-users to test and refine these designs. A central challenge was prioritizing the most important information to ensure maximum efficiency for users, aligning the platform with their specific needs and workflows.</p>
+                    <h2>UX Prototyping</h2>
+                    <p>In the UX prototyping phase, we used Balsamiq to create low-fidelity interactive mockups, allowing us to visualize overall workflows and key features effectively. Through an iterative process of feedback and revision, we engaged stakeholders, usability experts, and end-users to test and refine these designs.</p>
                 </div>
                 <div class="col-12 col-lg-6 img-container">
-                    <img src="/assets/img/drco/wireframes-3.png" alt="graphic">
+                    <img src="/assets/img/beacon/beacon-prototypes.png" alt="graphic" class="jumbo ml-5">
                 </div>
             </div>
         </div>
@@ -105,20 +140,38 @@
 
     <div id="design" class="section">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/drco/design.png" alt="graphic">
+            <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-6 img-container">
+                    <img src="/assets/img/beacon/beacon-design.png" alt="graphic" class="jumbo jumbo-left">
                 </div>
-                <div class="col-12 order-1 col-lg-6 order-lg-2">
+                <div class="col-12 col-lg-6 text">
+                    <h2>UI Design</h2>
+                    <p>We integrated the client's brand guidelines into a customized UI design framework, focusing on translating key elements like color, typography, and imagery into a cohesive and intuitive user interface. This approach ensured a visually consistent experience across devices and enhanced usability.</p>
+                    <p>Collaborative workshops with the client allowed us to refine the design continually, resulting in a highly refined and aesthetic interface.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="development" class="section gray-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
                     <h2>Development and Deployment</h2>
                     <p>Throughout the development and deployment phases, we utilized a robust tech stack deployed on cloud architecture, comprising Angular for the frontend and Laravel PHP for the backend. Critical to our approach was ensuring the platform's security and reliability. We employed Oauth 2.0 for secure authentication and role-based access control (RBAC) to manage user permissions effectively.</p>
                     <p>Our DevOps strategy included implementing continuous integration and continuous deployment (CI/CD) pipelines to facilitate seamless updates and maintenance, supported by automated testing for ongoing quality assurance. Post-deployment, we established comprehensive security monitoring to ensure the platform's reliability and safeguard sensitive data.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="/assets/img/" alt="graphic">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="development" class="section gray-bg">
+    <div id="results" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6">
@@ -127,22 +180,22 @@
                     <p>One key learning from the deployment is the realization that many schools need to establish foundational systems to effectively benefit from Beacon; proper implementation of Multi-Tiered System of Supports (MTSS) is often a prerequisite for maximizing its utility. Additionally, user feedback has highlighted differing usage patterns from our original expectations, prompting ongoing updates to better align the platform with the practical needs of schools and educators.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="/assets/img/drco/development.png" alt="graphic">
+                    <img src="/assets/img/" alt="graphic">
                 </div>
             </div>
         </div>
     </div>
 
     <?php
-$i = 5;
-include 'app/partials/testimonials.php';
-?>
+    $i = 5;
+    include 'app/partials/testimonials.php';
+    ?>
 
-    <div id="monitoring" class="section gray-bg">
+    <div id="future-development" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/drco/monitoring-2.png" alt="graphic">
+                    <img src="/assets/img/" alt="graphic">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
                     <h2>Future Developments and Long-term Impact</h2>
@@ -153,7 +206,7 @@ include 'app/partials/testimonials.php';
         </div>
     </div>
 
-    <div id="results" class="section">
+    <div id="conclusion" class="section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6">
