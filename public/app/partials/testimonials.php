@@ -6,7 +6,7 @@ $testimonials = [
 		'author' => "Aaron McAvoy<br>Owner, Athens Medical Massage<br>Athens, OH"
 	],
 	[
-		'text' => "Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. Plus, the user-friendly design is a real win for us - it's as beneficial to us as it is for our students. Brilliant product all around!",
+		'text' => "Absolutely love the flexible nature of DRCO! We've been able to adjust it precisely to meet our varied student needs. It's as beneficial to us as it is for our students.",
 		'author' => "Sarah J.<br>4th Grade Teacher, DRCO User<br>Columbus, OH"
 	],
 	[
@@ -22,7 +22,7 @@ $testimonials = [
 		'author' => "Dr. Julie S. Owens<br>Co-Founder, Center for Intervention Reasearch in Schools<br>Ohio University"
 	],
 	[
-		'text' => "Reid Software's outstanding contributions to the team and project extend far beyond just software development. Their team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users.",
+		'text' => "Reid's outstanding contributions to the team and project extend far beyond just software development. His team regularly participates in brainstorming, project architecture, operations planning and helping us better understand our users.",
 		'author' => "Dr. Steven W. Evans<br>Co-Founder, Center for Intervention Reasearch in Schools<br>Ohio University"
 	]
 ];
