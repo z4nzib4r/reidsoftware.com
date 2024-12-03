@@ -196,7 +196,7 @@
                     <img src="/assets/img/beacon/ies-logo.png" alt="graphic" class="">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
-                    <h2>Future Developments and Long-term Impact</h2>
+                    <h2>Future Developments</h2>
                     <p>A significant future development is our 2024 submission for the IES Transformative Technology Grant, which aims to integrate an AI-powered assistant with Beacon to guide users effectively through the MTSS framework, thereby enhancing the platform's utility and accessibility.</p>
                     <p>Additionally, we are exploring future commercialization efforts to expand Beacon's reach beyond Ohio, potentially offering its innovative solutions to a wider educational market. These advancements are poised to broaden Beacon's impact, empowering more schools to adopt and benefit from comprehensive mental health support strategies.</p>
                 </div>
