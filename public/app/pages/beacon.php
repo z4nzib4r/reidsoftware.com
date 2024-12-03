@@ -132,55 +132,53 @@
                     <p>In the UX prototyping phase, we used Balsamiq to create low-fidelity interactive mockups, allowing us to visualize overall workflows and key features effectively. Through an iterative process of feedback and revision, we engaged stakeholders, usability experts, and end-users to test and refine these designs.</p>
                 </div>
                 <div class="col-12 col-lg-6 img-container">
-                    <img src="/assets/img/beacon/beacon-prototypes.png" alt="graphic" class="jumbo ml-5">
+                    <img src="/assets/img/beacon/beacon-prototypes.png" alt="graphic" class="jumbo ml-0 ml-lg-5">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="design" class="section">
+    <div id="beacon-design" class="section">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-lg-6 img-container">
-                    <img src="/assets/img/beacon/beacon-design.png" alt="graphic" class="jumbo jumbo-left">
+                <div class="col-12 order-2 col-lg-6 order-lg-1 img-container">
+                    <img src="/assets/img/beacon/beacon-design-2.png" alt="graphic" class="jumbo jumbo-left">
                 </div>
-                <div class="col-12 col-lg-6 text">
+                <div class="col-12 order-1 col-lg-6 order-lg-2 text">
                     <h2>UI Design</h2>
                     <p>We integrated the client's brand guidelines into a customized UI design framework, focusing on translating key elements like color, typography, and imagery into a cohesive and intuitive user interface. This approach ensured a visually consistent experience across devices and enhanced usability.</p>
                     <p>Collaborative workshops with the client allowed us to refine the design continually, resulting in a highly refined and aesthetic interface.</p>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-    
 
-    <div id="development" class="section gray-bg">
+
+    <div id="deployment" class="section gray-bg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-6">
                     <h2>Development and Deployment</h2>
-                    <p>Throughout the development and deployment phases, we utilized a robust tech stack deployed on cloud architecture, comprising Angular for the frontend and Laravel PHP for the backend. Critical to our approach was ensuring the platform's security and reliability. We employed Oauth 2.0 for secure authentication and role-based access control (RBAC) to manage user permissions effectively.</p>
-                    <p>Our DevOps strategy included implementing continuous integration and continuous deployment (CI/CD) pipelines to facilitate seamless updates and maintenance, supported by automated testing for ongoing quality assurance. Post-deployment, we established comprehensive security monitoring to ensure the platform's reliability and safeguard sensitive data.</p>
+                    <p>Throughout the development and deployment phases, we utilized a modern tech stack deployed on cloud architecture, comprising Angular for the frontend and Laravel PHP for the backend.</p>
+                    <p>Critical to our approach was ensuring the platform's security and reliability. We employed Oauth 2.0 for secure authentication and role-based access control (RBAC) to manage user permissions effectively.</p>
+                    <p>We implemented continuous integration and continuous deployment (CI/CD) pipelines to facilitate seamless updates and maintenance, supported by automated testing for ongoing quality assurance. Post-deployment, we established comprehensive security monitoring to ensure the platform's reliability and safeguard sensitive data.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="/assets/img/" alt="graphic">
+                    <img src="/assets/img/beacon/beacon-deployed.png" alt="graphic" class="jumbo ml-0 ml-lg-5">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="results" class="section gray-bg">
+    <div id="results" class="section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-10">
                     <h2>Results and Impact</h2>
                     <p>Beacon is currently utilized by schools across Ohio, providing valuable insights into improving educational support for students with emotional and behavioral challenges. While the user base is still expanding, feedback from current users has been positive, highlighting Beacon's potential to transform school-based student support services.</p>
-                    <p>One key learning from the deployment is the realization that many schools need to establish foundational systems to effectively benefit from Beacon; proper implementation of Multi-Tiered System of Supports (MTSS) is often a prerequisite for maximizing its utility. Additionally, user feedback has highlighted differing usage patterns from our original expectations, prompting ongoing updates to better align the platform with the practical needs of schools and educators.</p>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <img src="/assets/img/" alt="graphic">
+                    <p>One key learning from the deployment is the realization that many schools need to establish foundational systems to effectively benefit from Beacon. Additionally, user feedback has highlighted differing usage patterns from our original expectations, prompting ongoing updates to better align the platform with the practical needs of schools and educators.</p>
                 </div>
             </div>
         </div>
@@ -191,31 +189,28 @@
     include 'app/partials/testimonials.php';
     ?>
 
-    <div id="future-development" class="section gray-bg">
+    <div id="future-development" class="section">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/" alt="graphic">
+                    <img src="/assets/img/beacon/ies-logo.png" alt="graphic" class="">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
                     <h2>Future Developments and Long-term Impact</h2>
-                    <p>Beacon's evolution is ongoing, driven by continuous improvements based on user feedback and updated project goals. A significant future development is our submission for the IES Transformative Technology Grant, which aims to integrate an AI-powered assistant with Beacon to guide users effectively through the MTSS framework, thereby enhancing the platform's utility and accessibility.</p>
+                    <p>A significant future development is our 2024 submission for the IES Transformative Technology Grant, which aims to integrate an AI-powered assistant with Beacon to guide users effectively through the MTSS framework, thereby enhancing the platform's utility and accessibility.</p>
                     <p>Additionally, we are exploring future commercialization efforts to expand Beacon's reach beyond Ohio, potentially offering its innovative solutions to a wider educational market. These advancements are poised to broaden Beacon's impact, empowering more schools to adopt and benefit from comprehensive mental health support strategies.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="conclusion" class="section">
+    <div id="conclusion" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-10">
                     <h2>Conclusion</h2>
                     <p>The Beacon project exemplifies the successful collaboration between our consultancy and CIRS at Ohio University in creating an innovative platform that addresses critical needs in school-based mental health support.</p>
                     <p>The project underscored the importance of adaptability, as ongoing feedback led to iterative improvements and highlighted new avenues for development, such as the integration of an AI-powered assistant and possible commercialization opportunities. By aligning technical expertise with educational goals, the Beacon platform represents a significant advancement in mental health support services for schools, with potential to impact educational outcomes on a broader scale.</p>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <img src="/assets/img/drco/.jpg" alt="graphic">
                 </div>
             </div>
         </div>
