@@ -15,7 +15,7 @@
     </div>
 
     <div id="intro" class="section">
-    <div class="container">
+        <div class="container">
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-12 col-md-12 col-lg-6 mb-sm-5 mb-lg-0">
@@ -64,9 +64,15 @@
 
     <div id="summary" class="section gray-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <h2>Executive Summary</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 col-lg-10">
+                    <h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                        </svg>
+                        Executive Summary
+                    </h2>
                     <p>
                         Maximize is an innovative platform designed in collaboration with the Center for Intervention Research in Schools (CIRS) at Ohio University, aimed at equipping K-12 educators with essential classroom management strategies.
                     </p>
@@ -132,7 +138,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6 text">
                     <h2>Design and Prototyping</h2>
-                    <p>During the design and prototyping phase, we focused on crafting an engaging and intuitive platform guided by user-centered design principles.</p> <p>We used gamification elements to create a visually appealing game board and clearly defined user journeys that guided educators through their learning process. This approach was aimed at maximizing user engagement and ensuring an efficient learning experience.</p>
+                    <p>During the design and prototyping phase, we focused on crafting an engaging and intuitive platform guided by user-centered design principles.</p>
+                    <p>We used gamification elements to create a visually appealing game board and clearly defined user journeys that guided educators through their learning process. This approach was aimed at maximizing user engagement and ensuring an efficient learning experience.</p>
                     <p>Additionally, we integrated a mobile-friendly interface to ensure accessibility and convenience for users interacting with the platform on various devices.</p>
                 </div>
                 <div class="col-12 col-lg-6 img-container">
