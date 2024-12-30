@@ -14,19 +14,18 @@
                 <a href="/daily-report-card-online" class="btn btn-sm btn-primary">Read case study</a>
             </div>
 
-            <div id="greataupair" class="project-item">
-                <img src="/assets/img/greataupair/ga-logo-03.svg" width="340">
-                <div class="title">Revitalizing a classic job matching platform</div>
-                <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
-            </div>
-
             <div id="maximize" class="project-item">
                 <img src="/assets/img/maximize/logo.svg" width="320">
                 <div class="title">Gamified professional development for educators</div>
-                <a href="#" class="btn btn-sm btn-primary disabled">Case coming soon</a>
+                <a href="/maximize" class="btn btn-sm btn-primary">Read case study</a>
             </div>
 
             
+            <!-- <div id="greataupair" class="project-item">
+                <img src="/assets/img/greataupair/ga-logo-03.svg" width="340">
+                <div class="title">Revitalizing a classic job matching platform</div>
+                <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
+            </div> -->
 
             <!-- <div id="athens-massage" class="project-item">
                 <img src="/assets/img/athens-massage/athens-massage-logo.svg" width="440">

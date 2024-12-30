@@ -7,7 +7,7 @@
             <div class="row justify-content-start">
                 <div class="col-12">
                     <div class="hero-content">
-                        <img src="/assets/img/" />
+                        <img src="/assets/img/maximize/logo-white.svg" />
                     </div>
                 </div>
             </div>
@@ -15,16 +15,47 @@
     </div>
 
     <div id="intro" class="section">
-        <div class="container">
-            <div class="row justify-content-center">
+    <div class="container">
+            <div class="row justify-content-center align-items-center">
 
-                <div class="col-12 col-md-12 col-lg-12">
-                    <h1 class="mb-4">Maximize</h1>
+                <div class="col-12 col-md-12 col-lg-6 mb-sm-5 mb-lg-0">
+                    <h2 class="section-title">Case Study</h2>
+                    <h1 class="mb-4">The Maximize Project</h1>
                     <p class="subhead">Elevating classroom management through gamified professional development</p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="summary-item">
+                                <h2>Services</h2>
+                                <ul>
+                                    <li>Technology Consulting</li>
+                                    <li>User Experience Design</li>
+                                    <li>Visual and Interaction Design</li>
+                                    <li>Full-Stack Development</li>
+                                    <li>CI/CD Pipelines</li>
+                                    <li>Third-party API Integration</li>
+                                    <li>Competitor Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="summary-item">
+                                <h2>Deliverables</h2>
+                                <ul>
+                                    <li>Innovative Software Platform</li>
+                                    <li>Data Visualization Dashboards</li>
+                                    <li>Gamified User Experience</li>
+                                    <li>Future-Focused Architecture</li>
+                                    <li>Secure Data Management</li>
+                                    <li>Interactive Prototypes</li>
+                                    <li>Comprehensive Knowledge Base</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-6 d-none d-lg-flex">
-                    <img src="/assets/img/beacon/beacon-thumbnail.jpg" alt="graphic">
+                <div class="col-12 col-lg-6">
+                    <img src="/assets/img/maximize/maximize-graphics-3.png" alt="graphic" class="jumbo ml-0 ml-lg-5">
                 </div>
 
             </div>
@@ -45,21 +76,26 @@
                     <p>
                         Launched successfully in Fall 2024, Maximize has received acclaim for its vibrant design and efficient workflows. Future plans include continuous improvements based on user feedback and potential commercialization to extend its reach, reinforcing its role in advancing education with cutting-edge solutions.
                     </p>
-                    <a class="btn btn-primary" href="#introduction">Read more</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <?php
+    $i = 4;
+    include 'app/partials/testimonials.php';
+    ?>
+
     <div id="introduction" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-7">
                     <h2>Introduction</h2>
-                    <p>Maximize, developed in collaboration with the Center for Intervention Research in Schools (CIRS) at Ohio University, is a pioneering tool designed to teach K-12 educators essential classroom management strategies.</p>
-                    <p>Delivered through a gamified web app, Maximize offers a structured learning journey featuring a game board layout, where educators can navigate through clearly defined paths to enhance their professional development. This innovative platform not only engages users through interactive learning experiences but also facilitates data collection for future research publications by CIRS.</p>
+                    <p>Maximize emerged from a partnership with the Center for Intervention Research in Schools (CIRS) at Ohio University, focusing on addressing the practical needs of K-12 educators seeking effective classroom management strategies. Recognizing the necessity for accessible and impactful professional development, CIRS collaborated on developing this platform to integrate research-based content with modern technological tools.</p>
+                    <p>The result is Maximize — a web app designed to deliver engaging, structured learning experiences that align with CIRS's commitment to improving educational practices through practical, research-driven solutions.</p>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-5">
+                    <img src="/assets/img/maximize/ou-cirs-logos.png" alt="graphic">
                 </div>
             </div>
         </div>
@@ -67,13 +103,11 @@
 
     <div id="challenge" class="section gray-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
                     <h2>Project Challenges and Objectives</h2>
                     <p>The ultimate goal of Maximize was to equip educators with effective classroom management strategies via an online professional development (PD) platform.</p>
                     <p>A significant project challenge was providing the research team with a flexible content management solution for PD modules, as well as providing comprehensive data reporting capabilities. Additionally, the platform needed to deliver real value efficiently due to educators' limited free time, ensuring engagement without overwhelming users. </p>
-                </div>
-                <div class="col-12 col-xl-4">
                 </div>
             </div>
         </div>
@@ -98,7 +132,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6 text">
                     <h2>Design and Prototyping</h2>
-                    <p>During the design and prototyping phase, we focused on crafting an engaging and intuitive platform. Using gamification elements, we designed a visually appealing game board and clearly defined user journeys that guided educators through their learning process. This approach was aimed at maximizing user engagement and ensuring an efficient learning experience.</p>
+                    <p>During the design and prototyping phase, we focused on crafting an engaging and intuitive platform guided by user-centered design principles.</p> <p>We used gamification elements to create a visually appealing game board and clearly defined user journeys that guided educators through their learning process. This approach was aimed at maximizing user engagement and ensuring an efficient learning experience.</p>
                     <p>Additionally, we integrated a mobile-friendly interface to ensure accessibility and convenience for users interacting with the platform on various devices.</p>
                 </div>
                 <div class="col-12 col-lg-6 img-container">
@@ -137,11 +171,6 @@
             </div>
         </div>
     </div>
-
-    <?php
-    $i = 4;
-    include 'app/partials/testimonials.php';
-    ?>
 
     <div id="monitoring" class="section gray-bg">
         <div class="container">
