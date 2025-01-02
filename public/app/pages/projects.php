@@ -18,11 +18,16 @@
             </div>
         </div>
     </div>
-    
+
 
     <div id="case-studies" class="project-highlight">
         <?php include 'app/partials/case-studies.php'; ?>
     </div>
+
+    <?php
+    $i = 8;
+    include 'app/partials/testimonials.php';
+    ?>
 
     <?php include 'app/partials/services-list.php'; ?>
 
