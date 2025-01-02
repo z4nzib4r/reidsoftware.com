@@ -156,15 +156,15 @@
 		}
 	}
 	#maximize {
-		background: url('/assets/img/maximize/mockup.png');
+		background: url('/assets/img/maximize/maximize-graphics-3.png');
 		background-color: #fff;
 		background-repeat: no-repeat;
-		background-size: 620px;
-		background-position: 540px 12px;
+		background-size: 500px;
+		background-position: 600px 12px;
 		opacity: 1;
 		@media screen and (max-width: $media-xl) {
-			background-size: 440px;
-    		background-position: 540px 50px;
+			background-size: 500px;
+    		background-position: 580px 12px;
 		}
 		@media screen and (max-width: $media-lg) {
 			background-size: 660px;

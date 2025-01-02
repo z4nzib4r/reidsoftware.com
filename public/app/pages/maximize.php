@@ -122,8 +122,8 @@
     <div id="discovery" class="section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/" alt="graphic">
+                <div class="col-12 order-2 col-lg-6 order-lg-1 justify-content-end">
+                    <img src="/assets/img/maximize/maximize-discovery-graphic.png" alt="graphic" class="jumbo jumbo-left">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
                     <h2>Discovery</h2>
@@ -133,9 +133,9 @@
         </div>
     </div>
 
-    <div id="prototyping" class="section gray-bg">
+    <div id="" class="section gray-bg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 text">
                     <h2>Design and Prototyping</h2>
                     <p>During the design and prototyping phase, we focused on crafting an engaging and intuitive platform guided by user-centered design principles.</p>
@@ -143,19 +143,19 @@
                     <p>Additionally, we integrated a mobile-friendly interface to ensure accessibility and convenience for users interacting with the platform on various devices.</p>
                 </div>
                 <div class="col-12 col-lg-6 img-container">
-                    <img src="/assets/img/" alt="graphic">
+                    <img src="/assets/img/maximize/maximize-design-graphic-3.png" alt="graphic" class="jumbo">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="design" class="section">
+    <div id="" class="section">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/" alt="graphic">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 order-2 col-lg-7 order-lg-1">
+                    <img src="/assets/img/maximize/maximize-development-graphic.png" alt="graphic" class="pr-lg-5">
                 </div>
-                <div class="col-12 order-1 col-lg-6 order-lg-2">
+                <div class="col-12 order-1 col-lg-5 order-lg-2">
                     <h2>Development</h2>
                     <p>During the development phase, we implemented a state-of-the-art web app using React and Laravel PHP for dynamic content delivery and data collection.</p>
                     <p>A key enhancement was the custom integration with the Qualtrics survey platform, allowing the research team to manage PD modules flexibly and gain comprehensive data insights. This setup facilitated effective content management and data reporting, critical for both educational impact and research purposes.</p>
@@ -166,44 +166,41 @@
 
     <div id="development" class="section gray-bg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-6">
                     <h2>Deployment and Success</h2>
                     <p>The successful deployment of Maximize 2.0 in Fall 2024 marked a significant milestone, with the platform quickly gaining praise from educators. Users appreciated the vibrant design, gamified elements, and clearly defined workflows that made the learning process both engaging and efficient. The ability to earn continuing education credits further incentivized participation among busy educators.</p>
                     <p>The research team benefited from comprehensive data collection capabilities, contributing valuable insights for future publications. Maximize's deployment demonstrated the effectiveness of integrating innovative design with modern technological solutions to meet the needs of both educators and researchers.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="/assets/img/" alt="graphic">
+                    <img src="/assets/img/maximize/maximize-deployment-graphic.png" alt="graphic" class="jumbo pl-lg-5">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="monitoring" class="section gray-bg">
+    <div id="monitoring" class="section">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/" alt="graphic">
+                    <img src="/assets/img/maximize/logo_frontiers_grey.png" alt="graphic" class="pr-lg-5 w-100">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
                     <h2>Future Development</h2>
-                    <p>The future of Maximize involves a continuous cycle of improvement and innovation. We are committed to iterating on the design and features based on ongoing user feedback to enhance user experience and meet evolving educational needs.</p>
-                    <p>Additionally, there are plans for potential commercialization that would expand Maximize's reach beyond its current user base, offering its innovative approach to a broader educational market. This expansion aims to empower more educators with effective classroom management strategies and reinforce the platform's role in advancing education through cutting-edge technology and research-based insights.</p>
+                    <p>The research team plans to use the data collected to publish insights on classroom management strategies, which will guide improvements to ensure Maximize remains an effective resource for educators.</p>
+                    <p>Additionally, we are exploring commercialization to expand Maximize's impact in the educational market. By sharing research findings and increasing accessibility, we aim to equip more educators with essential management tools and contribute to educational progress.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="results" class="section">
+    <div id="results" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12">
                     <h2>Conclusion</h2>
                     <p>Maximize exemplifies the successful synergy between educational expertise and innovative technology to address the crucial need for effective classroom management strategies. Developed in partnership with CIRS at Ohio University, the platform integrates research-backed professional development content with engaging gamification elements, providing educators with a meaningful and efficient learning experience.</p>
                     <p>The platform's positive reception underscores the importance of user-centered design and adaptability to meet the demands of the educational landscape. As Maximize continues to evolve and explore commercialization opportunities, it is set to make a lasting impact on education, equipping educators with tools to navigate the complexities of today's diverse classrooms.</p>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <img src="/assets/img/drco/.jpg" alt="graphic">
                 </div>
             </div>
         </div>
