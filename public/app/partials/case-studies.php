@@ -20,11 +20,11 @@
                 <a href="/daily-report-card-online" class="btn btn-sm btn-primary">Read case study</a>
             </div>
 
-            <div id="greataupair" class="project-item">
+            <!-- <div id="greataupair" class="project-item">
                 <img src="/assets/img/greataupair/ga-logo-03.svg" width="340">
                 <div class="title">Revitalizing a legacy job matching platform</div>
                 <a href="/greataupair" class="btn btn-sm btn-primary">Read case study</a>
-            </div>
+            </div> -->
 
             <!-- <div id="athens-massage" class="project-item">
                 <img src="/assets/img/athens-massage/athens-massage-logo.svg" width="440">

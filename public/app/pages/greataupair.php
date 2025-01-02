@@ -27,25 +27,25 @@
                         <div class="col-12 col-sm-6">
                             <div class="summary-item">
                                 <h2>Services</h2>
-                                <p>
-                                    Strategy & planning<br>
-                                    User research<br>
-                                    UX design<br>
-                                    Visual design systems<br>
-                                    Full stack development
-                                </p>
+                                <ul>
+                                    <li>Strategy & planning</li>
+                                    <li>User research</li>
+                                    <li>UX design</li>
+                                    <li>Visual design systems</li>
+                                    <li>Full stack development</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6">
                             <div class="summary-item">
                                 <h2>Deliverables</h2>
-                                <p>
-                                    Enterprise admin portal<br>
-                                    Fully responsive front end<br>
-                                    Performance optimization<br>
-                                    User analytics<br>
-                                    Ongoing support
-                                </p>
+                                <ul>
+                                    <li>Enterprise admin portal</li>
+                                    <li>Fully responsive front end</li>
+                                    <li>Performance optimization</li>
+                                    <li>User analytics</li>
+                                    <li>Ongoing support</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

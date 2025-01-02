@@ -82,6 +82,11 @@
         </div>
     </div>
 
+    <?php
+    $i = 7;
+    include 'app/partials/testimonials.php';
+    ?>
+
     <div id="description" class="section">
         <div class="container">
             <div class="row align-items-center">
@@ -184,12 +189,7 @@
         </div>
     </div>
 
-    <?php
-    $i = 5;
-    include 'app/partials/testimonials.php';
-    ?>
-
-    <div id="future-development" class="section">
+    <div id="future-development" class="section gray-bg">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 order-2 col-lg-6 order-lg-1">
@@ -204,7 +204,7 @@
         </div>
     </div>
 
-    <div id="conclusion" class="section gray-bg">
+    <div id="conclusion" class="section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
@@ -215,5 +215,10 @@
             </div>
         </div>
     </div>
+
+    <?php
+    $i = 6;
+    include 'app/partials/testimonials.php';
+    ?>
 
 </div><!-- #beacon -->

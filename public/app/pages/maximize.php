@@ -88,7 +88,7 @@
     </div>
 
     <?php
-    $i = 4;
+    $i = 9;
     include 'app/partials/testimonials.php';
     ?>
 
@@ -205,5 +205,10 @@
             </div>
         </div>
     </div>
+
+    <?php
+    $i = 8;
+    include 'app/partials/testimonials.php';
+    ?>
 
 </div><!-- #beacon -->
