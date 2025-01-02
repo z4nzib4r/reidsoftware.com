@@ -193,7 +193,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 order-2 col-lg-6 order-lg-1">
-                    <img src="/assets/img/beacon/ies-logo.png" alt="graphic" class="">
+                    <img src="/assets/img/beacon/ies-logo-transparent.png" alt="graphic" class="">
                 </div>
                 <div class="col-12 order-1 col-lg-6 order-lg-2">
                     <h2>Future Developments</h2>
