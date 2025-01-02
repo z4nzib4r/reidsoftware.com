@@ -26,25 +26,25 @@
                         <div class="col-12 col-md-6">
                             <div class="summary-item">
                                 <h2>Services</h2>
-                                <p>
-                                    User research<br>
-                                    UX design<br>
-                                    Visual design systems<br>
-                                    Full stack development<br>
-                                    Content management systems
-                                </p>
+                                <ul>
+                                    <li>User research</li>
+                                    <li>UX design</li>
+                                    <li>Visual design systems</li>
+                                    <li>Full stack development</li>
+                                    <li>Content management systems</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="summary-item">
                                 <h2>Deliverables</h2>
-                                <p>
-                                    Modern web application<br>
-                                    Recommendation engine<br>
-                                    Comprehensive knowledge base<br>
-                                    Customizable data reporting<br>
-                                    Content production
-                                </p>
+                                <ul>
+                                    <li>Modern web application</li>
+                                    <li>Recommendation engine</li>
+                                    <li>Comprehensive knowledge base</li>
+                                    <li>Customizable data reporting</li>
+                                    <li>Content production</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

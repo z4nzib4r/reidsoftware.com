@@ -91,27 +91,45 @@
 		}
 	}
 	#beacon {
-		background: url('/assets/img/beacon/beacon-thumbnail.jpg');
+		background: url('/assets/img/beacon/beacon-graphic-1.png');
 		background-color: #fff;
 		background-repeat: no-repeat;
-		background-size: 650px;
-		background-position: 500px 20px;
+		background-size: 570px;
+		background-position: 620px 20px;
 		opacity: 1;
 		@media screen and (max-width: $media-xl) {
-			background-size: 600px;
-    		background-position: 480px -10px;
+			background-size: 570px;
+    		background-position: 560px 20px;
 		}
 		@media screen and (max-width: $media-lg) {
 			background-size: 550px;
 			background-position: 150px 0px;
 		}
 	}
+
+	#maximize {
+		background: url('/assets/img/maximize/maximize-graphics-3.png');
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-size: 520px;
+		background-position: 650px 12px;
+		opacity: 1;
+		@media screen and (max-width: $media-xl) {
+			background-size: 500px;
+    		background-position: 580px 12px;
+		}
+		@media screen and (max-width: $media-lg) {
+			background-size: 660px;
+			background-position: 40px -110px;
+		}
+	}
+
 	#drco {
 		background: url('/assets/img/projects/drco-thumbnail.jpg');
 		background-color: #fff;
 		background-repeat: no-repeat;
-		background-size: 650px;
-		background-position: 500px 20px;
+		background-size: 600px;
+		background-position: 540px 4px;
 		opacity: 1;
 		@media screen and (max-width: $media-xl) {
 			background-size: 600px;
@@ -155,22 +173,7 @@
 			background-position: 40px -110px;
 		}
 	}
-	#maximize {
-		background: url('/assets/img/maximize/mockup.png');
-		background-color: #fff;
-		background-repeat: no-repeat;
-		background-size: 620px;
-		background-position: 540px 12px;
-		opacity: 1;
-		@media screen and (max-width: $media-xl) {
-			background-size: 440px;
-    		background-position: 540px 50px;
-		}
-		@media screen and (max-width: $media-lg) {
-			background-size: 660px;
-			background-position: 40px -110px;
-		}
-	}
+
 }
 #case-studies {
 	height: auto;
