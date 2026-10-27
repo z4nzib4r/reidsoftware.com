@@ -1,0 +1,21 @@
+
+#beacon.case {
+	overflow: hidden;
+
+	#hero-img {
+		background-image: url('/assets/img/beacon/hero-bg.jpg');
+		background-size: cover;
+		width: 100vw;
+		height: 90vh;
+		min-height: $minHeight;
+		max-height: $maxHeight;
+	}
+
+	.hero-content img {
+		@media screen and (max-width: $media-md) {
+			width: 80%;
+		}
+	}
+
+
+} //beacon

@@ -1,0 +1,25 @@
+---
+import { testimonials } from '../data/testimonials';
+
+interface Props {
+	index: number;
+}
+
+const { text, author } = testimonials[Astro.props.index];
+---
+
+<div id="single-testimonial" class="section gray-bg">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<div class="testimonial-card">
+					<img src="/assets/img/quote-icon.svg" />
+					<p>{text}</p>
+					<div class="author">
+						<p set:html={author} />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

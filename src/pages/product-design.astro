@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Testimonial from '../components/Testimonial.astro';
+---
+
+<Layout
+  title="Innovative Product Design Services | Unique & User-centric Designs | Reid Software"
+  description="Transform your vision into reality with our top-notch product design solutions. We specialize in creating innovative, user-friendly design experiences, driving your business to new levels of success."
+>
+  <div id="services-main-page" class="services-page">
+
+
+  	<div id="hero-section">
+  		<video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+  			<source src="/assets/video/bg-video-med.mp4" type="video/mp4">
+  			Your browser does not support the video tag.
+  		</video>
+  		<!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
+  		<div id="hero-overlay"></div>
+  		<div class="container">
+  			<div class="row justify-content-start">
+  				<div class="col-12 col-md-11 col-lg-9">
+  					<div class="hero-content">
+  						<h1>Product Design</h1>
+  						<p>We craft interactive, creative, and user-centric designs that seamlessly fuse functionality with aesthetics.</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div id="ux-design" class="section" style="pointer-events: none;">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6" style="pointer-events: auto;">
+  					<h2>User Experience (UX) Design</h2>
+  					<p>We put the user's experience at the forefront of our design process. We meticulously analyze user behavior, their expectations, and their preferences to create tailored experiences that not only meet but exceed their needs.</p>
+  					<p>Our team of experienced UX designers strategically implement research-driven principles to ensure ease of use, accessibility, and intuitiveness of the end product.</p>
+  				</div>
+  				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+  					<img src="/assets/img/pyramid-cube.png" alt="Graphic">
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div id="design-systems" class="section gray-bg">
+  		<div class="container">
+  			<div class="row justify-content-end">
+  				<div class="col-12 col-md-4 col-lg-6">
+  					<img src="/assets/img/cube-group.png" alt="graphic">
+  				</div>
+  				<div class="col-12 col-md-8 col-lg-6">
+  					<h2>Visual Design Systems</h2>
+  					<p>We provide a streamlined and efficient approach to incorporating compelling and appealing aesthetics into your applications. We create comprehensive design systems that include reusable components and style guidelines to ensure consistent branding across platforms.</p>
+  					<p>Balancing functionality with attractive visuals, our design systems enhance user experience and engagement, which is crucial for business growth and retention.</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div id="brand" class="section">
+  		<div class="container">
+  			<div class="row justify-content-end">
+
+  				<div class="col-12 col-md-8 order-2 order-md-1 col-lg-6">
+  					<h2>Branding and Identity</h2>
+  					<p>Recognizing the importance of a strong and cohesive brand identity, we dedicate our expertise to create, remodel, and promote an authentic brand image for your business. From logo design to brand voice to your online presence, we ensure each element aligns with your ethos and resonates with your target audience.</p>
+  					<p>We foster brand recognition that transcends beyond aesthetics to establish a deep emotional connection with your customers.</p>
+  				</div>
+  				<div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+  					<img src="/assets/img/star.png" alt="Icosahedron">
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div id="rapid-prototyping" class="section gray-bg">
+  		<div class="container">
+  			<div class="row justify-content-end">
+  				<div class="col-12 col-md-4 col-lg-6">
+  					<img src="/assets/img/cube-row.png" alt="Icosahedron">
+  				</div>
+  				<div class="col-12 col-md-8 col-lg-6">
+  					<h2>Rapid Prototyping</h2>
+  					<p>We utilize a practical approach to web application design by using rapid prototyping. This process allows us to construct interactive mockups of the web app early in the design phase. It enables our clients to visualize, understand, and provide feedback on our proposed solution before we start development, thereby ensuring it meets their expectations and needs.</p>
+  				</div>
+
+  			</div>
+  		</div>
+  	</div>
+
+  </div><!-- end page -->
+
+  <Testimonial index={2} />
+</Layout>

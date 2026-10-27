@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ServicesList from '../components/ServicesList.astro';
+import Testimonial from '../components/Testimonial.astro';
+---
+
+<Layout
+  title="About Us | Pioneering Digital Innovations & Services | Reid Software"
+  description="Discover more about our company. We are experts in delivering strategic digital solutions, from product design to AI integrations, we're here to facilitate your digital transformation."
+>
+  <div id="about-page" class="services-page">
+
+      <div id="hero-section">
+          <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+              <source src="/assets/video/bg-video-med.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
+          <div id="hero-overlay"></div>
+          <div class="container">
+              <div class="row justify-content-start">
+                  <div class="col-12 col-md-11 col-lg-9">
+                      <div class="hero-content">
+                          <h1>About Us</h1>
+                          <p>We drive growth and innovation for our clients with top-tier technology solutions.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="icon-row" class="section" style="pointer-events: none;">
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-12" style="pointer-events: auto;">
+                      <div class="row align-items-end">
+                          <div class="col-12 col-md-4">
+                              <div class="icon-panel">
+                                  <div class="icon icon-xl icon-ohio"></div>
+                                  <span>Founded<br>in Ohio</span>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-4">
+                              <div class="icon-panel">
+                                  <div class="icon icon-number">
+                                      <div class="tight-kern">1</div>0
+                                  </div>
+                                  <span>Years in<br>business</span>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-4">
+                              <div class="icon-panel">
+                                  <div class="icon icon-number">
+                                      <div class="tight-kern">1</div>00<span class="percent">%</span>
+                                  </div>
+                                  <span>Distributed<br>team</span>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div id="team" class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-10 offset-md-1 col-lg-9">
+                      <h3>We are a team of digital specialists</h3>
+                      <p>We believe that the best digital products are built through a cooperative process, where our team closely works with clients, sharing ideas, insights, and feedback. We encourage open communication channels, allowing for seamless interaction to understand and incorporate your vision throughout the product design and development process. Join us and experience a partnership that is committed to translating your vision into a dynamic digital reality.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="collage"></div>
+
+      <div id="remote" class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-10 offset-md-1 col-lg-9">
+                      <h3>Working Remote</h3>
+                      <p>Reid Software has been 100% remote since 2016, and we are ready to partner with you to create a successful digital product, no matter where you are. We use the best online collaboration tools available to build cohesion and promote a free and open exchange of ideas throughout the life-cycle of your project.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="work-with-us" class="section">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-12 col-md-10">
+
+                      <h3>What it's like to work with us</h3>
+                      <div class="row">
+
+
+                          <div class="col-12 col-lg-6">
+                              <h4>We are engaged.</h4>
+                              <p>We pride ourselves on delivering a personal touch, as our leadership team works closely with clients to understand and meet their unique digital needs.</p>
+                          </div>
+                          <div class="col-12 col-lg-6">
+                              <h4>We are efficient.</h4>
+                              <p>We prioritize efficiency in all our processes, enabling us to validate ideas early and maximize productivity throughout the project life-cycle.</p>
+                          </div>
+                          <div class="col-12 col-lg-6">
+                              <h4>We strive for excellence.</h4>
+                              <p>We aim to create software solutions that reflect excellence, from visual design to development and beyond.</p>
+                          </div>
+                          <div class="col-12 col-lg-6">
+                              <h4>We are good listeners.</h4>
+                              <p>We listen to your needs, and the needs of your users, and apply what we learn as the foundation of our strategy for success.</p>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <ServicesList />
+  </div>
+
+  <Testimonial index={5} />
+</Layout>

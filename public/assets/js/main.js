@@ -14,7 +14,6 @@ $(document).ready(function(){
 	setEventListeners();
 	scrollPosY = $(window).scrollTop();
 	revealElements( scrollPosY );
-	initializeContactForm();
 });
 
 function setEventListeners() {
@@ -26,10 +25,6 @@ function setEventListeners() {
 	// 	scrollPosY = $(window).scrollTop();
 	// 	revealElements( scrollPosY );
 	// });
-
-	$('#submit-contact-form').on('click', function() {
-		submitContactForm();
-	});
 
 }
 
@@ -61,57 +56,4 @@ function offset(el) {
   scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-}
-
-function initializeContactForm() {
-	var form = $('#contact-form');
-	$(form).validate({
-		rules: {
-			name: {
-				required: true,
-				minlength: 2
-			},
-			email: {
-				required: true,
-				email: true
-			},
-			message: {
-				required: true
-			}
-		},
-		errorPlacement: function(error, element) {
-			error.insertAfter(element);
-			return true;
-		},
-		submitHandler: function() {
-			submitContactForm();
-		}
-	});
-}
-
-function submitContactForm() {
-	if ( $('#contact-form').valid() ) {
-		gtag('event', 'contact_form_submission', {
-      'app_name': 'Reid Software'
-    });
-		$('#submit-contact-form').val('Processing...');
-		var formData = $('#contact-form').serializeArray();
-		console.log(formData);
-		$.ajax({
-			type: "POST",
-			url: "/app/components/processContactForm.php",
-			data: formData,
-			cache: false,
-			success: function(result) {
-				$('#contact-form-container').fadeOut('fast', 'swing', function() {
-					$('#success-message').fadeIn('fast', 'swing');
-				});
-				
-			},
-			error: function( error ) {
-				$('#submit-contact-form').val('Send');
-				console.log(error);
-			}
-		});
-	}
 }

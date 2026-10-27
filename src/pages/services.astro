@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Testimonial from '../components/Testimonial.astro';
+---
+
+<Layout
+  title="Our Services | Strategy, Product Design, Development, Digital Transformation, AI Integration | Reid Software"
+  description="Discover our expert strategies, original product design, advanced development, effective digital transformation, and smart AI integrations designed to bring you to the forefront of the digital world."
+>
+  <div id="services-main-page" class="services-page">
+      <div id="hero-section">
+          <video id="hero-video" width="100%" height="auto" poster="" muted loop autoplay>
+              <source src="/assets/video/bg-video-med.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <!-- <img id="hero-img" src="/assets/img/hero/hero.jpg" /> -->
+          <div id="hero-overlay"></div>
+          <div class="container">
+              <div class="row justify-content-start">
+                  <div class="col-12 col-md-11 col-lg-9">
+                      <div class="hero-content">
+                          <h1>Services</h1>
+                          <p>We specialize in providing comprehensive and innovative software solutions for our clients.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="strategy" class="section" style="pointer-events: none;">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-12 col-md-8 order-2 order-md-1 col-lg-6" style="pointer-events: auto;">
+                      <h2>Strategy</h2>
+                      <p>We meticulously craft dynamic strategies that propel your business into the digital landscape with a competitive edge.</p>
+                      <a href="/strategy" class="btn btn-primary">Read more</a>
+                  </div>
+                  <div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+                      <img src="/assets/img/icosahedron-shadow.png" alt="Icosahedron">
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <div id="design" class="section gray-bg">
+          <div class="container">
+              <div class="row justify-content-end">
+                  <div class="col-12 col-md-4 col-lg-6">
+                      <img src="/assets/img/pyramid-sphere-shadow.png" alt="Graphic">
+                  </div>
+                  <div class="col-12 col-md-8 col-lg-6">
+                      <h2>Product Design</h2>
+                      <p>We craft interactive, creative, and user-centric designs that seamlessly fuse functionality with aesthetics.</p>
+                      <a href="/product-design" class="btn btn-primary">Read more</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="development" class="section">
+          <div class="container">
+              <div class="row justify-content-start">
+                  <div class="col-12 col-md-8 order-2 order-md-1 col-lg-6">
+                      <h2>Development</h2>
+                      <p>We create innovative, high-impact solutions that can transform your business operations and accelerate growth.</p>
+                      <a href="/software-development" class="btn btn-primary">Read more</a>
+                  </div>
+                  <div class="col-12 col-md-4 order-1 order-md-2 col-lg-6">
+                      <img src="/assets/img/cube-rectangle-shadow.png" alt="Graphic">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="ai" class="section gray-bg">
+          <div class="container">
+              <div class="row justify-content-end">
+                  <div class="col-12 col-md-4 col-lg-6">
+                      <img src="/assets/img/pyramid-decahedron-shadow.png" alt="Graphic">
+                  </div>
+                  <div class="col-12 col-md-8 col-lg-6">
+                      <h2>AI Integrations</h2>
+                      <p>With a strong focus on achieving your business objectives, we strive to harmonize AI technology with your unique business model, catalyzing a significant increase in efficiency and customer engagement.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div><!-- end page -->
+
+  <Testimonial index={5} />
+</Layout>
